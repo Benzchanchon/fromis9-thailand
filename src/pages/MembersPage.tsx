@@ -4,7 +4,7 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
-import { members } from "../data/home";
+import { members } from "../data/members";
 import styles from "./MembersPage.module.css";
 
 export function MembersPage() {

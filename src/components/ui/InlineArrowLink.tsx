@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Link } from "react-router-dom";
 import styles from "./InlineArrowLink.module.css";
 
 interface InlineArrowLinkProps {
@@ -17,6 +18,13 @@ export function InlineArrowLink({ children, href }: InlineArrowLinkProps) {
   );
 
   if (href) {
+    if (href.startsWith("/")) {
+      return (
+        <Link className={styles.link} to={href}>
+          {content}
+        </Link>
+      );
+    }
     return (
       <a className={styles.link} href={href}>
         {content}
@@ -30,4 +38,3 @@ export function InlineArrowLink({ children, href }: InlineArrowLinkProps) {
     </span>
   );
 }
-

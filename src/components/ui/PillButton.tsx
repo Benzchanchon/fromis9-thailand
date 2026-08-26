@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { Link } from "react-router-dom";
 import styles from "./PillButton.module.css";
 
 type PillButtonVariant =
@@ -36,6 +37,13 @@ export function PillButton({
   );
 
   if (href && !disabled) {
+    if (href.startsWith("/")) {
+      return (
+        <Link className={className} to={href}>
+          {content}
+        </Link>
+      );
+    }
     return (
       <a className={className} href={href}>
         {content}
@@ -52,4 +60,3 @@ export function PillButton({
     </span>
   );
 }
-

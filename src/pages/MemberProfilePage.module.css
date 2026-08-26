@@ -1,0 +1,17 @@
+.hero { min-height: 780px; padding-block: 80px; background: var(--color-surface-soft); }
+.heroGrid { display: grid; grid-template-columns: 480px 1fr; align-items: center; gap: 96px; }
+.portraitWrap { position: relative; }
+.portrait { width: 480px; aspect-ratio: 4 / 5; border-radius: 16px; }
+.fruit { position: absolute; top: 24px; right: -22px; display: grid; width: 64px; height: 64px; place-items: center; border: 1px dashed var(--color-cyan); border-radius: 50%; background: white; color: var(--color-cyan); font-size: 9px; }
+.bio { max-width: 590px; }
+.eyebrow { color: var(--color-brand); font-size: 14px; font-weight: 700; letter-spacing: .1em; }
+.bio h1 { margin-top: 16px; font-size: 56px; line-height: 1.05; }
+.bio > p { margin-top: 28px; color: var(--color-text-secondary); font-size: 17px; line-height: 1.7; }
+.stat { display: grid; gap: 6px; margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--color-border); }
+.stat span { color: var(--color-text-muted); font-size: 12px; font-weight: 700; letter-spacing: .08em; }
+.stat strong { font-size: 18px; }
+.profile { min-height: 431px; padding-block: 27px 0; }
+.profile h2 { font-size: 32px; }
+.profileGrid { margin-top: 53px; }
+.performances { padding-block: 51px 96px; }
+.performanceGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 40px; }

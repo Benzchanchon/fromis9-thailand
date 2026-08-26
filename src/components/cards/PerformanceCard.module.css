@@ -1,0 +1,26 @@
+.card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  background: var(--color-white);
+  box-shadow: var(--shadow-card);
+}
+
+.media { position: relative; }
+.thumbnail { width: 100%; aspect-ratio: 16 / 9; border-radius: 0; }
+.play {
+  position: absolute;
+  top: 50%; left: 50%;
+  display: grid;
+  width: 56px; height: 56px;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--color-pale-yellow);
+  color: var(--color-brand);
+  font-size: 18px;
+  transform: translate(-50%, -50%);
+}
+.content { display: grid; gap: 16px; padding: 24px; }
+.date { color: var(--color-brand); font-size: 13px; font-weight: 700; letter-spacing: .04em; }
+.content h3 { font-size: 18px; line-height: 1.3; }

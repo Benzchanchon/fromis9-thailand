@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ContentRail } from "./ContentRail";
 import styles from "./Footer.module.css";
 
@@ -27,7 +28,7 @@ export function Footer() {
               {sitemap.map((item) => (
                 <li key={item.label}>
                   {item.href ? (
-                    <a href={item.href}>{item.label}</a>
+                    <Link to={item.href}>{item.label}</Link>
                   ) : (
                     <span aria-disabled="true">{item.label}</span>
                   )}

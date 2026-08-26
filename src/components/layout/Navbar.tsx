@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router-dom";
 import { ContentRail } from "./ContentRail";
 import styles from "./Navbar.module.css";
 
@@ -25,25 +26,25 @@ export function Navbar({ activeRoute = "home" }: NavbarProps) {
   return (
     <header className={styles.navbar}>
       <ContentRail className={styles.inner}>
-        <a className={styles.brand} href="/" aria-label="fromis_9 Thailand home">
+        <Link className={styles.brand} to="/" aria-label="fromis_9 Thailand home">
           <span className={styles.wordmark}>
             fromis_9 <strong>Thailand</strong>
           </span>
           <span className={styles.descriptor}>THAI FAN COMMUNITY</span>
-        </a>
+        </Link>
 
         <nav className={styles.navigation} aria-label="Primary navigation">
           <ul>
             {navItems.map((item) => (
               <li key={item.label}>
                 {item.enabled ? (
-                  <a
+                  <NavLink
                     className={item.id === activeRoute ? styles.active : undefined}
-                    href={item.href}
+                    to={item.href}
                     aria-current={item.id === activeRoute ? "page" : undefined}
                   >
                     {item.label}
-                  </a>
+                  </NavLink>
                 ) : (
                   <span aria-disabled="true">{item.label}</span>
                 )}

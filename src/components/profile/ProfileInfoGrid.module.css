@@ -1,0 +1,5 @@
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 80px; }
+.column { margin: 0; }
+.row { display: grid; grid-template-columns: 160px 1fr; gap: 24px; padding: 19px 0; border-bottom: 1px solid var(--color-border); }
+.row dt { color: var(--color-text-muted); font-size: 14px; }
+.row dd { margin: 0; color: var(--color-ink); font-weight: 600; }

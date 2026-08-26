@@ -30,10 +30,7 @@ export function MemberCard({
           asset
         </span>
         <div className={styles.overlay}>
-          <PillButton
-            href={isMembersPage ? profileHref : undefined}
-            variant="overlay"
-          >
+          <PillButton href={profileHref} variant="overlay">
             View Profile
           </PillButton>
         </div>

@@ -8,7 +8,8 @@ import { LatestReleasePanel } from "../components/release/LatestReleasePanel";
 import { AssetPlaceholder } from "../components/ui/AssetPlaceholder";
 import { PillButton } from "../components/ui/PillButton";
 import { SectionHeading } from "../components/ui/SectionHeading";
-import { latestRelease, members, newsItems } from "../data/home";
+import { latestRelease, newsItems } from "../data/home";
+import { members } from "../data/members";
 import styles from "./HomePage.module.css";
 
 export function HomePage() {
