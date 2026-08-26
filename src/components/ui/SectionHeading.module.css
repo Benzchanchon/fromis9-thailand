@@ -1,0 +1,73 @@
+.heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.heading h1,
+.heading h2 {
+  font-size: clamp(30px, 2.222vw, 32px);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+}
+
+.heading p {
+  max-width: 620px;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.eyebrowRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rule {
+  width: 32px;
+  height: 2px;
+  background: var(--color-brand);
+}
+
+.eyebrow {
+  color: var(--color-brand);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.center .eyebrowRow {
+  justify-content: center;
+}
+
+.standaloneRule {
+  position: absolute;
+  top: -14px;
+  width: 32px;
+  height: 2px;
+  background: var(--color-brand);
+}
+
+.left .standaloneRule {
+  left: 0;
+  transform: none;
+}
+
+.center .standaloneRule {
+  left: 50%;
+  transform: translateX(-50%);
+}

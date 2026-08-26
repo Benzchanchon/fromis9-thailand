@@ -1,0 +1,12 @@
+.strip {
+  width: 100%;
+  height: 25px;
+  background: linear-gradient(
+    90deg,
+    var(--color-brand) 0%,
+    var(--color-orange) 34%,
+    var(--color-green-action) 68%,
+    var(--color-cyan) 100%
+  );
+}
+

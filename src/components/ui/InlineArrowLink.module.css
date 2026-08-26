@@ -1,0 +1,29 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-ink);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link:not(.disabled):hover {
+  color: var(--color-brand);
+}
+
+.arrow {
+  color: var(--color-brand);
+  font-size: 19px;
+  line-height: 1;
+  transition: transform var(--transition-fast);
+}
+
+.link:not(.disabled):hover .arrow {
+  transform: translateX(3px);
+}
+
+.disabled {
+  cursor: default;
+}
+

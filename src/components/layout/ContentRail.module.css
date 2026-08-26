@@ -1,0 +1,8 @@
+.rail {
+  width: min(
+    var(--content-max),
+    calc(100% - (var(--page-gutter) * 2))
+  );
+  margin-inline: auto;
+}
+

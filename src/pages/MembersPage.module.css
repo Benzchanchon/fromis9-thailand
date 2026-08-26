@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  min-height: 315px;
+  background: var(--color-white);
+}
+
+.headerRail {
+  --content-max: 1248px;
+  --page-gutter: 96px;
+
+  display: grid;
+  min-height: 315px;
+  place-items: center;
+  padding-block: 64px;
+}
+
+.headerHeading {
+  position: relative;
+}
+
+.headerHeading > div {
+  gap: 16px;
+}
+
+.headerHeading h1 {
+  font-size: clamp(40px, 3.333vw, 48px);
+  line-height: 1.1;
+}
+
+.decorationPlaceholder {
+  position: absolute;
+  top: 50%;
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px dashed var(--color-cyan);
+  border-radius: 50%;
+  color: var(--color-cyan);
+  font-size: 8px;
+  font-weight: 700;
+  transform: translateY(-50%);
+}
+
+.decorationLeft {
+  right: calc(100% + 48px);
+}
+
+.decorationRight {
+  left: calc(100% + 48px);
+}
+
+.membersSection {
+  width: 100%;
+  min-height: 1340px;
+  padding-block: 24px 120px;
+  background: var(--color-white);
+}
+
+.membersGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 64px;
+}

@@ -1,0 +1,57 @@
+.placeholder {
+  position: relative;
+  display: grid;
+  min-width: 0;
+  place-content: center;
+  gap: 8px;
+  overflow: hidden;
+  padding: 24px;
+  text-align: center;
+}
+
+.placeholder::before,
+.placeholder::after {
+  position: absolute;
+  inset: 16px;
+  border: 1px dashed currentColor;
+  border-radius: inherit;
+  content: "";
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.placeholder::after {
+  inset: 50% 16px auto;
+  border-width: 1px 0 0;
+  border-radius: 0;
+  transform: rotate(-14deg);
+}
+
+.light {
+  background: var(--color-placeholder);
+  color: var(--color-text-secondary);
+}
+
+.dark {
+  background: var(--color-placeholder-dark);
+  color: var(--color-white);
+}
+
+.status,
+.label {
+  position: relative;
+  z-index: 1;
+}
+
+.status {
+  color: var(--color-brand);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+}
+

@@ -1,0 +1,46 @@
+.button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: var(--radius-pill);
+  padding: 11px 22px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.primary,
+.overlay {
+  background: var(--color-brand);
+  color: var(--color-white);
+}
+
+.heroSecondary {
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  background: rgba(255, 255, 255, 0.14);
+  color: var(--color-white);
+  backdrop-filter: blur(8px);
+}
+
+.spotify {
+  background: var(--color-green-action);
+  color: var(--color-ink);
+}
+
+.youtube {
+  background: var(--color-red-action);
+  color: var(--color-white);
+}
+
+.arrow {
+  font-size: 19px;
+  line-height: 0;
+}
+
+.disabled {
+  cursor: default;
+}

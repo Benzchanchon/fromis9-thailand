@@ -1,0 +1,75 @@
+.card {
+  width: min(100%, 300px);
+  min-width: 0;
+}
+
+.members {
+  width: min(100%, 360px);
+}
+
+.portraitWrap {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-card);
+}
+
+.portrait {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+}
+
+.fruitPlaceholder {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 1px dashed var(--color-border-alt);
+  border-radius: 50%;
+  background: var(--color-white);
+  color: var(--color-text-muted);
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.portraitWrap:hover .overlay,
+.portraitWrap:focus-within .overlay {
+  opacity: 1;
+}
+
+.identity {
+  padding-top: 16px;
+  text-align: center;
+}
+
+.identity h3 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.identity p {
+  margin-top: 6px;
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.members .identity {
+  text-align: left;
+}
+
+.profileLink {
+  margin-top: 14px;
+}
