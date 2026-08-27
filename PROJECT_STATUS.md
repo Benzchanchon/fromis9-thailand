@@ -26,3 +26,4 @@
 - Read design.md before frontend changes
 - Page height and PerformanceCard height remain content-driven
 - Some assets are still placeholders because approved Figma exports are unavailable
+523
