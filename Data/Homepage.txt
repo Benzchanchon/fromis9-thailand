@@ -1,0 +1,241 @@
+FROMIS_9 THAILAND
+HOMEPAGE CONTENT
+==============================
+
+
+[HERO]
+
+Eyebrow:
+FROMIS_9 THAILAND
+
+Title:
+Welcome to fromis_9 Thailand
+
+Description:
+ชุมชนแฟนคลับและคลังข้อมูลสำหรับแฟนชาวไทยของ fromis_9 เพื่อแบ่งปันข่าวสารล่าสุด เนื้อหาแปล และความรักที่พวกเรามีต่อ fromis_9
+
+Button Text:
+Explore Members
+
+Button Link:
+/members
+
+Image:
+src/assets/images/Homepage/home-hero.jpg
+
+Image Alt:
+fromis_9 group photo
+
+Notes:
+ใช้รูปหลักสำหรับ Hero หน้า Home
+
+
+==============================
+
+
+[LATEST NEWS]
+
+Section Title:
+Latest News & Updates
+
+Section Description:
+NONE
+
+
+--- NEWS 01 ---
+
+Status:
+PUBLISHED
+
+Slug:
+fromis9-announces-2026-asia-tour-tomorrow-glow
+
+Title:
+fromis_9 Announces 2026 Asia Tour “TOMORROW GLOW.”
+
+Date:
+2026-07-29
+
+Summary:
+fromis_9 will kick off their 2026 Asia tour “TOMORROW GLOW.”
+with three concerts in Seoul from September 4–6 at Korea University’s
+Hwajung Tiger Dome. Additional cities across Asia will be announced later.
+
+Image:
+src/assets/images/Homepage/news-release-01.jpg
+
+Image Alt:
+fromis_9 TOMORROW GLOW. 2026 Asia Tour Seoul announcement
+
+Category:
+Tour
+
+Source URL:
+https://www.allkpop.com/article/2026/07/fromis-9-to-open-2026-asia-tour-tomorrow-glow-in-seoul-on-september-4
+
+Detail Page:
+TBD
+
+
+--- NEWS 02 ---
+
+Status:
+PLACEHOLDER
+
+Slug:
+TBD
+
+Title:
+TBD
+
+Date:
+TBD
+
+Summary:
+TBD
+
+Image:
+TBD
+
+Image Alt:
+TBD
+
+Category:
+TBD
+
+Source URL:
+TBD
+
+Detail Page:
+TBD
+
+
+--- NEWS 03 ---
+
+Status:
+PLACEHOLDER
+
+Slug:
+TBD
+
+Title:
+TBD
+
+Date:
+TBD
+
+Summary:
+TBD
+
+Image:
+TBD
+
+Image Alt:
+TBD
+
+Category:
+TBD
+
+Source URL:
+TBD
+
+Detail Page:
+TBD
+
+
+==============================
+
+
+[MEMBERS PREVIEW]
+
+Section Title:
+Meet fromis_9
+
+Section Description:
+NONE
+
+Member Order:
+1. Nagyung
+2. Hayoung
+3. Jiwon
+4. Chaeyoung
+5. Jiheon
+
+Notes:
+Homepage ให้ดึงข้อมูลสมาชิกจาก members.ts
+ไม่ต้องสร้างข้อมูลสมาชิกซ้ำใน homepage data
+
+
+==============================
+
+
+[LATEST RELEASE]
+
+Section Title:
+Latest Release
+
+Release Type:
+Album
+
+Title:
+Vitamin ME
+
+Release Date:
+2026-07-21
+
+Description:
+fromis_9 makes their highly anticipated summer return with 'Vitamin Me'! The title track is an energetic, high-tempo pop anthem blending tropical summer synths with the group's signature radiant vocals. Let their cool breeze blow away the summer heat.
+
+Artwork:
+src/assets/images/Homepage/vitamin-me.jpg
+
+Artwork Alt:
+Vitamin ME album artwork
+
+Spotify URL:
+https://share.google/Jw446jthJ6LQniYOx
+
+YouTube URL:
+https://youtu.be/sLk8zWUuYTA?si=wmYvpuCIIYATt6RF
+
+Spotify Button Text:
+Listen on Spotify
+
+YouTube Button Text:
+Watch on YouTube
+
+
+==============================
+
+
+[SOCIAL LINKS]
+
+X:
+https://share.google/vxeHMp1P2B0ncWZpX
+
+Instagram:
+https://share.google/dv5PLXLQ3s5hyW1Bn
+
+YouTube:
+https://share.google/Qd9UzSkDKNYik7PeW
+
+TikTok:
+https://share.google/72GvE5oQvAG1DVa5S
+
+
+==============================
+
+
+[FOOTER]
+
+Description:
+NONE
+
+Copyright:
+© 2026 fromis_9 Thailand
+
+Disclaimer:
+Unofficial fan-made website for fromis_9.
+
+Notes:
+Social links ให้ใช้ชุดเดียวกับ Navbar

@@ -76,6 +76,7 @@
   color: var(--color-text-muted-alt);
   font-size: 8px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .legal {

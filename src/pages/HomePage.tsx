@@ -5,12 +5,22 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { LatestReleasePanel } from "../components/release/LatestReleasePanel";
-import { AssetPlaceholder } from "../components/ui/AssetPlaceholder";
 import { PillButton } from "../components/ui/PillButton";
 import { SectionHeading } from "../components/ui/SectionHeading";
-import { latestRelease, newsItems } from "../data/home";
+import {
+  homeHero,
+  homeMemberOrder,
+  homeSections,
+  latestRelease,
+  newsItems,
+} from "../data/home";
 import { members } from "../data/members";
 import styles from "./HomePage.module.css";
+
+const homeMembers = homeMemberOrder.flatMap((slug) => {
+  const member = members.find((item) => item.slug === slug);
+  return member ? [member] : [];
+});
 
 export function HomePage() {
   return (
@@ -18,22 +28,19 @@ export function HomePage() {
       <Navbar />
       <main>
         <section className={styles.hero} aria-labelledby="hero-title">
-          <AssetPlaceholder
+          <img
             className={styles.heroImage}
-            label="Home hero photography"
-            tone="dark"
+            src={homeHero.imageSrc}
+            alt={homeHero.imageAlt}
           />
           <div className={styles.heroOverlay} aria-hidden="true" />
           <ContentRail className={styles.heroContent}>
-            <span className={styles.heroEyebrow}>FROMIS_9 THAILAND</span>
-            <h1 id="hero-title">fromis_9 Thailand</h1>
-            <p>Hero description pending approved Figma content export.</p>
+            <span className={styles.heroEyebrow}>{homeHero.eyebrow}</span>
+            <h1 id="hero-title">{homeHero.title}</h1>
+            <p>{homeHero.description}</p>
             <div className={styles.heroActions}>
-              <PillButton href="#members" showArrow>
-                Meet the Members
-              </PillButton>
-              <PillButton href="#latest-news" variant="heroSecondary">
-                Latest Updates
+              <PillButton href={homeHero.buttonLink} showArrow>
+                {homeHero.buttonText}
               </PillButton>
             </div>
           </ContentRail>
@@ -47,7 +54,7 @@ export function HomePage() {
           <ContentRail>
             <div id="news-heading">
               <SectionHeading
-                title="Latest News & Updates"
+                title={homeSections.newsTitle}
                 align="left"
                 showRule
               />
@@ -67,10 +74,15 @@ export function HomePage() {
         >
           <ContentRail>
             <div id="members-heading">
-              <SectionHeading title="Meet fromis_9" align="left" showRule />
+              <SectionHeading
+                title={homeSections.membersTitle}
+                subtitle={homeSections.membersDescription ?? undefined}
+                align="left"
+                showRule
+              />
             </div>
             <div className={styles.membersGrid}>
-              {members.map((member) => (
+              {homeMembers.map((member) => (
                 <MemberCard member={member} key={member.slug} />
               ))}
             </div>
@@ -84,7 +96,11 @@ export function HomePage() {
         >
           <ContentRail>
             <div id="release-heading">
-              <SectionHeading title="Latest Release" align="left" showRule />
+              <SectionHeading
+                title={homeSections.releaseTitle}
+                align="left"
+                showRule
+              />
             </div>
             <LatestReleasePanel release={latestRelease} />
           </ContentRail>

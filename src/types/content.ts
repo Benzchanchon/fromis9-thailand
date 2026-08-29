@@ -1,9 +1,17 @@
+export type ContentStatus = "published" | "placeholder";
+
 export interface NewsItem {
   id: string;
+  status: ContentStatus;
+  slug?: string;
   date: string;
   title: string;
   summary: string;
   imageLabel: string;
+  imageSrc?: string;
+  imageAlt?: string;
+  category?: string;
+  sourceUrl?: string;
 }
 
 export interface MemberSummary {
@@ -34,8 +42,14 @@ export interface MemberProfile extends MemberSummary {
 }
 
 export interface ReleaseSummary {
+  releaseType: string;
   title: string;
-  eyebrow: string;
+  releaseDate: string;
   description: string;
-  imageLabel: string;
+  artworkSrc: string;
+  artworkAlt: string;
+  spotifyUrl: string;
+  youtubeUrl: string;
+  spotifyButtonText: string;
+  youtubeButtonText: string;
 }

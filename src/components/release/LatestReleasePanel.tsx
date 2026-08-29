@@ -1,5 +1,4 @@
 import type { ReleaseSummary } from "../../types/content";
-import { AssetPlaceholder } from "../ui/AssetPlaceholder";
 import { PillButton } from "../ui/PillButton";
 import styles from "./LatestReleasePanel.module.css";
 
@@ -10,17 +9,23 @@ interface LatestReleasePanelProps {
 export function LatestReleasePanel({ release }: LatestReleasePanelProps) {
   return (
     <article className={styles.panel}>
-      <AssetPlaceholder className={styles.artwork} label={release.imageLabel} />
+      <img
+        className={styles.artwork}
+        src={release.artworkSrc}
+        alt={release.artworkAlt}
+      />
       <div className={styles.content}>
-        <span className={styles.eyebrow}>{release.eyebrow}</span>
+        <span className={styles.eyebrow}>
+          {release.releaseType} · <time dateTime={release.releaseDate}>{release.releaseDate}</time>
+        </span>
         <h3>{release.title}</h3>
         <p>{release.description}</p>
         <div className={styles.actions}>
-          <PillButton variant="spotify" disabled>
-            Spotify
+          <PillButton href={release.spotifyUrl} variant="spotify">
+            {release.spotifyButtonText}
           </PillButton>
-          <PillButton variant="youtube" disabled>
-            YouTube
+          <PillButton href={release.youtubeUrl} variant="youtube">
+            {release.youtubeButtonText}
           </PillButton>
         </div>
       </div>

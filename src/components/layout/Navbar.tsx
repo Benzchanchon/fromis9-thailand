@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { socialLinks } from "../../data/site";
 import { ContentRail } from "./ContentRail";
 import styles from "./Navbar.module.css";
 
@@ -13,8 +14,6 @@ const navItems = [
   },
   { id: "news", label: "News", href: "/news", enabled: false },
 ] as const;
-
-const socialItems = ["Instagram", "X", "YouTube"];
 
 type ActiveRoute = "home" | "members";
 
@@ -53,17 +52,18 @@ export function Navbar({ activeRoute = "home" }: NavbarProps) {
           </ul>
         </nav>
 
-        <div className={styles.socials} aria-label="Social assets pending export">
-          {socialItems.map((item) => (
-            <span
+        <div className={styles.socials} aria-label="Social links">
+          {socialLinks.map((item) => (
+            <a
               className={styles.iconPlaceholder}
               data-asset-status="figma-export-pending"
-              title={`${item} icon asset pending`}
-              aria-label={`${item} icon asset pending`}
-              key={item}
+              href={item.href}
+              title={item.label}
+              aria-label={`${item.label} social link`}
+              key={item.id}
             >
               asset
-            </span>
+            </a>
           ))}
         </div>
       </ContentRail>

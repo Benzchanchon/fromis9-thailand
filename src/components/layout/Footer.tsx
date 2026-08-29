@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { footerContent, socialLinks } from "../../data/site";
 import { ContentRail } from "./ContentRail";
 import styles from "./Footer.module.css";
 
@@ -8,8 +9,6 @@ const sitemap = [
   { label: "Performances" },
   { label: "News" },
 ];
-const socialItems = ["Instagram", "X", "YouTube"];
-
 export function Footer() {
   return (
     <footer className={styles.footer}>
@@ -19,7 +18,9 @@ export function Footer() {
             <div className={styles.wordmark}>
               fromis_9 <strong>Thailand</strong>
             </div>
-            <p>Footer description pending approved Figma content export.</p>
+            {footerContent.description ? (
+              <p>{footerContent.description}</p>
+            ) : null}
           </div>
 
           <div>
@@ -40,23 +41,25 @@ export function Footer() {
           <div>
             <h2>SOCIAL</h2>
             <div className={styles.socials}>
-              {socialItems.map((item) => (
-                <span
+              {socialLinks.map((item) => (
+                <a
                   className={styles.iconPlaceholder}
                   data-asset-status="figma-export-pending"
-                  title={`${item} icon asset pending`}
-                  key={item}
+                  href={item.href}
+                  title={item.label}
+                  aria-label={`${item.label} social link`}
+                  key={item.id}
                 >
                   asset
-                </span>
+                </a>
               ))}
             </div>
           </div>
         </div>
 
         <div className={styles.legal}>
-          <span>© fromis_9 Thailand</span>
-          <span>Non-commercial fan project</span>
+          <span>{footerContent.copyright}</span>
+          <span>{footerContent.disclaimer}</span>
         </div>
       </ContentRail>
     </footer>

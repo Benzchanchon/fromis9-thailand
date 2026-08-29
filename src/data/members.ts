@@ -1,6 +1,6 @@
 import type { MemberProfile } from "../types/content";
 
-const names = ["Nagyung", "Hayoung", "Jiwon", "Chaeyoung", "Jisun"] as const;
+const names = ["Nagyung", "Hayoung", "Jiwon", "Chaeyoung", "Jiheon"] as const;
 
 export const members: MemberProfile[] = names.map((name) => {
   const slug = name.toLowerCase();
