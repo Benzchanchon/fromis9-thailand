@@ -13,13 +13,18 @@ This document records the design currently present in Figma. It is an extraction
 
 ## Inspected frames
 
-All three supplied designs are desktop frames at 1440px wide. The Member Profile Detail outer height should be treated as content-driven after the Performance thumbnails were normalized to 16:9; its updated top-level height was not remeasured as a fixed token.
+The reviewed desktop set contains six pages at 1440px wide. Top-level page heights are measurements of the current Figma compositions, not implementation tokens; every page must grow naturally with content. The Member Profile Detail outer height remains content-driven after its Performance thumbnails were normalized to 16:9.
 
-| Frame | Measured size | Main sections |
-| --- | ---: | --- |
-| Home | 1440 × 3715 | Navbar, Hero, Latest News, Members, Latest Release, rainbow strip, Footer |
-| Members | 1440 × 2122 | Navbar, Members header, Members grid, rainbow strip, Footer |
-| Member Profile Detail | 1440px wide; content-driven height | Navbar, member hero, profile information, featured performances, member navigation, rainbow strip, Footer |
+| Frame | Figma node | Measured size | Main sections |
+| --- | --- | ---: | --- |
+| Home | — | 1440 × 3715 | Navbar, Hero, Latest News, Members, Latest Release, rainbow strip, Footer |
+| Members | — | 1440 × 2122 | Navbar, Members header, Members grid, rainbow strip, Footer |
+| Member Profile Detail | — | 1440px wide; content-driven height | Navbar, member hero, profile information, featured performances, member navigation, rainbow strip, Footer |
+| Performances | `91:11` | 1440 × 2863 | Navbar, page header, filters, featured performance, performance grid, load more, rainbow strip, Footer |
+| News | `100:11` | 1440px wide; content-driven height | Navbar, page header, filters, featured news, news grid, load more, rainbow strip, Footer |
+| News Detail | `103:13` | 1440 × 3851 in the current sample; content-driven in implementation | Navbar, article header, hero image, article body, related news, previous/next navigation, rainbow strip, Footer |
+
+A separate Mobile Home frame now exists at `114:15` (390 × 4128). It is not a replacement for these desktop specifications and does not define mobile layouts for Members, Member Profile, Performances, News, or News Detail.
 
 ## Visual direction
 
@@ -36,6 +41,14 @@ The Vitamin ME-inspired visual language is expressed through:
 - generous whitespace, simple grids, and restrained shadows rather than dense decoration.
 
 Keep these motifs as accents. The primary structure is still a clean editorial grid; do not add new visual motifs, decorative systems, or colors that are not present in Figma.
+
+### Desktop consistency review
+
+Performances (`91:11`), News (`100:11`), and News Detail (`103:13`) are visually accepted as part of the existing system. They reuse the same 80px Navbar, Outfit hierarchy, pink active/action color, restrained vitamin decoration, rounded image/card language, 1280px editorial rail, 24px card gaps, rainbow strip, and dark Footer seen in Home, Members, and Member Profile.
+
+Performances and News intentionally form a sibling pair: centered page introduction, filter pills, one large featured editorial card, centered gallery heading, three-column content grid, and a compact load-more action. News Detail shifts to a reading layout while retaining the same shell, typography, metadata treatment, related cards, and footer transition. No new global visual tokens are required for these pages.
+
+Minor Figma construction differences are resolved later in this document as implementation rules: use the canonical flexible three-column rail instead of the 402px Performances card width, and reuse the Home Footer instead of preserving the 362px Footer copies in the new frames.
 
 ## Color palette
 
@@ -78,6 +91,9 @@ Heading alignment depends on context and must follow Figma:
 - Members page hero/header: centered
 - Member Detail "Profile": centered
 - Member Detail "Featured Performances": left-aligned
+- Performances and News page headers: centered
+- Performances "All Performances" and News "Latest News": centered
+- News Detail article header and "Related News": centered; article prose and in-article headings: left-aligned
 
 Do not globally center SectionHeading components.
 The reusable SectionHeading component should support alignment variants.
@@ -131,12 +147,15 @@ display faces.
 ### Page height rule
 
 Top-level page height must be content-driven.
-Do not hard-code the Member Profile Detail page height.
+Do not hard-code the Member Profile Detail, Performances, News, or News Detail page height.
 The page expands naturally based on its sections.
 
 ### Column patterns
 
 - News and featured performances: three equal columns.
+- Performances and News listing grids: three equal flexible columns that fill the 1280px rail with 24px gaps.
+- Performances and News featured stories: a single two-column editorial card within the 1280px rail, with media on the left and copy/actions on the right.
+- News Detail: a full-rail hero followed by a narrower centered reading column; related news returns to the three-column 1280px grid.
 - Members: three cards on the first row and two cards centered on the second row.
 - Latest Release: two-column white panel, image/media on the left and release details/actions on the right.
 - Member hero: two columns, 4:5 portrait on the left and biography/stat content on the right.
@@ -186,6 +205,60 @@ Padding is listed as left / top / right / bottom. These are measured values from
 
 Use the measured section values to reproduce the desktop composition. For Featured Performances, rely on Auto Layout/Hug sizing rather than the previous fixed parent heights; the section now expands around the 16:9 thumbnails. Do not normalize other off-scale values without design approval.
 
+### Performances
+
+Figma frame: `performances-page` (`91:11`).
+
+| Section | Measured height | Padding / geometry | Internal gap/notes |
+| --- | ---: | --- | --- |
+| Navbar | 80px | 80px desktop rails | Performances is the active pink route |
+| Page header | 311px | Full-width wrapper; content centered | Eyebrow with short rules, display title, subtitle, restrained vitamin decorations |
+| Filter bar | 86px | Centered, content-sized pills | Current pills are 38px high; active filter is pink |
+| Featured performance | 508px wrapper | 80px outer rails | Featured card is 1280 × 444 with 32px inner inset; media is 680 × 380 and copy is 488px wide |
+| All Performances heading | 124px | Full-width centered heading | Eyebrow and short horizontal rules repeat the page-header language |
+| Performance grid | Content-driven; 1225px in the current sample | 80px outer rails | Three rows in the sample; 24px column gap and 48px row gap |
+| Load more | 142px wrapper | Centered control | Current button is 263 × 46; keep it content-sized |
+| Rainbow strip | 25px | Full bleed | Separate rectangle before Footer |
+| Footer | Source frame is 362px; follow Home canonical Footer | 80 / 24 / 80 / 48 | Reuse the Home Footer structure and spacing |
+
+The Figma listing cards in this page currently measure 402 × 355px inside a 1280px row. Three 402px cards plus two 24px gaps leave 26px unused at the row end. Treat this as a construction artifact rather than a new grid token: implementation must use three equal flexible columns across the full 1280px rail (approximately 410.67px each) with 24px gaps. Card and section heights remain content-driven, and thumbnails remain 16:9.
+
+### News
+
+Figma frame: `news-page` (`100:11`).
+
+| Section | Sizing rule | Padding / geometry | Internal gap/notes |
+| --- | --- | --- | --- |
+| Navbar | 80px | 80px desktop rails | News is the active pink route |
+| Page header | Follow the Performances header pattern | Full-width wrapper; content centered | Eyebrow, title, subtitle, and restrained decorations use the same visual system |
+| Filter bar | Content-driven | Centered, content-sized pills | Same 38px-high pill treatment; active filter is pink |
+| Featured news | Content-driven | 80px outer rails; one 1280px editorial card | Two-column media/copy treatment with pink metadata and a compact pill CTA |
+| Latest News heading | Content-driven | Full-width centered heading | Eyebrow/rule treatment matches Performances |
+| News grid | Content-driven | 80px outer rails | Three equal flexible columns with 24px gaps; current sample uses three rows |
+| Load more | Content-driven wrapper | Centered control | Keep the button content-sized, not full-width |
+| Rainbow strip | 25px | Full bleed | Separate rectangle before Footer |
+| Footer | Follow Home canonical Footer | 80 / 24 / 80 / 48 | Do not preserve a page-specific footer variant |
+
+News titles and summaries must be allowed to wrap. Rows may align visually, but card height must not be fixed in a way that clips longer editorial or localized content.
+
+### News Detail
+
+Figma frame: `news-detail-page` (`103:13`).
+
+| Section | Measured/sizing rule | Padding / geometry | Internal gap/notes |
+| --- | --- | --- | --- |
+| Navbar | 80px | 80px desktop rails | News remains the active pink route |
+| Article header | Content-driven | Centered within the desktop rail | Category/date metadata, multiline headline, and supporting deck are centered |
+| Hero image | Content-driven media block | 80px outer rails | Wide rounded editorial image; preserve its crop and do not stretch it |
+| Main article body | Content-driven | Narrow centered reading column | Left-aligned prose, in-article headings, image/caption blocks, and a pale-pink callout |
+| Related news | Content-driven | 80px outer rails | Centered heading followed by three cards with 24px gaps |
+| Related news cards | 462px in the current sample; content-driven in implementation | Current measured width is 411px with 24px gaps (rounding across the rail) | 240px media in the sample; title, summary, and link must grow naturally |
+| Previous/next navigation | 153px in the current sample | 80px outer rails; two 500px text areas aligned to opposite sides | Keep labels and titles readable; do not truncate by fixing the overall page height |
+| Rainbow strip | 25px | Full bleed | Starts after the article/navigation content, never at a fixed page Y position |
+| Footer | Source frame is 362px; follow Home canonical Footer | 80 / 24 / 80 / 48 | Reuse the Home Footer structure and spacing |
+
+The current Figma sample is 3851px tall, but that number records this article only. Article length, embedded media, related-card copy, and navigation titles determine the final page height.
+
 ## Border radius and elevation
 
 - **16px** is the confirmed radius on performance cards and is the dominant large-card treatment.
@@ -219,6 +292,7 @@ Buttons are compact and content-sized rather than full-width on desktop. Preserv
 - Rounded image/card corners and subtle border/shadow.
 - Content stack: pink date/meta, dark Bold title, muted summary, inline arrow link.
 - Keep title and summary lengths flexible; no fixed production content is defined here.
+- On the News page and in News Detail related content, use equal flexible grid columns rather than copying 411px rounding values as fixed CSS widths.
 
 ### Member card
 
@@ -254,6 +328,7 @@ with layout/presentation variants rather than separate components.
 - Content area uses **24px** padding and a **16px** vertical stack gap.
 - Content order: pink date/meta, dark Bold title, inline `Watch Performance` arrow link.
 - Performance title is Outfit Bold 18px with 130% line height.
+- The Performances page source frame contains a 402px listing-card construction, but this does not replace the canonical 1280px / three-column / 24px-gap rule. Use flexible columns and preserve 16:9 media.
 
 ### Performance Card sizing
 
@@ -261,6 +336,29 @@ PerformanceCard width follows the desktop grid.
 Thumbnail must use aspect-ratio: 16 / 9.
 Card height is content-driven and must not be hard-coded.
 Text content may increase card height naturally.
+
+### Featured editorial card
+
+Performances and News share a page-level featured-card pattern:
+
+- one white rounded panel within the 1280px desktop rail;
+- large rounded media on the left and a vertically centered information stack on the right;
+- category/date metadata above a large dark headline;
+- muted supporting copy followed by a compact pink primary pill;
+- generous inner padding and no heavy elevation;
+- media uses `cover` without stretching, while the copy column and outer card grow when text wraps.
+
+The Performances frame measures the panel at 1280 × 444px with a 32px inset, a 680 × 380px media area, a 488px copy column, and a 48px space between the media and copy. News repeats the same visual proportion. Treat height as content-driven despite the measured sample.
+
+### News Detail article
+
+- Article metadata, headline, and deck form a centered header; long headlines may wrap to multiple lines.
+- The lead image spans the primary desktop rail and uses the same rounded editorial image language as the cards.
+- Long-form copy uses a narrower centered reading measure with left-aligned paragraphs and headings.
+- A pale-pink callout is an editorial emphasis block, not a new global surface color.
+- In-article media and captions remain inside the reading flow and increase page height naturally.
+- Related News reuses `NewsCard` in the canonical three-column rail.
+- Previous/next article links are a paired navigation pattern with the next item right-aligned.
 
 ### Latest Release panel
 
@@ -307,6 +405,10 @@ Text content may increase card height naturally.
 | --- | --- |
 | Home hero | Full-bleed 1440 × 657 section, approximately 2.19:1; image covers the section beneath a contrast gradient |
 | News thumbnail | Observed near 16:9, cover crop |
+| Featured Performance media | Measured 680 × 380, approximately 16:9, cover crop |
+| Featured News media | Follow the same wide editorial/approximately 16:9 treatment, cover crop |
+| News Detail hero | Wide image within the 1280px rail; preserve the Figma crop and rounded corners |
+| News Detail in-article media | Preserve the supplied image ratio within the narrower reading column; do not stretch |
 | Member card portrait | 4:5, cover crop |
 | Member profile portrait | 4:5, visually about 480 × 600 on desktop, cover crop |
 | Latest Release image | Observed square or near-square product/album presentation |
@@ -324,6 +426,10 @@ These are repeated UI patterns that should become reusable implementation compon
 - `Footer`
 - `RainbowVitaminStrip`
 - `SectionHeading` with optional eyebrow, short rule, subtitle, and decorative marks
+- `EditorialPageHeader` for the centered Performances and News introductions
+- `PillFilterBar` with active-filter state
+- `FeaturedEditorialCard` with Performance and News content variants
+- `LoadMoreButton`
 
 ### SectionHeading variants
 - align: left | center
@@ -342,26 +448,28 @@ These are repeated UI patterns that should become reusable implementation compon
 - `LatestReleasePanel`
 - `ProfileInfoGrid` and `ProfileInfoRow`
 - `MemberNavigation` with previous/next variants
+- `ArticleHeader`
+- `ArticleBody` with prose, heading, callout, media, and caption blocks
+- `RelatedNewsSection`
+- `ArticleNavigation` with previous/next variants
 
 Major page sections and reusable UI structures use semantic layer names.
 Some deeply nested layout frames may remain generic, but they should not
 determine component architecture.
 
-## Responsive considerations (inferred from desktop only)
+## Responsive and mobile status
 
-No tablet or mobile frames are present, so the following describe structural behavior only. They do not establish new breakpoints or a mobile redesign.
+The current update documents the desktop pages only. A dedicated Mobile Home frame now exists at `114:15` (390 × 4128), so the former statement that the file contains no mobile design is no longer accurate. That frame is a separate mobile composition and must not alter the 1440px desktop specifications above.
 
-### Mobile navigation
+### Concrete Mobile Home reference
 
-Mobile and compact navigation are intentionally deferred.
-Do not invent a hamburger menu or mobile navigation during
-the current desktop implementation phase.
+Mobile Home currently establishes a 390px frame, 20px side rails, a 56px navbar with visible logo and hamburger icon, stacked 350px-wide news cards, a two-column member grid, a stacked 350px release composition, a 20px rainbow strip, and a vertically stacked footer. Its closed navbar is designed, but the expanded menu state is not.
 
-Responsive/mobile behavior will be implemented after
-dedicated mobile designs are added to Figma.
+This update did not perform a full mobile extraction or approve those values as cross-page tokens. Members, Member Profile, Performances, News, News Detail, tablet layouts, and the expanded mobile menu remain separate/deferred design work.
 
-The following responsive notes are future implementation guidance only.
-Do not implement these transformations during the current desktop-only phase.
+### Deferred responsive guidance
+
+The following notes remain future structural guidance for pages without dedicated mobile frames. They do not establish new breakpoints or authorize a mobile redesign during the current desktop phase.
 
 - Keep a fluid container capped at 1280px and reduce the 80px side padding as the viewport narrows.
 - Change three-column news/member/performance layouts to two columns and then one column when the cards can no longer preserve their intended width and gaps.
@@ -382,23 +490,19 @@ Do not implement these transformations during the current desktop-only phase.
 3. **Near-duplicate neutral colors lack explicit roles.** `#111113` vs `#111218`, `#E9EAF0` vs `#E4E5EC`, and multiple muted grays are all used without clearly named semantic tokens.
 4. **Typography is applied directly rather than documented as a complete scale.** Outfit is confirmed, as are selected 32px and 18px Bold roles, but a full named type-style system is not evident from the inspected layers.
 5. **Interaction states are incomplete.** One MemberCard hover treatment is shown, but corresponding focus, pressed, disabled, loading, and complete hover states for other controls are not defined.
-6. **Responsive behavior is intentionally deferred.**
-There are no tablet/mobile frames yet. Responsive and mobile implementation
-must wait for dedicated Figma designs and should not be invented during
-the current desktop-only phase.
+6. **Mobile coverage is partial.** Mobile Home exists at `114:15`, but the expanded navigation, tablet behavior, and mobile versions of the other five page types are not defined.
+7. **The Performances listing grid has a construction discrepancy.** Its current 402px cards and two 24px gaps occupy 1254px of a 1280px row. Preserve the canonical 1280px rail with three equal flexible columns and 24px gaps unless the design owner explicitly approves the trailing 26px.
+8. **New-page Footer frames measure 362px while Home remains the 356px canonical Footer.** Reuse Home rather than creating another Footer variant.
+9. **The News frame contains a layer named `Featured Performance Section`.** Its content and role are Featured News; treat the name as a semantic layer-label error, not a shared content type.
 
-The former Performance ratio conflict is resolved in Figma:
-all three thumbnails use 16:9 containers at 410.67 × 231px
-with cover cropping.
+The former Performance ratio conflict remains resolved: Member Detail uses 410.67 × 231px thumbnails, and the Performances listing frame uses 402 × 226px thumbnails. Both are 16:9 with cover cropping; width follows the applicable flexible grid rather than becoming a new fixed token.
 
 The Footer variant question is also resolved:
 Home is the canonical Footer.
 
-Member Profile Detail page height and PerformanceCard height
-are content-driven and must not be hard-coded.
+Member Profile Detail, Performances, News, and News Detail page heights, along with PerformanceCard and editorial card heights, are content-driven and must not be hard-coded.
 
-Mobile and compact navigation are intentionally deferred until
-dedicated mobile designs are added to Figma.
+Mobile Home's closed navbar is present in Figma. The expanded menu and compact navigation behavior for other pages remain deferred until dedicated mobile designs are added.
 
 All remaining extracted rules should remain visually faithful
 to the current desktop Figma frames.
