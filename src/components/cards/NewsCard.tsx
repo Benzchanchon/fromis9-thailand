@@ -5,9 +5,10 @@ import styles from "./NewsCard.module.css";
 
 interface NewsCardProps {
   item: NewsItem;
+  href?: string;
 }
 
-export function NewsCard({ item }: NewsCardProps) {
+export function NewsCard({ item, href }: NewsCardProps) {
   return (
     <article className={styles.card}>
       {item.imageSrc && item.imageAlt ? (
@@ -26,7 +27,7 @@ export function NewsCard({ item }: NewsCardProps) {
         </div>
         <h3>{item.title}</h3>
         <p>{item.summary}</p>
-        <InlineArrowLink href={item.sourceUrl}>Read More</InlineArrowLink>
+        <InlineArrowLink href={href}>Read More</InlineArrowLink>
       </div>
     </article>
   );

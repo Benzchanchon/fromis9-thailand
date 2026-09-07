@@ -1,0 +1,25 @@
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.filter {
+  min-height: 38px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-white);
+  color: var(--color-ink);
+  cursor: pointer;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.active {
+  border-color: var(--color-brand);
+  background: var(--color-brand);
+  color: var(--color-white);
+}

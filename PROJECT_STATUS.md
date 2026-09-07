@@ -9,20 +9,21 @@
 - Members QA
 - Member Profile Detail
 - Member Profile Detail structural QA
+- Performances implemented
+- Performances desktop QA completed
+- News implemented
+- News desktop QA completed
+- News Detail implemented
+- News Detail desktop QA completed
 
 ## Current phase
-- Final cleanup of the currently designed desktop pages
-- Waiting for remaining Figma pages/assets before implementing Performances and News
+- Mobile work remains separate and is in progress where applicable
 
 ## Deferred
-- Performances page
-- News page
-- News Detail page
-- Final mobile design
 - Remaining real Figma assets
 
 ## Notes
 - Figma is the visual source of truth
 - Read design.md before frontend changes
-- Page height and PerformanceCard height remain content-driven
+- Page, PerformanceCard, and News Detail article heights remain content-driven
 - Some assets are still placeholders because approved Figma exports are unavailable

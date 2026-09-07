@@ -6,8 +6,8 @@ import styles from "./Footer.module.css";
 const sitemap = [
   { label: "Home", href: "/" },
   { label: "Members", href: "/members" },
-  { label: "Performances" },
-  { label: "News" },
+  { label: "Performances", href: "/performances" },
+  { label: "News", href: "/news" },
 ];
 export function Footer() {
   return (

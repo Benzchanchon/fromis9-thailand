@@ -1,0 +1,49 @@
+.headerSection {
+  padding-block: 80px 64px;
+  background: var(--color-white);
+}
+
+.centeredRail {
+  display: grid;
+  place-items: center;
+}
+
+.heroSection {
+  background: var(--color-white);
+  padding-bottom: 96px;
+}
+
+.heroImage {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  border-radius: var(--radius-card);
+  object-fit: cover;
+}
+
+.bodySection {
+  background: var(--color-white);
+  padding-bottom: 120px;
+}
+
+.relatedSection {
+  background: var(--color-surface-soft);
+  padding-block: 72px 96px;
+}
+
+.relatedHeading {
+  display: grid;
+  margin-bottom: 48px;
+  place-items: center;
+}
+
+.relatedGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.navigationSection {
+  border-top: 1px solid var(--color-border);
+  background: var(--color-white);
+  padding-block: 32px;
+}

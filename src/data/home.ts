@@ -1,6 +1,5 @@
-import type { NewsItem, ReleaseSummary } from "../types/content";
+import type { ReleaseSummary } from "../types/content";
 import heroImage from "../assets/images/Homepage/home-hero.jpg";
-import newsReleaseImage from "../assets/images/Homepage/news-release-01.jpg";
 import vitaminMeArtwork from "../assets/images/Homepage/vitamin-me.jpg";
 
 export const homeHero = {
@@ -28,42 +27,6 @@ export const homeMemberOrder = [
   "chaeyoung",
   "jiheon",
 ] as const;
-
-export const newsItems: NewsItem[] = [
-  {
-    id: "fromis9-announces-2026-asia-tour-tomorrow-glow",
-    status: "published",
-    slug: "fromis9-announces-2026-asia-tour-tomorrow-glow",
-    date: "2026-07-29",
-    title: "fromis_9 Announces 2026 Asia Tour “TOMORROW GLOW.”",
-    summary:
-      "fromis_9 will kick off their 2026 Asia tour “TOMORROW GLOW.” with three concerts in Seoul from September 4–6 at Korea University’s Hwajung Tiger Dome. Additional cities across Asia will be announced later.",
-    imageLabel: "fromis_9 TOMORROW GLOW. 2026 Asia Tour Seoul announcement",
-    imageSrc: newsReleaseImage,
-    imageAlt: "fromis_9 TOMORROW GLOW. 2026 Asia Tour Seoul announcement",
-    category: "Tour",
-    sourceUrl:
-      "https://www.allkpop.com/article/2026/07/fromis-9-to-open-2026-asia-tour-tomorrow-glow-in-seoul-on-september-4",
-  },
-  {
-    id: "news-placeholder-02",
-    status: "placeholder",
-    date: "DATE PENDING",
-    title: "News headline pending Figma content export",
-    summary:
-      "Editorial summary unavailable while structured Figma access is rate-limited.",
-    imageLabel: "Latest news image 02",
-  },
-  {
-    id: "news-placeholder-03",
-    status: "placeholder",
-    date: "DATE PENDING",
-    title: "News headline pending Figma content export",
-    summary:
-      "Editorial summary unavailable while structured Figma access is rate-limited.",
-    imageLabel: "Latest news image 03",
-  },
-];
 
 export const latestRelease: ReleaseSummary = {
   releaseType: "Album",

@@ -1,0 +1,24 @@
+.button {
+  display: inline-flex;
+  width: 263px;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: var(--radius-pill);
+  background: var(--color-brand);
+  color: var(--color-white);
+  padding: 11px 24px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.arrow {
+  font-size: 18px;
+  line-height: 1;
+}

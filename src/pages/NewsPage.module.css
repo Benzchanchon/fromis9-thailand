@@ -1,0 +1,52 @@
+.pageHeader {
+  display: grid;
+  min-height: 311px;
+  place-items: center;
+  background: var(--color-white);
+  padding-block: 64px;
+}
+
+.centeredRail {
+  display: grid;
+  place-items: center;
+}
+
+.filterSection {
+  display: grid;
+  min-height: 86px;
+  place-items: center;
+  border-block: 1px solid var(--color-border);
+  background: var(--color-white);
+}
+
+.featuredSection {
+  min-height: 508px;
+  background: var(--color-surface-soft);
+  padding-block: 32px;
+}
+
+.archiveHeading {
+  display: grid;
+  min-height: 124px;
+  place-items: center;
+  background: var(--color-surface-soft);
+  padding-block: 24px;
+}
+
+.gridSection {
+  background: var(--color-surface-soft);
+}
+
+.newsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.loadMoreSection {
+  display: grid;
+  min-height: 142px;
+  place-items: center;
+  background: var(--color-surface-soft);
+}

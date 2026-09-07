@@ -12,9 +12,9 @@ import {
   homeMemberOrder,
   homeSections,
   latestRelease,
-  newsItems,
 } from "../data/home";
 import { members } from "../data/members";
+import { getNewsDetailPath, homeLatestNewsItems } from "../data/news";
 import styles from "./HomePage.module.css";
 
 const homeMembers = homeMemberOrder.flatMap((slug) => {
@@ -60,8 +60,12 @@ export function HomePage() {
               />
             </div>
             <div className={styles.newsGrid}>
-              {newsItems.map((item) => (
-                <NewsCard item={item} key={item.id} />
+              {homeLatestNewsItems.map((item) => (
+                <NewsCard
+                  item={item}
+                  href={item.slug ? getNewsDetailPath(item.slug) : undefined}
+                  key={item.id}
+                />
               ))}
             </div>
           </ContentRail>

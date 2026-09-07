@@ -1,5 +1,30 @@
 export type ContentStatus = "published" | "placeholder";
 
+export type NewsArticleBlock =
+  | {
+      id: string;
+      type: "paragraph";
+      text: string;
+    }
+  | {
+      id: string;
+      type: "heading";
+      text: string;
+    }
+  | {
+      id: string;
+      type: "callout";
+      text: string;
+    }
+  | {
+      id: string;
+      type: "media";
+      imageLabel: string;
+      imageSrc?: string;
+      imageAlt?: string;
+      caption?: string;
+    };
+
 export interface NewsItem {
   id: string;
   status: ContentStatus;
@@ -12,6 +37,7 @@ export interface NewsItem {
   imageAlt?: string;
   category?: string;
   sourceUrl?: string;
+  articleBlocks?: readonly NewsArticleBlock[];
 }
 
 export interface MemberSummary {

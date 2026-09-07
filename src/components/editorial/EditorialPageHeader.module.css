@@ -1,0 +1,67 @@
+.header {
+  position: relative;
+  display: flex;
+  width: min(720px, 100%);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.eyebrowRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.rule {
+  width: 32px;
+  height: 2px;
+  background: var(--color-brand);
+}
+
+.eyebrow {
+  color: var(--color-brand);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.header h1 {
+  margin-top: 16px;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+}
+
+.header p {
+  max-width: 620px;
+  margin-top: 16px;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+.decoration {
+  position: absolute;
+  top: 50%;
+  display: grid;
+  width: 48px;
+  height: 48px;
+  place-items: center;
+  border: 1px dashed var(--color-cyan);
+  border-radius: 50%;
+  color: var(--color-cyan);
+  font-size: 8px;
+  font-weight: 700;
+  transform: translateY(-50%);
+}
+
+.decorationLeft {
+  right: calc(100% + 48px);
+}
+
+.decorationRight {
+  left: calc(100% + 48px);
+}
