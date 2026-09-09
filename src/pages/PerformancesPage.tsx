@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { PerformanceCard } from "../components/cards/PerformanceCard";
 import { EditorialPageHeader } from "../components/editorial/EditorialPageHeader";
 import { FeaturedEditorialCard } from "../components/editorial/FeaturedEditorialCard";
@@ -14,10 +15,28 @@ import {
   performanceFilters,
   performanceItems,
   performancesPageContent,
+  sortPerformancesByDateDesc,
 } from "../data/performances";
 import styles from "./PerformancesPage.module.css";
 
+const initialVisiblePerformanceCount = 6;
+const loadMorePerformanceBatchSize = 6;
+
 export function PerformancesPage() {
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(
+    initialVisiblePerformanceCount,
+  );
+  const filteredPerformances =
+    activeFilter === "all"
+      ? performanceItems
+      : performanceItems.filter(
+          (performance) => performance.category === activeFilter,
+        );
+  const sortedPerformances = sortPerformancesByDateDesc(filteredPerformances);
+  const visiblePerformances = sortedPerformances.slice(0, visibleCount);
+  const hasMorePerformances = visibleCount < sortedPerformances.length;
+
   return (
     <>
       <Navbar activeRoute="performances" />
@@ -41,6 +60,10 @@ export function PerformancesPage() {
             <PillFilterBar
               options={performanceFilters}
               ariaLabel="Performance filters"
+              onChange={(filterId) => {
+                setActiveFilter(filterId);
+                setVisibleCount(initialVisiblePerformanceCount);
+              }}
             />
           </ContentRail>
         </section>
@@ -72,7 +95,7 @@ export function PerformancesPage() {
         <section className={styles.gridSection} aria-label="Performance archive">
           <ContentRail>
             <div className={styles.performanceGrid}>
-              {performanceItems.map((item) => (
+              {visiblePerformances.map((item) => (
                 <PerformanceCard item={item} key={item.id} />
               ))}
             </div>
@@ -80,7 +103,18 @@ export function PerformancesPage() {
         </section>
 
         <section className={styles.loadMoreSection} aria-label="More performances">
-          <LoadMoreButton label={loadMoreLabel} disabled />
+          <LoadMoreButton
+            label={loadMoreLabel}
+            disabled={!hasMorePerformances}
+            onClick={() => {
+              setVisibleCount((currentCount) =>
+                Math.min(
+                  currentCount + loadMorePerformanceBatchSize,
+                  sortedPerformances.length,
+                ),
+              );
+            }}
+          />
         </section>
       </main>
       <RainbowVitaminStrip />

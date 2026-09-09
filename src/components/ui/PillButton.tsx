@@ -15,6 +15,7 @@ interface PillButtonProps {
   variant?: PillButtonVariant;
   showArrow?: boolean;
   disabled?: boolean;
+  openInNewTab?: boolean;
 }
 
 export function PillButton({
@@ -23,6 +24,7 @@ export function PillButton({
   variant = "primary",
   showArrow = false,
   disabled = false,
+  openInNewTab = false,
 }: PillButtonProps) {
   const className = `${styles.button} ${styles[variant]}`;
   const content = (
@@ -45,7 +47,12 @@ export function PillButton({
       );
     }
     return (
-      <a className={className} href={href}>
+      <a
+        className={className}
+        href={href}
+        target={openInNewTab ? "_blank" : undefined}
+        rel={openInNewTab ? "noopener noreferrer" : undefined}
+      >
         {content}
       </a>
     );

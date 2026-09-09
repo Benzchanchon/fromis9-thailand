@@ -74,73 +74,74 @@ Source URL:
 https://www.allkpop.com/article/2026/07/fromis-9-to-open-2026-asia-tour-tomorrow-glow-in-seoul-on-september-4
 
 Detail Page:
-TBD
+/news/fromis9-announces-2026-asia-tour-tomorrow-glow
 
 
 --- NEWS 02 ---
 
 Status:
-PLACEHOLDER
+PUBLISHED
 
 Slug:
-TBD
+fromis9-wins-show-champion-vitamin-me
 
 Title:
-TBD
+fromis_9 win on 'Show Champion' with 'Vitamin ME'
 
 Date:
-TBD
+2026-07-29
 
 Summary:
-TBD
+fromis_9 took first place on MBC M's “Show Champion” with “Vitamin ME,” the title track from their second full album “Glow ME.”
 
 Image:
-TBD
+src/assets/images/Homepage/news-release-02.jpg
+
 
 Image Alt:
-TBD
+fromis_9 win on 'Show Champion' with 'Vitamin ME'
 
 Category:
-TBD
+Updates
 
 Source URL:
-TBD
+https://www.allkpop.com/article/2026/07/fromis-9-win-on-show-champion-with-vitamin-me
 
 Detail Page:
-TBD
+/news/fromis9-wins-show-champion-vitamin-me
 
 
 --- NEWS 03 ---
 
 Status:
-PLACEHOLDER
+PUBLISHED
 
 Slug:
-TBD
+fromis9-drops-vitamin-me-mv
 
 Title:
-TBD
+fromis_9 drops energizing MV for "Vitamin ME"
 
 Date:
-TBD
+2026-07-21
 
 Summary:
-TBD
+fromis_9 is back with an energizing MV for their newest track "Vitamin ME."
 
 Image:
-TBD
+src/assets/images/Homepage/news-release-03.jpg
 
 Image Alt:
-TBD
+fromis_9 drops energizing MV for "Vitamin ME"
 
 Category:
-TBD
+Releases
 
 Source URL:
-TBD
+https://www.allkpop.com/video/2026/07/fromis-9-drops-energizing-mv-for-vitamin-me
 
 Detail Page:
-TBD
+/news/fromis9-drops-vitamin-me-mv
 
 
 ==============================

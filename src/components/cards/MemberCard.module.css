@@ -14,8 +14,10 @@
 }
 
 .portrait {
+  display: block;
   width: 100%;
   aspect-ratio: 4 / 5;
+  object-fit: cover;
 }
 
 .fruitPlaceholder {
@@ -29,9 +31,7 @@
   border: 1px dashed var(--color-border-alt);
   border-radius: 50%;
   background: var(--color-white);
-  color: var(--color-text-muted);
-  font-size: 8px;
-  font-weight: 700;
+  font-size: 18px;
 }
 
 .overlay {

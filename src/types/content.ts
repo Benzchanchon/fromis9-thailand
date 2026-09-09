@@ -42,29 +42,53 @@ export interface NewsItem {
 
 export interface MemberSummary {
   slug: string;
-  name: string;
-  secondary: string;
-  imageLabel: string;
+  stageName: string;
+  fullName: string;
+  representativeEmoji: string;
+  imageSrc: string;
+  imageAlt: string;
 }
 
 export interface ProfileFact {
   label: string;
   value: string;
+  href?: string;
 }
 
-export interface PerformanceSummary {
+export type PerformanceCategory =
+  | "Music Show"
+  | "Concert"
+  | "Special Stage"
+  | "Cover"
+  | "Behind the Scenes"
+  | "Fancam"
+  | "Other";
+
+export interface PerformanceItem {
   id: string;
-  date: string;
   title: string;
-  imageLabel: string;
+  date: string;
+  category: PerformanceCategory;
+  videoUrl: string;
+  youtubeVideoId: string;
+  thumbnailAlt: string;
+  featured: boolean;
+  members: readonly string[];
+  summary: string;
+  description: string;
+  tags: readonly string[];
 }
 
 export interface MemberProfile extends MemberSummary {
+  koreanName: string;
+  dateOfBirth: string;
+  position: string;
+  height: string;
+  weight: string;
+  bloodType: string;
+  mbtiType: string;
+  instagramUrl: string;
   biography: string;
-  heroStatLabel: string;
-  heroStatValue: string;
-  profileFacts: ProfileFact[];
-  performances: PerformanceSummary[];
 }
 
 export interface ReleaseSummary {

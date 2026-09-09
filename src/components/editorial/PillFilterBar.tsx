@@ -9,9 +9,14 @@ interface FilterOption {
 interface PillFilterBarProps {
   options: readonly FilterOption[];
   ariaLabel: string;
+  onChange?: (id: string) => void;
 }
 
-export function PillFilterBar({ options, ariaLabel }: PillFilterBarProps) {
+export function PillFilterBar({
+  options,
+  ariaLabel,
+  onChange,
+}: PillFilterBarProps) {
   const [activeId, setActiveId] = useState(options[0]?.id ?? "");
 
   return (
@@ -23,10 +28,10 @@ export function PillFilterBar({ options, ariaLabel }: PillFilterBarProps) {
           }`.trim()}
           type="button"
           aria-pressed={option.id === activeId}
-          data-content-status={
-            option.id === "all" ? "interface-label" : "placeholder"
-          }
-          onClick={() => setActiveId(option.id)}
+          onClick={() => {
+            setActiveId(option.id);
+            onChange?.(option.id);
+          }}
           key={option.id}
         >
           {option.label}

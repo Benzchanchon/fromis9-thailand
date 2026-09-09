@@ -1,8 +1,8 @@
 .hero { min-height: 780px; padding-block: 80px; background: var(--color-surface-soft); }
 .heroGrid { display: grid; grid-template-columns: 480px 1fr; align-items: center; gap: 96px; }
 .portraitWrap { position: relative; }
-.portrait { width: 480px; aspect-ratio: 4 / 5; border-radius: 16px; }
-.fruit { position: absolute; top: 24px; right: -22px; display: grid; width: 64px; height: 64px; place-items: center; border: 1px dashed var(--color-cyan); border-radius: 50%; background: white; color: var(--color-cyan); font-size: 9px; }
+.portrait { display: block; width: 480px; aspect-ratio: 4 / 5; border-radius: 16px; object-fit: cover; }
+.fruit { position: absolute; top: 24px; right: -22px; display: grid; width: 64px; height: 64px; place-items: center; border: 1px solid var(--color-border-alt); border-radius: 50%; background: white; font-size: 28px; }
 .bio { max-width: 590px; }
 .eyebrow { color: var(--color-brand); font-size: 14px; font-weight: 700; letter-spacing: .1em; }
 .bio h1 { margin-top: 16px; font-size: 56px; line-height: 1.05; }

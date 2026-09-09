@@ -6,12 +6,12 @@ export function MemberNavigation({ previous, next }: { previous: MemberSummary; 
   return (
     <nav className={styles.navigation} aria-label="Member profiles">
       <Link to={`/members/${previous.slug}`} className={styles.item}>
-        <span className={styles.avatar} aria-hidden="true">asset</span>
-        <span><small>PREVIOUS MEMBER</small><strong>← {previous.name}</strong></span>
+        <img className={styles.avatar} src={previous.imageSrc} alt="" />
+        <span><small>PREVIOUS MEMBER</small><strong>← {previous.stageName}</strong></span>
       </Link>
       <Link to={`/members/${next.slug}`} className={`${styles.item} ${styles.next}`}>
-        <span><small>NEXT MEMBER</small><strong>{next.name} →</strong></span>
-        <span className={styles.avatar} aria-hidden="true">asset</span>
+        <span><small>NEXT MEMBER</small><strong>{next.stageName} →</strong></span>
+        <img className={styles.avatar} src={next.imageSrc} alt="" />
       </Link>
     </nav>
   );

@@ -1,0 +1,247 @@
+FROMIS_9 MEMBERS CONTENT
+==============================
+
+--- MEMBER 01 ---
+
+Slug:
+nagyung
+
+Stage Name:
+Nagyung (นากยอง)
+
+Full Name:
+Lee Na-gyung (อีนากยอง)
+
+Korean Name:
+이나경
+
+Date of Birth:
+2000-06-01
+
+Position:
+นักเต้นนำ, นักร้อง, แร็ปเปอร์, วิชวล
+
+Height:
+160 cm
+
+Weight:
+42 kg
+
+Blood Type:
+A
+
+MBTI Type:
+TBD
+
+Representative Emoji:
+🐣
+
+Instagram:
+https://www.instagram.com/blossomlng_0/
+
+Biography:
+อีนากยอง (Lee Na-gyung) เป็นสมาชิก fromis_9 ที่โดดเด่นด้วยเสน่ห์บนเวทีและภาพลักษณ์ที่เป็นเอกลักษณ์ เธอมีจุดแข็งทั้งด้านการเต้น การร้อง และการแสดงออกผ่านสีหน้า ทำให้สามารถถ่ายทอดคอนเซปต์ได้หลากหลาย ตั้งแต่ความสดใสไปจนถึงลุคที่มีเสน่ห์และมั่นใจ นากยองยังเป็นหนึ่งในสมาชิกที่ได้รับความสนใจจากแฟน ๆ ด้วยบุคลิกที่เป็นธรรมชาติและมีสีสันของตัวเอง
+
+Image:
+src/assets/images/Members/nagyung.jpg
+
+Image Alt:
+Nagyung from fromis_9
+
+==============================
+
+--- MEMBER 02 ---
+
+Slug:
+hayoung
+
+Stage Name:
+Hayoung (ฮายอง)
+
+Full Name:
+Song Ha-young (ซงฮายอง)
+
+Korean Name:
+송하영
+
+Date of Birth:
+1997-09-29
+
+Position:
+รองหัวหน้าวง (ผู้นำร่วม), นักร้องนำ, นักเต้นนำ
+
+Height:
+163 cm
+
+Weight:
+43 kg
+
+Blood Type:
+A
+
+MBTI Type:
+INFP
+
+Representative Emoji:
+🍞
+
+Instagram:
+https://www.instagram.com/shy9_29/
+
+Biography:
+ซงฮายอง (Song Ha-young) เป็นหนึ่งในกำลังสำคัญของ fromis_9 ทั้งด้านการร้องและการเต้น ด้วยน้ำเสียงที่มีเอกลักษณ์และทักษะการแสดงที่แข็งแรง เธอสามารถถ่ายทอดทั้งเพลงที่สดใสและเพลงที่ต้องใช้อารมณ์ได้อย่างเป็นธรรมชาติ นอกจากความสามารถบนเวทีแล้ว ฮายองยังมีบุคลิกที่อบอุ่นและเป็นกันเอง ซึ่งกลายเป็นเสน่ห์สำคัญที่ทำให้เธอได้รับความรักจากแฟน ๆ มาอย่างต่อเนื่อง
+
+Image:
+src/assets/images/Members/hayoung.jpg
+
+Image Alt:
+Hayoung from fromis_9
+
+==============================
+
+--- MEMBER 03 ---
+
+Slug:
+jiwon
+
+Stage Name:
+Jiwon (จีวอน)
+
+Full Name:
+Park Ji-won (พัคจีวอน)
+
+Korean Name:
+박지원
+
+Date of Birth:
+1998-03-20
+
+Position:
+นักร้องนำ
+
+Height:
+157 cm
+
+Weight:
+44 kg
+
+Blood Type:
+A
+
+MBTI Type:
+INTJ / ENTJ
+
+Representative Emoji:
+🐰
+
+Instagram:
+https://www.instagram.com/xjiwonparkx/
+
+Biography:
+พัคจีวอน (Park Ji-won) เป็นสมาชิกที่โดดเด่นด้านพลังเสียงและการถ่ายทอดอารมณ์ผ่านการร้อง ด้วยเสียงที่แข็งแรงและมีเอกลักษณ์ เธอเป็นหนึ่งในสีสันสำคัญของเพลง fromis_9 ทั้งในท่อนที่ต้องใช้พลังและช่วงที่ต้องการความละเอียดอ่อน นอกเวที จีวอนยังเป็นที่รู้จักจากบุคลิกที่มีพลัง สนุกสนาน และเป็นธรรมชาติ ทำให้เธอสร้างบรรยากาศที่สดใสให้กับวงอยู่เสมอ
+
+Image:
+src/assets/images/Members/jiwon.jpg
+
+Image Alt:
+Jiwon from fromis_9
+
+==============================
+
+--- MEMBER 04 ---
+
+Slug:
+chaeyoung
+
+Stage Name:
+Chaeyoung (แชยอง)
+
+Full Name:
+Lee Chae-young (อีแชยอง)
+
+Korean Name:
+이채영
+
+Date of Birth:
+2000-05-14
+
+Position:
+นักเต้นหลัก, แร็ปเปอร์นำ, นักร้อง
+
+Height:
+168 cm
+
+Weight:
+48 kg
+
+Blood Type:
+B
+
+MBTI Type:
+INFJ
+
+Representative Emoji:
+🐿️
+
+Instagram:
+https://www.instagram.com/chaengrang_/
+
+Biography:
+อีแชยอง (Lee Chae-young) เป็นสมาชิกที่โดดเด่นด้วยการแสดงบนเวทีที่เต็มไปด้วยพลังและความมั่นใจ เธอมีจุดแข็งด้านการเต้น พร้อมทั้งสามารถถ่ายทอดทั้งการร้องและแร็ปได้อย่างลงตัว ทำให้เป็นสมาชิกที่ช่วยเพิ่มมิติให้กับการแสดงของ fromis_9 แชยองยังมีบุคลิกที่สดใส เป็นกันเอง และมีอารมณ์ขัน ซึ่งทำให้เธอเป็นหนึ่งในสมาชิกที่สร้างสีสันให้กับวงทั้งบนเวทีและนอกเวที
+
+Image:
+src/assets/images/Members/chaeyoung.jpg
+
+Image Alt:
+Chaeyoung from fromis_9
+
+==============================
+
+--- MEMBER 05 ---
+
+Slug:
+jiheon
+
+Stage Name:
+Jiheon (จีฮอน)
+
+Full Name:
+Baek Ji-heon (แพคจีฮอน)
+
+Korean Name:
+백지헌
+
+Date of Birth:
+2003-04-17
+
+Position:
+นักร้องนำ, มักเน่
+
+Height:
+166 cm
+
+Weight:
+45 kg
+
+Blood Type:
+B
+
+MBTI Type:
+INFJ / ENFJ
+
+Representative Emoji:
+🍯
+
+Instagram:
+https://www.instagram.com/jiheonnibaek/
+
+Biography:
+แพคจีฮอน (Baek Ji-heon) เป็นสมาชิกที่อายุน้อยที่สุดของ fromis_9 และเติบโตให้แฟน ๆ ได้เห็นพัฒนาการมาตั้งแต่ช่วงเริ่มต้นของวง เธอโดดเด่นด้วยภาพลักษณ์สดใส รอยยิ้มที่เป็นเอกลักษณ์ และเสน่ห์บนเวทีที่พัฒนาขึ้นอย่างต่อเนื่อง นอกจากการร้องและการแสดงแล้ว จีฮอนยังมีบุคลิกที่สุขุมและมีความมุ่งมั่น ทำให้เธอเป็นอีกหนึ่งสีสันสำคัญของ fromis_9 ในปัจจุบัน
+
+Image:
+src/assets/images/Members/jiheon.jpg
+
+Image Alt:
+Jiheon from fromis_9
+
+==============================

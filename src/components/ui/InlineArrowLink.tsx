@@ -5,9 +5,14 @@ import styles from "./InlineArrowLink.module.css";
 interface InlineArrowLinkProps {
   children: ReactNode;
   href?: string;
+  openInNewTab?: boolean;
 }
 
-export function InlineArrowLink({ children, href }: InlineArrowLinkProps) {
+export function InlineArrowLink({
+  children,
+  href,
+  openInNewTab = false,
+}: InlineArrowLinkProps) {
   const content = (
     <>
       <span>{children}</span>
@@ -26,7 +31,12 @@ export function InlineArrowLink({ children, href }: InlineArrowLinkProps) {
       );
     }
     return (
-      <a className={styles.link} href={href}>
+      <a
+        className={styles.link}
+        href={href}
+        target={openInNewTab ? "_blank" : undefined}
+        rel={openInNewTab ? "noopener noreferrer" : undefined}
+      >
         {content}
       </a>
     );

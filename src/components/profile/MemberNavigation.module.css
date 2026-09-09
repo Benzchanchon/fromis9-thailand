@@ -4,4 +4,4 @@
 .item small { color: var(--color-text-muted); font-size: 10px; font-weight: 700; letter-spacing: .08em; }
 .item strong { font-size: 17px; }
 .next { text-align: right; }
-.avatar { display: grid; width: 54px; height: 54px; place-items: center; border: 1px dashed var(--color-border-alt); border-radius: 50%; color: var(--color-text-muted); font-size: 8px; }
+.avatar { display: block; width: 54px; height: 54px; border-radius: 50%; object-fit: cover; }

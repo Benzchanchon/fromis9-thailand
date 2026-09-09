@@ -1,4 +1,6 @@
 import newsReleaseImage from "../assets/images/Homepage/news-release-01.jpg";
+import newsReleaseImage02 from "../assets/images/Homepage/news-release-02.jpg";
+import newsReleaseImage03 from "../assets/images/Homepage/news-release-03.jpg";
 import type { NewsArticleBlock, NewsItem } from "../types/content";
 
 export const placeholderArticleBlocks: readonly NewsArticleBlock[] = [
@@ -62,24 +64,38 @@ const publishedNewsItem: NewsItem = {
   articleBlocks: placeholderArticleBlocks,
 };
 
-const homePlaceholderNewsItems: NewsItem[] = [
+const publishedNewsItems: NewsItem[] = [
+  publishedNewsItem,
   {
-    id: "news-placeholder-02",
-    status: "placeholder",
-    date: "DATE PENDING",
-    title: "News headline pending Figma content export",
+    id: "fromis9-wins-show-champion-vitamin-me",
+    status: "published",
+    slug: "fromis9-wins-show-champion-vitamin-me",
+    date: "2026-07-29",
+    title: "fromis_9 win on 'Show Champion' with 'Vitamin ME'",
     summary:
-      "Editorial summary unavailable while structured Figma access is rate-limited.",
-    imageLabel: "Latest news image 02",
+      "fromis_9 took first place on MBC M's “Show Champion” with “Vitamin ME,” the title track from their second full album “Glow ME.”",
+    imageLabel: "fromis_9 win on 'Show Champion' with 'Vitamin ME'",
+    imageSrc: newsReleaseImage02,
+    imageAlt: "fromis_9 win on 'Show Champion' with 'Vitamin ME'",
+    category: "Updates",
+    sourceUrl:
+      "https://www.allkpop.com/article/2026/07/fromis-9-win-on-show-champion-with-vitamin-me",
+    articleBlocks: placeholderArticleBlocks,
   },
   {
-    id: "news-placeholder-03",
-    status: "placeholder",
-    date: "DATE PENDING",
-    title: "News headline pending Figma content export",
-    summary:
-      "Editorial summary unavailable while structured Figma access is rate-limited.",
-    imageLabel: "Latest news image 03",
+    id: "fromis9-drops-vitamin-me-mv",
+    status: "published",
+    slug: "fromis9-drops-vitamin-me-mv",
+    date: "2026-07-21",
+    title: 'fromis_9 drops energizing MV for "Vitamin ME"',
+    summary: 'fromis_9 is back with an energizing MV for their newest track "Vitamin ME."',
+    imageLabel: 'fromis_9 drops energizing MV for "Vitamin ME"',
+    imageSrc: newsReleaseImage03,
+    imageAlt: 'fromis_9 drops energizing MV for "Vitamin ME"',
+    category: "Releases",
+    sourceUrl:
+      "https://www.allkpop.com/video/2026/07/fromis-9-drops-energizing-mv-for-vitamin-me",
+    articleBlocks: placeholderArticleBlocks,
   },
 ];
 
@@ -101,12 +117,11 @@ const archivePlaceholderNewsItems: NewsItem[] = Array.from(
 );
 
 export const newsItems: NewsItem[] = [
-  publishedNewsItem,
-  ...homePlaceholderNewsItems,
+  ...publishedNewsItems,
   ...archivePlaceholderNewsItems,
 ];
 
-export const homeLatestNewsItems = newsItems.slice(0, 3);
+export const homeLatestNewsItems = publishedNewsItems.slice(0, 3);
 
 export const newsPageContent = {
   eyebrow: "NEWS",
@@ -116,12 +131,21 @@ export const newsPageContent = {
   archiveTitle: "Latest News",
 } as const;
 
+const publishedCategories = Array.from(
+  new Set(
+    publishedNewsItems.flatMap((item) =>
+      item.category ? [item.category] : [],
+    ),
+  ),
+);
+
 export const newsFilters = [
   { id: "all", label: "All" },
-  { id: "tour", label: "Tour" },
-  { id: "category-placeholder-01", label: "Category pending 01" },
-  { id: "category-placeholder-02", label: "Category pending 02" },
-] as const;
+  ...publishedCategories.map((category) => ({
+    id: category,
+    label: category,
+  })),
+];
 
 export function getNewsBySlug(slug?: string) {
   return newsItems.find((item) => item.slug === slug);
@@ -157,7 +181,7 @@ export function getNewsNavigation(slug: string) {
 }
 
 export const featuredNews = {
-  eyebrow: publishedNewsItem.category?.toUpperCase() ?? "NEWS",
+  eyebrow: publishedNewsItem.category ?? "NEWS",
   date: publishedNewsItem.date,
   title: publishedNewsItem.title,
   summary: publishedNewsItem.summary,

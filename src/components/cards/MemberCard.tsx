@@ -1,5 +1,4 @@
 import type { MemberSummary } from "../../types/content";
-import { AssetPlaceholder } from "../ui/AssetPlaceholder";
 import { InlineArrowLink } from "../ui/InlineArrowLink";
 import { PillButton } from "../ui/PillButton";
 import styles from "./MemberCard.module.css";
@@ -20,14 +19,17 @@ export function MemberCard({
   return (
     <article className={`${styles.card} ${presentationClass}`.trim()}>
       <div className={styles.portraitWrap}>
-        <AssetPlaceholder className={styles.portrait} label={member.imageLabel} />
+        <img
+          className={styles.portrait}
+          src={member.imageSrc}
+          alt={member.imageAlt}
+        />
         <span
           className={styles.fruitPlaceholder}
-          data-asset-status="figma-export-pending"
-          title="Fruit badge asset pending"
-          aria-label="Fruit badge asset pending"
+          title="Representative emoji"
+          aria-label={`${member.stageName} representative emoji`}
         >
-          asset
+          {member.representativeEmoji}
         </span>
         <div className={styles.overlay}>
           <PillButton href={profileHref} variant="overlay">
@@ -36,8 +38,8 @@ export function MemberCard({
         </div>
       </div>
       <div className={styles.identity}>
-        <h3>{member.name}</h3>
-        <p>{member.secondary}</p>
+        <h3>{member.stageName}</h3>
+        <p>{member.fullName}</p>
         {isMembersPage ? (
           <div className={styles.profileLink}>
             <InlineArrowLink href={profileHref}>View Profile</InlineArrowLink>

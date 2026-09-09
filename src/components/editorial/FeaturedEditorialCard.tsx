@@ -9,9 +9,11 @@ interface FeaturedEditorialItem {
   summary: string;
   imageLabel: string;
   imageSrc?: string;
+  imageFallbackSrc?: string;
   imageAlt?: string;
   actionText: string;
   actionHref: string | null;
+  actionExternal?: boolean;
 }
 
 interface FeaturedEditorialCardProps {
@@ -26,6 +28,14 @@ export function FeaturedEditorialCard({ item }: FeaturedEditorialCardProps) {
           className={styles.media}
           src={item.imageSrc}
           alt={item.imageAlt}
+          onError={
+            item.imageFallbackSrc
+              ? (event) => {
+                  event.currentTarget.onerror = null;
+                  event.currentTarget.src = item.imageFallbackSrc!;
+                }
+              : undefined
+          }
         />
       ) : (
         <AssetPlaceholder className={styles.media} label={item.imageLabel} />
@@ -35,7 +45,11 @@ export function FeaturedEditorialCard({ item }: FeaturedEditorialCardProps) {
         <span className={styles.date}>{item.date}</span>
         <h2>{item.title}</h2>
         <p>{item.summary}</p>
-        <PillButton href={item.actionHref ?? undefined} disabled={!item.actionHref}>
+        <PillButton
+          href={item.actionHref ?? undefined}
+          disabled={!item.actionHref}
+          openInNewTab={item.actionExternal}
+        >
           {item.actionText}
         </PillButton>
       </div>
