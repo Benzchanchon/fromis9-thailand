@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { socialLinks } from "../../data/site";
+import { SocialIconLink } from "../ui/SocialIconLink";
 import { ContentRail } from "./ContentRail";
 import styles from "./Navbar.module.css";
 
@@ -54,16 +55,13 @@ export function Navbar({ activeRoute = "home" }: NavbarProps) {
 
         <div className={styles.socials} aria-label="Social links">
           {socialLinks.map((item) => (
-            <a
-              className={styles.iconPlaceholder}
-              data-asset-status="figma-export-pending"
+            <SocialIconLink
+              platform={item.id}
               href={item.href}
-              title={item.label}
-              aria-label={`${item.label} social link`}
+              label={item.label}
+              variant="header"
               key={item.id}
-            >
-              asset
-            </a>
+            />
           ))}
         </div>
       </ContentRail>

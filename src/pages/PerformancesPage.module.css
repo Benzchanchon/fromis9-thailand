@@ -37,6 +37,10 @@
   background: var(--color-white);
 }
 
+.gridSection:last-child {
+  padding-bottom: 64px;
+}
+
 .performanceGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

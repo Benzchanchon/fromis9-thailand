@@ -32,7 +32,9 @@
 
   --shadow-card: 0 10px 30px rgba(17, 17, 19, 0.06);
   --shadow-card-hover: 0 16px 38px rgba(17, 17, 19, 0.1);
+  --shadow-control-hover: 0 10px 22px rgba(255, 94, 133, 0.22);
 
   --transition-fast: 160ms ease;
+  --transition-interactive: 200ms ease;
 }
 

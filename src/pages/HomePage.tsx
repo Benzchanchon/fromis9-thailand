@@ -63,8 +63,8 @@ export function HomePage() {
               {homeLatestNewsItems.map((item) => (
                 <NewsCard
                   item={item}
-                  href={item.slug ? getNewsDetailPath(item.slug) : undefined}
-                  key={item.id}
+                  href={getNewsDetailPath(item.slug)}
+                  key={item.slug}
                 />
               ))}
             </div>

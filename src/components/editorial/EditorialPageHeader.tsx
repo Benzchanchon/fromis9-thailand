@@ -1,3 +1,7 @@
+import {
+  PageHeaderDecoration,
+  type PageHeaderDecorationVariant,
+} from "./PageHeaderDecoration";
 import styles from "./EditorialPageHeader.module.css";
 
 interface EditorialPageHeaderProps {
@@ -5,6 +9,7 @@ interface EditorialPageHeaderProps {
   title: string;
   subtitle: string;
   headingId: string;
+  decorationVariant: PageHeaderDecorationVariant;
 }
 
 export function EditorialPageHeader({
@@ -12,16 +17,11 @@ export function EditorialPageHeader({
   title,
   subtitle,
   headingId,
+  decorationVariant,
 }: EditorialPageHeaderProps) {
   return (
     <div className={styles.header}>
-      <span
-        className={`${styles.decoration} ${styles.decorationLeft}`}
-        data-asset-status="figma-export-pending"
-        aria-label="Left page-header decoration asset pending"
-      >
-        asset
-      </span>
+      <PageHeaderDecoration variant={decorationVariant} side="left" />
       <div className={styles.eyebrowRow}>
         <span className={styles.rule} aria-hidden="true" />
         <span className={styles.eyebrow}>{eyebrow}</span>
@@ -29,13 +29,7 @@ export function EditorialPageHeader({
       </div>
       <h1 id={headingId}>{title}</h1>
       <p>{subtitle}</p>
-      <span
-        className={`${styles.decoration} ${styles.decorationRight}`}
-        data-asset-status="figma-export-pending"
-        aria-label="Right page-header decoration asset pending"
-      >
-        asset
-      </span>
+      <PageHeaderDecoration variant={decorationVariant} side="right" />
     </div>
   );
 }

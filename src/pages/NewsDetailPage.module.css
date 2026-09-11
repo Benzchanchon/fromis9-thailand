@@ -10,24 +10,26 @@
 
 .heroSection {
   background: var(--color-white);
-  padding-bottom: 96px;
+  padding-bottom: 80px;
 }
 
 .heroImage {
-  width: 100%;
+  display: block;
+  width: min(1040px, 100%);
   aspect-ratio: 2 / 1;
+  margin-inline: auto;
   border-radius: var(--radius-card);
   object-fit: cover;
 }
 
 .bodySection {
   background: var(--color-white);
-  padding-bottom: 120px;
+  padding-bottom: 32px;
 }
 
 .relatedSection {
   background: var(--color-surface-soft);
-  padding-block: 72px 96px;
+  padding-block: 40px 96px;
 }
 
 .relatedHeading {

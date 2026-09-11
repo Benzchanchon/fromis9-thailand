@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { NewsCard } from "../components/cards/NewsCard";
 import { EditorialPageHeader } from "../components/editorial/EditorialPageHeader";
 import { FeaturedEditorialCard } from "../components/editorial/FeaturedEditorialCard";
@@ -15,10 +16,24 @@ import {
   newsFilters,
   newsItems,
   newsPageContent,
+  sortNewsByDateDesc,
 } from "../data/news";
 import styles from "./NewsPage.module.css";
 
+const initialVisibleNewsCount = 6;
+const loadMoreNewsBatchSize = 6;
+
 export function NewsPage() {
+  const [activeFilter, setActiveFilter] = useState("all");
+  const [visibleCount, setVisibleCount] = useState(initialVisibleNewsCount);
+  const filteredNews =
+    activeFilter === "all"
+      ? newsItems
+      : newsItems.filter((item) => item.category === activeFilter);
+  const sortedNews = sortNewsByDateDesc(filteredNews);
+  const visibleNews = sortedNews.slice(0, visibleCount);
+  const hasMoreNews = visibleCount < filteredNews.length;
+
   return (
     <>
       <Navbar activeRoute="news" />
@@ -33,13 +48,21 @@ export function NewsPage() {
               title={newsPageContent.title}
               subtitle={newsPageContent.subtitle}
               headingId="news-page-heading"
+              decorationVariant="news"
             />
           </ContentRail>
         </section>
 
         <section className={styles.filterSection} aria-label="Filters">
           <ContentRail className={styles.centeredRail}>
-            <PillFilterBar options={newsFilters} ariaLabel="News filters" />
+            <PillFilterBar
+              options={newsFilters}
+              ariaLabel="News filters"
+              onChange={(filterId) => {
+                setActiveFilter(filterId);
+                setVisibleCount(initialVisibleNewsCount);
+              }}
+            />
           </ContentRail>
         </section>
 
@@ -67,20 +90,32 @@ export function NewsPage() {
         <section className={styles.gridSection} aria-label="Latest news archive">
           <ContentRail>
             <div className={styles.newsGrid}>
-              {newsItems.map((item) => (
+              {visibleNews.map((item) => (
                 <NewsCard
                   item={item}
-                  href={item.slug ? getNewsDetailPath(item.slug) : undefined}
-                  key={item.id}
+                  href={getNewsDetailPath(item.slug)}
+                  key={item.slug}
                 />
               ))}
             </div>
           </ContentRail>
         </section>
 
-        <section className={styles.loadMoreSection} aria-label="More news">
-          <LoadMoreButton label={loadMoreNewsLabel} disabled />
-        </section>
+        {hasMoreNews ? (
+          <section className={styles.loadMoreSection} aria-label="More news">
+            <LoadMoreButton
+              label={loadMoreNewsLabel}
+              onClick={() => {
+                setVisibleCount((currentCount) =>
+                  Math.min(
+                    currentCount + loadMoreNewsBatchSize,
+                    filteredNews.length,
+                  ),
+                );
+              }}
+            />
+          </section>
+        ) : null}
       </main>
       <RainbowVitaminStrip />
       <Footer />

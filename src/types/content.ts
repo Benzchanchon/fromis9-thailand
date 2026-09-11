@@ -1,43 +1,22 @@
-export type ContentStatus = "published" | "placeholder";
-
-export type NewsArticleBlock =
-  | {
-      id: string;
-      type: "paragraph";
-      text: string;
-    }
-  | {
-      id: string;
-      type: "heading";
-      text: string;
-    }
-  | {
-      id: string;
-      type: "callout";
-      text: string;
-    }
-  | {
-      id: string;
-      type: "media";
-      imageLabel: string;
-      imageSrc?: string;
-      imageAlt?: string;
-      caption?: string;
-    };
+export type NewsCategory =
+  | "Releases"
+  | "Updates"
+  | "Tour"
+  | "Events"
+  | "Other";
 
 export interface NewsItem {
-  id: string;
-  status: ContentStatus;
-  slug?: string;
-  date: string;
+  slug: string;
   title: string;
+  date: string;
+  category: NewsCategory;
+  featured: boolean;
+  image: string;
+  imageAlt: string;
   summary: string;
-  imageLabel: string;
-  imageSrc?: string;
-  imageAlt?: string;
-  category?: string;
-  sourceUrl?: string;
-  articleBlocks?: readonly NewsArticleBlock[];
+  article: readonly string[];
+  sourceName: string;
+  sourceUrl: string;
 }
 
 export interface MemberSummary {
@@ -56,12 +35,10 @@ export interface ProfileFact {
 }
 
 export type PerformanceCategory =
-  | "Music Show"
-  | "Concert"
+  | "MV"
   | "Special Stage"
   | "Cover"
   | "Behind the Scenes"
-  | "Fancam"
   | "Other";
 
 export interface PerformanceItem {

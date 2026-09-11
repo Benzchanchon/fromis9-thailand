@@ -66,3 +66,25 @@ ul {
 ::selection {
   background: color-mix(in srgb, var(--color-brand) 28%, white);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  :is(a, button):is(:hover, :active, :focus-visible),
+  :is(a, button):is(:hover, :active, :focus-visible) *,
+  :is(a, button):is(:hover, :active, :focus-visible)::before,
+  :is(a, button):is(:hover, :active, :focus-visible)::after {
+    transform: none !important;
+  }
+}

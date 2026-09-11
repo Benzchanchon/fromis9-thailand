@@ -42,26 +42,3 @@
   font-size: 16px;
   line-height: 1.55;
 }
-
-.decoration {
-  position: absolute;
-  top: 50%;
-  display: grid;
-  width: 48px;
-  height: 48px;
-  place-items: center;
-  border: 1px dashed var(--color-cyan);
-  border-radius: 50%;
-  color: var(--color-cyan);
-  font-size: 8px;
-  font-weight: 700;
-  transform: translateY(-50%);
-}
-
-.decorationLeft {
-  right: calc(100% + 48px);
-}
-
-.decorationRight {
-  left: calc(100% + 48px);
-}

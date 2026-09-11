@@ -1,4 +1,5 @@
 import { MemberCard } from "../components/cards/MemberCard";
+import { PageHeaderDecoration } from "../components/editorial/PageHeaderDecoration";
 import { ContentRail } from "../components/layout/ContentRail";
 import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
@@ -14,31 +15,16 @@ export function MembersPage() {
       <main>
         <section className={styles.header} aria-labelledby="members-page-heading">
           <ContentRail className={styles.headerRail}>
-            <div
-              className={styles.headerHeading}
-              data-asset-status="members-header-decoration-pending"
-            >
-              <span
-                className={`${styles.decorationPlaceholder} ${styles.decorationLeft}`}
-                data-asset-status="figma-export-pending"
-                aria-label="Left Members header decoration asset pending"
-              >
-                asset
-              </span>
+            <div className={styles.headerHeading}>
+              <PageHeaderDecoration variant="members" side="left" />
               <SectionHeading
                 title="Members"
-                subtitle="Members introduction pending approved Figma content export."
+                subtitle="ทำความรู้จักสมาชิกทั้ง 5 คนของ fromis_9 พร้อมประวัติและข้อมูลต่างๆ"
                 align="center"
                 level={1}
                 headingId="members-page-heading"
               />
-              <span
-                className={`${styles.decorationPlaceholder} ${styles.decorationRight}`}
-                data-asset-status="figma-export-pending"
-                aria-label="Right Members header decoration asset pending"
-              >
-                asset
-              </span>
+              <PageHeaderDecoration variant="members" side="right" />
             </div>
           </ContentRail>
         </section>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { footerContent, socialLinks } from "../../data/site";
+import { SocialIconLink } from "../ui/SocialIconLink";
 import { ContentRail } from "./ContentRail";
 import styles from "./Footer.module.css";
 
@@ -42,16 +43,13 @@ export function Footer() {
             <h2>SOCIAL</h2>
             <div className={styles.socials}>
               {socialLinks.map((item) => (
-                <a
-                  className={styles.iconPlaceholder}
-                  data-asset-status="figma-export-pending"
+                <SocialIconLink
+                  platform={item.id}
                   href={item.href}
-                  title={item.label}
-                  aria-label={`${item.label} social link`}
+                  label={item.label}
+                  variant="footer"
                   key={item.id}
-                >
-                  asset
-                </a>
+                />
               ))}
             </div>
           </div>

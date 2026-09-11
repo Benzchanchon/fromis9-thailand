@@ -1,15 +1,63 @@
 FROMIS_9 PERFORMANCES CONTENT
 Category:
-Music Show
-Concert
+MV
 Special Stage
 Cover
 Behind the Scenes
-Fancam
 Other
 ==============================
 
 --- PERFORMANCE 01 ---
+
+ID:
+fm-1-24-esquire-behind-2026-09-10
+
+Title:
+[FM_1.24] What's up, hey Ladies 🩸 เบื้องหลังการถ่ายนิตยสาร Esquire
+
+Date:
+2026-09-10
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=5OiZCZo6aTc
+
+YouTube Video ID:
+5OiZCZo6aTc
+
+Thumbnail Alt:
+เบื้องหลังแชยอง นากยอง และจีฮอน fromis_9 ถ่ายนิตยสาร Esquire
+
+Featured:
+YES
+
+Members:
+nagyung
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแฟชั่นของแชยอง นากยอง และจีฮอนจาก fromis_9 ให้กับนิตยสาร Esquire พร้อมลุคโดดเด่นและโมเมนต์ระหว่างการทำงาน
+
+Description:
+ติดตามแชยอง นากยอง และจีฮอนในกองถ่ายแฟชั่นของนิตยสาร Esquire ตั้งแต่การเตรียมลุค การโพสหน้ากล้อง ไปจนถึงช่วงพักระหว่างเซตที่เผยเคมีและเสน่ห์เฉพาะตัวของทั้งสามคน
+
+เบื้องหลังชุดนี้พาไปเห็นอีกมุมของสมาชิกผ่านคอนเซ็ปต์ที่มั่นใจและโดดเด่น พร้อมบรรยากาศการทำงานที่เป็นธรรมชาติหลังภาพแฟชั่นฉบับสมบูรณ์ 🩸✨
+
+Tags:
+fromis_9
+프로미스나인
+Esquire
+FM_1_24
+LEECHAEYOUNG
+LEENAGYUNG
+BAEKJIHEON
+
+==============================
+
+--- PERFORMANCE 02 ---
 
 ID:
 fm-1-24-vitamin-me-behind-2026-08-31
@@ -59,7 +107,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 02 ---
+--- PERFORMANCE 03 ---
 
 ID:
 fm-1-24-vitamin-me-recording-behind-2026-08-21
@@ -109,7 +157,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 03 ---
+--- PERFORMANCE 04 ---
 
 ID:
 fm-1-24-vitamin-me-behind-2026-08-11
@@ -159,7 +207,99 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 04 ---
+--- PERFORMANCE 05 ---
+
+ID:
+fm-1-24-hayoung-golden-hamster-2026-08-06
+
+Title:
+[FM_1.24] ฮายองมาในร่างแฮมสเตอร์ทองแล้วเหมียว 🐹
+
+Date:
+2026-08-06
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=FBDUAFX2-3Q
+
+YouTube Video ID:
+FBDUAFX2-3Q
+
+Thumbnail Alt:
+เบื้องหลังฮายอง fromis_9 ในลุคแฮมสเตอร์สีทอง
+
+Featured:
+YES
+
+Members:
+hayoung
+
+Summary:
+ติดตามฮายองจาก fromis_9 ในคอนเทนต์เบื้องหลังลุคแฮมสเตอร์สีทอง พร้อมบรรยากาศการถ่ายทำและโมเมนต์น่ารักเป็นกันเองของเธอ
+
+Description:
+ติดตามฮายองในคอนเทนต์เบื้องหลังลุคแฮมสเตอร์สีทอง ตั้งแต่การเตรียมตัวหน้ากล้อง ไปจนถึงโมเมนต์สบาย ๆ ระหว่างการถ่ายทำที่ได้เห็นเสน่ห์น่ารักและความเป็นกันเองของเธอ
+
+อีกหนึ่งคลิปเดี่ยวของฮายองที่รวบรวมทั้งบรรยากาศการทำงานและช่วงเวลาขี้เล่นไว้ในสไตล์ FM_1.24 🐹✨
+
+Tags:
+fromis_9
+프로미스나인
+SONGHAYOUNG
+하영
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 06 ---
+
+ID:
+fm-1-24-nagyung-puppy-2026-08-05
+
+Title:
+[FM_1.24] นากยองมาในร่างลูกสุนัขแล้วโฮ่ง 🐶
+
+Date:
+2026-08-05
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=Fp7NLwOnyZo
+
+YouTube Video ID:
+Fp7NLwOnyZo
+
+Thumbnail Alt:
+เบื้องหลังนากยอง fromis_9 ในคอนเทนต์ลุคลูกสุนัข
+
+Featured:
+YES
+
+Members:
+nagyung
+
+Summary:
+ติดตามนากยองจาก fromis_9 ในคอนเทนต์เบื้องหลังลุคลูกสุนัข พร้อมบรรยากาศสบาย ๆ และโมเมนต์ขี้เล่นของเธอระหว่างการถ่ายทำ
+
+Description:
+ติดตามนากยองในคอนเทนต์เบื้องหลังลุคลูกสุนัข ตั้งแต่ช่วงเตรียมตัวไปจนถึงโมเมนต์ระหว่างพักที่เผยให้เห็นความสดใสและความขี้เล่นของเธออย่างเป็นธรรมชาติ
+
+คลิปเดี่ยวที่ชวน flover ไปชมบรรยากาศสบาย ๆ และเสน่ห์ของนากยองในอีกมุมผ่านสไตล์ FM_1.24 🐶💛
+
+Tags:
+fromis_9
+프로미스나인
+LEENAGYUNG
+나경
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 07 ---
 
 ID:
 fm-vitamin-performance-2026-08-02
@@ -208,7 +348,7 @@ GlowME
 
 ==============================
 
---- PERFORMANCE 05 ---
+--- PERFORMANCE 08 ---
 
 ID:
 fm-1-24-vitamin-me-behind-2026-07-29
@@ -258,7 +398,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 06 ---
+--- PERFORMANCE 09 ---
 
 ID:
 answer-me-fromis-9-2026-07-27
@@ -308,7 +448,7 @@ AnswerME
 
 ==============================
 
---- PERFORMANCE 07 ---
+--- PERFORMANCE 10 ---
 
 ID:
 fm-1-24-glow-me-jacket-behind-2026-07-22
@@ -358,7 +498,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 08 ---
+--- PERFORMANCE 11 ---
 
 ID:
 fanchant-vitamin-me-2026-07-21
@@ -408,7 +548,7 @@ Fanchant
 
 ==============================
 
---- PERFORMANCE 09 ---
+--- PERFORMANCE 12 ---
 
 ID:
 vitamin-me-mv-2026-07-21
@@ -420,7 +560,7 @@ Date:
 2026-07-21
 
 Category:
-Other
+MV
 
 Video URL:
 https://www.youtube.com/watch?v=sLk8zWUuYTA
@@ -458,7 +598,7 @@ MV
 
 ==============================
 
---- PERFORMANCE 10 ---
+--- PERFORMANCE 13 ---
 
 ID:
 fm-1-24-k-pulse-hanoi-2026-07-18
@@ -508,7 +648,53 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 11 ---
+--- PERFORMANCE 14 ---
+
+ID:
+fm-1-24-hayoung-young-street-dj-2026-07-12
+
+Title:
+[FM_1.24] ฮายองกับภารกิจดีเจพิเศษ Young Street 🎧
+
+Date:
+2026-07-12
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=7Fy7_L2hIlM
+
+YouTube Video ID:
+7Fy7_L2hIlM
+
+Thumbnail Alt:
+เบื้องหลังฮายอง fromis_9 รับหน้าที่ดีเจพิเศษรายการ Young Street
+
+Featured:
+YES
+
+Members:
+hayoung
+
+Summary:
+พาไปชมเบื้องหลังของฮายองจาก fromis_9 ระหว่างรับหน้าที่ดีเจพิเศษในรายการ Young Street ตั้งแต่การเตรียมตัวจนถึงบรรยากาศในสตูดิโอ
+
+Description:
+ติดตามฮายองตั้งแต่การเตรียมสคริปต์และซ้อมก่อนออกอากาศ ไปจนถึงบรรยากาศจริงในสตูดิโอระหว่างรับหน้าที่ดีเจพิเศษของรายการ Young Street
+
+เบื้องหลังที่เผยทั้งความตั้งใจ การแก้สถานการณ์เฉพาะหน้า และเสน่ห์การดำเนินรายการของฮายองตลอดภารกิจดีเจครั้งนี้ 🎧📻
+
+Tags:
+fromis_9
+프로미스나인
+SONGHAYOUNG
+YoungStreet
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 15 ---
 
 ID:
 fm-1-24-nagyung-DoosanBearsears-2026-07-11
@@ -555,7 +741,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 12 ---
+--- PERFORMANCE 16 ---
 
 ID:
 fm-1-24-jiwon-health-helper-2026-07-05
@@ -603,7 +789,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 13 ---
+--- PERFORMANCE 17 ---
 
 ID:
 fm-1-24-miimca-teleca-2026-07-02
@@ -654,7 +840,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 14 ---
+--- PERFORMANCE 18 ---
 
 ID:
 fm-1-24-jiheon-spao-2026-06-19
@@ -702,7 +888,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 15 ---
+--- PERFORMANCE 19 ---
 
 ID:
 fm-1-24-university-festival-2026-06-16
@@ -753,7 +939,7 @@ FM_1_24
 
 ==============================
 
---- PERFORMANCE 16 ---
+--- PERFORMANCE 20 ---
 
 ID:
 fly-list-nagyung-cover-2026-06-01
@@ -802,7 +988,7 @@ fl_ylist
 
 ==============================
 
---- PERFORMANCE 17 ---
+--- PERFORMANCE 21 ---
 
 ID:
 fm-1-24-busan-2026-05-29
@@ -851,5 +1037,2505 @@ JIHEON
 Longchamp
 Busan
 FM_1_24
+
+==============================
+
+--- PERFORMANCE 22 ---
+
+ID:
+fm-1-24-chaeyoung-green-cup-behind-2026-05-17
+
+Title:
+[FM_1.24] แชยองกับเบื้องหลังงาน The Green Cup 🍀⛳️
+
+Date:
+2026-05-17
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=r2EaTjXlHbI
+
+YouTube Video ID:
+r2EaTjXlHbI
+
+Thumbnail Alt:
+เบื้องหลังแชยอง fromis_9 ร่วมงาน The Green Cup
+
+Featured:
+YES
+
+Members:
+chaeyoung
+
+Summary:
+พาไปชมเบื้องหลังของแชยองจาก fromis_9 ระหว่างร่วมงาน The Green Cup พร้อมบรรยากาศในสนามกอล์ฟและโมเมนต์สดใสตลอดตารางงาน
+
+Description:
+พาไปชมแชยองระหว่างร่วมงาน The Green Cup ตั้งแต่การเตรียมตัวก่อนเริ่มกิจกรรม ไปจนถึงบรรยากาศในสนามกอล์ฟและโมเมนต์สนุก ๆ ตลอดตารางงาน
+
+คอนเทนต์เบื้องหลังที่ได้เห็นความสดใสและความเป็นธรรมชาติของแชยองในวันที่กิจกรรมกลางแจ้งเข้ากับเธอได้อย่างลงตัว 🍀⛳️
+
+Tags:
+fromis_9
+프로미스나인
+LEECHAEYOUNG
+TheGreenCup
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 23 ---
+
+ID:
+fromis-9-official-fanclub-flover-2026-05-10
+
+Title:
+2026 fromis_9 OFFICIAL FANCLUB flover 🍀
+
+Date:
+2026-05-10
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=uZclo4Uq1A8
+
+YouTube Video ID:
+uZclo4Uq1A8
+
+Thumbnail Alt:
+วิดีโอแนะนำแฟนคลับทางการ flover ประจำปี 2026 ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+fromis_9 ชวนแฟน ๆ มาร่วมเป็นสมาชิกแฟนคลับทางการ flover ประจำปี 2026 ผ่านวิดีโอสั้นที่เต็มไปด้วยบรรยากาศอบอุ่นและเป็นกันเอง
+
+Description:
+fromis_9 ชวน flover มาร่วมเป็นสมาชิกแฟนคลับทางการประจำปี 2026 ผ่านวิดีโอแนะนำสั้น ๆ ที่สมาชิกทั้งห้าคนมาส่งต่อบรรยากาศอบอุ่นและเป็นกันเอง
+
+อีกหนึ่งคำเชิญสำหรับแฟน ๆ ที่อยากร่วมสร้างความทรงจำและเดินทางไปพร้อมกับ fromis_9 ตลอดปี 2026 🍀
+
+Tags:
+fromis_9
+프로미스나인
+flover
+OfficialFanclub
+2026
+
+==============================
+
+--- PERFORMANCE 24 ---
+
+ID:
+fm-1-24-japan-debut-behind-2026-05-02
+
+Title:
+[FM_1.24] เริ่มต้นกิจกรรมที่ญี่ปุ่นครั้งแรก 🎀 เบื้องหลังการเดบิวต์ 🫶🏻
+
+Date:
+2026-05-02
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=BMSRZKCoaX8
+
+YouTube Video ID:
+BMSRZKCoaX8
+
+Thumbnail Alt:
+เบื้องหลังการเริ่มต้นกิจกรรมเดบิวต์ในญี่ปุ่นของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ติดตามเบื้องหลังการเริ่มต้นกิจกรรมเดบิวต์ที่ญี่ปุ่นของ fromis_9 พร้อมบรรยากาศการโปรโมต Japan 1st EP และโมเมนต์ระหว่างสมาชิกกับ flover ชาวญี่ปุ่น
+
+Description:
+ติดตาม fromis_9 ตั้งแต่ช่วงเตรียมตัวก่อนเริ่มกิจกรรม ไปจนถึงตารางโปรโมต Japan 1st EP และการพบกับ flover ชาวญี่ปุ่นในก้าวแรกของการเดบิวต์ที่ญี่ปุ่น
+
+เบื้องหลังที่บันทึกทั้งความตื่นเต้น ความตั้งใจ และโมเมนต์ระหว่างสมาชิกตลอดการเริ่มต้นกิจกรรมครั้งสำคัญนี้ 🎀🫶🏻
+
+Tags:
+fromis_9
+프로미스나인
+JapanDebut
+LIKEYOUBETTER
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 25 ---
+
+ID:
+fm-1-24-chaeyoung-samsung-lions-first-pitch-2026-04-17
+
+Title:
+[FM_1.24] แชยองกลับมาท้าทายการขว้างลูกเปิดสนาม ⚾️ เบื้องหลัง Samsung Lions
+
+Date:
+2026-04-17
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=07abaqsuXm0
+
+YouTube Video ID:
+07abaqsuXm0
+
+Thumbnail Alt:
+เบื้องหลังแชยอง fromis_9 ขว้างลูกเปิดสนามให้ Samsung Lions
+
+Featured:
+YES
+
+Members:
+chaeyoung
+
+Summary:
+พาไปชมการเตรียมตัวและเบื้องหลังของแชยองจาก fromis_9 ในการกลับมาขว้างลูกเปิดสนามให้ Samsung Lions พร้อมบรรยากาศสนุกสนานในสนามเบสบอล
+
+Description:
+ติดตามแชยองตั้งแต่การฝึกซ้อมและเตรียมตัวก่อนลงสนาม ไปจนถึงช่วงเวลาจริงของการกลับมารับหน้าที่ขว้างลูกเปิดเกมให้ Samsung Lions
+
+เบื้องหลังที่รวมทั้งความตื่นเต้น ความมุ่งมั่น และบรรยากาศสนุกสนานของแชยองตลอดวันในสนามเบสบอล ⚾️🦁
+
+Tags:
+fromis_9
+프로미스나인
+LEECHAEYOUNG
+SamsungLions
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 26 ---
+
+ID:
+fm-1-24-japan-debut-jacket-behind-2026-04-08
+
+Title:
+[FM_1.24] ใจเต้นรัว 🎀 เบื้องหลังการถ่ายแจ็กเก็ตเดบิวต์ญี่ปุ่น
+
+Date:
+2026-04-08
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=fm1PU8X8d14
+
+YouTube Video ID:
+fm1PU8X8d14
+
+Thumbnail Alt:
+เบื้องหลังการถ่ายภาพแจ็กเก็ตเดบิวต์ญี่ปุ่นของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายภาพแจ็กเก็ตสำหรับ Japan 1st EP ของ fromis_9 พร้อมลุคและบรรยากาศที่ถ่ายทอดความตื่นเต้นของการเดบิวต์ในญี่ปุ่น
+
+Description:
+พาไปชมสมาชิก fromis_9 ระหว่างการถ่ายภาพแจ็กเก็ตสำหรับ Japan 1st EP ตั้งแต่การเตรียมเสื้อผ้าและแต่งหน้า ไปจนถึงการโพสในแต่ละคอนเซ็ปต์
+
+เบื้องหลังที่เผยความตื่นเต้นของการเดบิวต์ในญี่ปุ่น พร้อมลุคและบรรยากาศที่ช่วยเติมเต็มภาพของอีพีชุดนี้ให้ชัดเจนยิ่งขึ้น 🎀✨
+
+Tags:
+fromis_9
+프로미스나인
+JapanDebut
+LIKEYOUBETTER
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 27 ---
+
+ID:
+sky-runner-special-video-2026-04-01
+
+Title:
+fromis_9 (프로미스나인) ‘Sky Runner’ SPECIAL VIDEO ☁️
+
+Date:
+2026-04-01
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=3ivuYBVadVY
+
+YouTube Video ID:
+3ivuYBVadVY
+
+Thumbnail Alt:
+Special Video เพลง Sky Runner ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+Special Video เพลง “Sky Runner” จาก Japan 1st EP ของ fromis_9 ที่นำเสนอเสน่ห์ของสมาชิกผ่านภาพและบรรยากาศสดใสของเพลง
+
+Description:
+ชม Special Video ฉบับเต็มของเพลง “Sky Runner” จาก Japan 1st EP ที่สมาชิก fromis_9 ถ่ายทอดอารมณ์สดใสและพลังของเพลงผ่านภาพหลากหลายฉาก
+
+วิดีโอพิเศษที่เติมสีสันให้เพลงด้วยบรรยากาศเบาสบายและเคมีของสมาชิกทั้งห้าคน ☁️🏃‍♀️
+
+Tags:
+fromis_9
+프로미스나인
+SkyRunner
+SpecialVideo
+LIKEYOUBETTER
+
+==============================
+
+--- PERFORMANCE 28 ---
+
+ID:
+fm-1-24-encore-now-tomorrow-tokyo-behind-2026-03-29
+
+Title:
+[FM_1.24] ขอบคุณที่อยู่ด้วยกัน flover 🍀 เบื้องหลัง ENCORE NOW TOMORROW. IN TOKYO 🏆
+
+Date:
+2026-03-29
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=6-BAZ3UUAew
+
+YouTube Video ID:
+6-BAZ3UUAew
+
+Thumbnail Alt:
+เบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. IN TOKYO ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. IN TOKYO ตั้งแต่ช่วงเตรียมตัวจนถึงหลังเวที พร้อมคำขอบคุณจาก fromis_9 ถึง flover ที่ร่วมสร้างความทรงจำด้วยกัน
+
+Description:
+ติดตาม fromis_9 ตั้งแต่การเดินทางและเตรียมตัวก่อนขึ้นเวที ไปจนถึงช่วงเวลาหลังคอนเสิร์ต ENCORE NOW TOMORROW. IN TOKYO ที่ได้พบกับ flover ชาวญี่ปุ่น
+
+เบื้องหลังที่รวบรวมทั้งพลังการแสดง ความประทับใจ และคำขอบคุณจากสมาชิกถึงแฟน ๆ ที่ร่วมสร้างความทรงจำในโตเกียวด้วยกัน 🍀🏆
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+Tokyo
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 29 ---
+
+ID:
+fm-1-24-chaeyoung-singles-behind-2026-03-22
+
+Title:
+[FM_1.24] แชยองผู้เปล่งประกาย ✨ เบื้องหลังการถ่ายนิตยสาร Singles
+
+Date:
+2026-03-22
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=LmrIHIyuaBo
+
+YouTube Video ID:
+LmrIHIyuaBo
+
+Thumbnail Alt:
+เบื้องหลังแชยอง fromis_9 ถ่ายแฟชั่นให้นิตยสาร Singles
+
+Featured:
+YES
+
+Members:
+chaeyoung
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแฟชั่นของแชยองจาก fromis_9 ให้กับนิตยสาร Singles พร้อมลุคสง่างามและโมเมนต์ระหว่างการทำงาน
+
+Description:
+ติดตามแชยองในกองถ่ายแฟชั่นของนิตยสาร Singles ตั้งแต่การเตรียมลุคและเปลี่ยนคอนเซ็ปต์ ไปจนถึงการโพสหน้ากล้องในแต่ละเซต
+
+เบื้องหลังที่เผยเสน่ห์สง่างามและความเป็นมืออาชีพของแชยอง พร้อมโมเมนต์เป็นกันเองระหว่างการทำงาน ✨
+
+Tags:
+fromis_9
+프로미스나인
+LEECHAEYOUNG
+Singles
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 30 ---
+
+ID:
+fm-1-24-hayoung-y-magazine-behind-2026-03-19
+
+Title:
+[FM_1.24] ฮายองกับการถ่ายแฟชั่นเดี่ยวครั้งแรก ˗ˋˏ เบื้องหลัง Y Magazine ˎˊ˗
+
+Date:
+2026-03-19
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=-7EyzVbxSo0
+
+YouTube Video ID:
+-7EyzVbxSo0
+
+Thumbnail Alt:
+เบื้องหลังฮายอง fromis_9 ถ่ายแฟชั่นเดี่ยวให้ Y Magazine
+
+Featured:
+YES
+
+Members:
+hayoung
+
+Summary:
+ติดตามฮายองจาก fromis_9 ในการถ่ายแฟชั่นเดี่ยวครั้งแรกให้กับ Y Magazine พร้อมเบื้องหลังการเปลี่ยนลุคและบรรยากาศในกองถ่าย
+
+Description:
+ติดตามฮายองในการถ่ายแฟชั่นเดี่ยวครั้งแรกให้กับ Y Magazine ตั้งแต่การเตรียมตัว เปลี่ยนเสื้อผ้าและแต่งหน้า ไปจนถึงการถ่ายทอดอารมณ์ในแต่ละคอนเซ็ปต์
+
+อีกหนึ่งก้าวที่ได้เห็นฮายองแสดงเสน่ห์หลากหลายผ่านหน้ากล้อง พร้อมบรรยากาศเบื้องหลังที่ทั้งตั้งใจและเป็นธรรมชาติ ✨📸
+
+Tags:
+fromis_9
+프로미스나인
+SONGHAYOUNG
+YMagazine
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 31 ---
+
+ID:
+fm-1-24-encore-now-tomorrow-behind-2026-03-16
+
+Title:
+[FM_1.24] เบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. 💖
+
+Date:
+2026-03-16
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=kBV4h9ec5Eg
+
+YouTube Video ID:
+kBV4h9ec5Eg
+
+Thumbnail Alt:
+เบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+รวมภาพเบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. ของ fromis_9 ตั้งแต่การเตรียมตัว ซ้อมการแสดง ไปจนถึงโมเมนต์หลังเวทีกับสมาชิกทั้งห้าคน
+
+Description:
+รวมภาพเบื้องหลังคอนเสิร์ต ENCORE NOW TOMORROW. ตั้งแต่การซ้อมและเตรียมตัวก่อนขึ้นเวที ไปจนถึงโมเมนต์ระหว่างพักและหลังการแสดงของสมาชิกทั้งห้าคน
+
+บันทึกอีกหน้าของคอนเสิร์ตที่เต็มไปด้วยพลัง ความตั้งใจ และความผูกพันระหว่าง fromis_9 กับ flover 💖🍀
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+EncoreConcert
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 32 ---
+
+ID:
+fm-1-24-encore-now-tomorrow-vcr-behind-2026-03-10
+
+Title:
+[FM_1.24] เตรียมพร้อมสำหรับคอนเสิร์ตอังกอร์ 👊 เบื้องหลัง VCR ของ ENCORE NOW TOMORROW.
+
+Date:
+2026-03-10
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=Fayl8YLtVHc
+
+YouTube Video ID:
+Fayl8YLtVHc
+
+Thumbnail Alt:
+เบื้องหลังการถ่าย VCR คอนเสิร์ต ENCORE NOW TOMORROW. ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่าย VCR สำหรับคอนเสิร์ต ENCORE NOW TOMORROW. พร้อมขั้นตอนการเตรียมงานและโมเมนต์สนุก ๆ ของสมาชิก fromis_9
+
+Description:
+พาไปชมเบื้องหลังการถ่าย VCR สำหรับคอนเสิร์ต ENCORE NOW TOMORROW. ตั้งแต่การเตรียมฉากและคอสตูม ไปจนถึงการถ่ายทำในแต่ละช่วงของสมาชิก
+
+คอนเทนต์ที่เผยขั้นตอนก่อนภาพบนจอจะกลายเป็นส่วนหนึ่งของคอนเสิร์ต พร้อมโมเมนต์สนุก ๆ ระหว่างกองถ่าย 👊🎬
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+VCRBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 33 ---
+
+ID:
+fm-1-24-jiheon-andhoney-behind-2026-03-06
+
+Title:
+[FM_1.24] จีฮอนกับเคมีหวานเหมือนน้ำผึ้ง 🍯 เบื้องหลังการถ่าย &honey
+
+Date:
+2026-03-06
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=VN6JFAHD-gc
+
+YouTube Video ID:
+VN6JFAHD-gc
+
+Thumbnail Alt:
+เบื้องหลังจีฮอน fromis_9 ถ่ายแคมเปญให้แบรนด์ &honey
+
+Featured:
+YES
+
+Members:
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแคมเปญของจีฮอนจาก fromis_9 กับแบรนด์ &honey พร้อมลุคสดใสและบรรยากาศอบอุ่นในกองถ่าย
+
+Description:
+ติดตามจีฮอนระหว่างการถ่ายแคมเปญของแบรนด์ &honey ตั้งแต่การเตรียมลุค ไปจนถึงบรรยากาศหน้ากล้องและช่วงพักระหว่างเซต
+
+เบื้องหลังที่ถ่ายทอดเคมีหวานละมุนระหว่างจีฮอนกับคอนเซ็ปต์ของแบรนด์ พร้อมเสน่ห์สดใสของเธอตลอดการทำงาน 🍯✨
+
+Tags:
+fromis_9
+프로미스나인
+BAEKJIHEON
+andhoney
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 34 ---
+
+ID:
+fromis-9-lunar-new-year-message-2026-02-16
+
+Title:
+ข้อความอวยพรวันตรุษเกาหลีปี 2026 จาก fromis_9 🧧
+
+Date:
+2026-02-16
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=MCQj7p8RaE4
+
+YouTube Video ID:
+MCQj7p8RaE4
+
+Thumbnail Alt:
+ข้อความอวยพรวันตรุษเกาหลีปี 2026 จากสมาชิก fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+สมาชิก fromis_9 ส่งคำอวยพรถึง flover เนื่องในวันซอลลัลหรือตรุษเกาหลีปี 2026 พร้อมชวนทุกคนใช้ช่วงวันหยุดอย่างอบอุ่นและมีความสุข
+
+Description:
+สมาชิก fromis_9 มาส่งคำอวยพรถึง flover เนื่องในวันซอลลัลหรือตรุษเกาหลีปี 2026 พร้อมแบ่งปันข้อความดี ๆ สำหรับการเริ่มต้นช่วงวันหยุด
+
+วิดีโอสั้นที่เต็มไปด้วยความอบอุ่นและความห่วงใยจากสมาชิกทั้งห้าคน ขอให้ flover ใช้เวลากับคนสำคัญอย่างมีความสุข 🧧💚
+
+Tags:
+fromis_9
+프로미스나인
+LunarNewYear
+Seollal
+2026
+
+==============================
+
+--- PERFORMANCE 35 ---
+
+ID:
+chaeyoung-toxic-now-tomorrow-2026-02-13
+
+Title:
+fromis_9 (프로미스나인) LEE CHAE YOUNG ‘TOXIC’ with NOW TOMORROW.
+
+Date:
+2026-02-13
+
+Category:
+Special Stage
+
+Video URL:
+https://www.youtube.com/watch?v=qByrjaPN3Js
+
+YouTube Video ID:
+qByrjaPN3Js
+
+Thumbnail Alt:
+แชยอง fromis_9 แสดงเพลง TOXIC ในคอนเสิร์ต NOW TOMORROW.
+
+Featured:
+YES
+
+Members:
+chaeyoung
+
+Summary:
+ชมการแสดงเดี่ยวเพลง “TOXIC” ของแชยองจาก fromis_9 บนเวทีคอนเสิร์ต NOW TOMORROW. ที่เผยเสน่ห์และพลังการแสดงอีกด้านของเธอ
+
+Description:
+ชมแชยองถ่ายทอดการแสดงเดี่ยวเพลง “TOXIC” บนเวทีคอนเสิร์ต NOW TOMORROW. ผ่านการเต้นและสีหน้าที่เผยเสน่ห์เข้มข้นอีกด้านของเธอ
+
+สเตจพิเศษที่สะท้อนพลังการแสดงและคาแรกเตอร์ของแชยองได้อย่างโดดเด่นตั้งแต่ต้นจนจบ 🔥
+
+Tags:
+fromis_9
+프로미스나인
+LEECHAEYOUNG
+TOXIC
+NOWTOMORROW
+
+==============================
+
+--- PERFORMANCE 36 ---
+
+ID:
+fm-1-24-nagyung-upbit-mc-behind-2026-02-06
+
+Title:
+[FM_1.24] นากยองได้เป็นพิธีกรแล้ว 🎮 เบื้องหลังงาน Upbit
+
+Date:
+2026-02-06
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=_cWpVUZFaZw
+
+YouTube Video ID:
+_cWpVUZFaZw
+
+Thumbnail Alt:
+เบื้องหลังนากยอง fromis_9 รับหน้าที่พิธีกรในงาน Upbit
+
+Featured:
+YES
+
+Members:
+nagyung
+
+Summary:
+ติดตามเบื้องหลังของนากยองจาก fromis_9 กับการรับหน้าที่พิธีกรในงาน Upbit พร้อมการเตรียมตัวและบรรยากาศระหว่างดำเนินรายการ
+
+Description:
+ติดตามนากยองตั้งแต่การเตรียมสคริปต์และซ้อมก่อนเริ่มงาน ไปจนถึงบรรยากาศจริงระหว่างรับหน้าที่พิธีกรในงาน Upbit
+
+เบื้องหลังที่เผยทั้งความตั้งใจ ความตื่นเต้น และทักษะการดำเนินรายการของนากยองในอีกบทบาทหนึ่ง 🎮🎤
+
+Tags:
+fromis_9
+프로미스나인
+LEENAGYUNG
+Upbit
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 37 ---
+
+ID:
+fm-1-24-eighth-anniversary-winter-trip-2026-01-24
+
+Title:
+[FM_1.24] ทริปฤดูหนาวฉลองครบรอบ 8 ปี 🚗💨 ไปด้วยกันจนถึงปีที่ 88 💚
+
+Date:
+2026-01-24
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=FgXTo_D8_CI
+
+YouTube Video ID:
+FgXTo_D8_CI
+
+Thumbnail Alt:
+ทริปฤดูหนาวฉลองครบรอบ 8 ปีของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ร่วมเดินทางไปกับ fromis_9 ในทริปฤดูหนาวฉลองครบรอบ 8 ปี เต็มไปด้วยกิจกรรมสนุก ๆ บทสนทนาอบอุ่น และความทรงจำของสมาชิกทั้งห้าคน
+
+Description:
+ร่วมเดินทางไปกับ fromis_9 ในทริปฤดูหนาวฉลองครบรอบ 8 ปี ผ่านกิจกรรม บทสนทนา และช่วงเวลาสบาย ๆ ที่สมาชิกได้ใช้ร่วมกัน
+
+คอนเทนต์พิเศษที่บันทึกมิตรภาพและความทรงจำตลอดแปดปี พร้อมคำสัญญาว่าจะเดินไปด้วยกันจนถึงวันครบรอบปีที่ 88 🚗💨💚
+
+Tags:
+fromis_9
+프로미스나인
+8thAnniversary
+WinterTrip
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 38 ---
+
+ID:
+a-letter-from-fromis-9-2026-01-23
+
+Title:
+A Letter from fromis_9 💌
+
+Date:
+2026-01-23
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=rI_nXzAz6xI
+
+YouTube Video ID:
+rI_nXzAz6xI
+
+Thumbnail Alt:
+จดหมายจากสมาชิก fromis_9 ถึง flover
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ข้อความจากใจของสมาชิก fromis_9 ที่ถ่ายทอดความรู้สึกและคำขอบคุณถึง flover ผ่านบทสนทนาและจดหมายในบรรยากาศเรียบง่ายแต่อบอุ่น
+
+Description:
+สมาชิก fromis_9 ถ่ายทอดความรู้สึกและเรื่องราวที่อยากบอกกับ flover ผ่านบทสนทนาและจดหมายในบรรยากาศเรียบง่าย
+
+วิดีโอที่เปิดพื้นที่ให้คำขอบคุณ ความทรงจำ และความจริงใจของสมาชิกทั้งห้าคนส่งตรงไปถึงแฟน ๆ อย่างอบอุ่น 💌🍀
+
+Tags:
+fromis_9
+프로미스나인
+ALetterFromFromis9
+flover
+
+==============================
+
+--- PERFORMANCE 39 ---
+
+ID:
+fm-1-24-white-memories-promotion-behind-2026-01-21
+
+Title:
+[FM_1.24] ฤดูหนาวที่เราได้พบกันอีกครั้ง ❄️ เบื้องหลังการโปรโมต ‘White Memories’
+
+Date:
+2026-01-21
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=jShysn3mfN0
+
+YouTube Video ID:
+jShysn3mfN0
+
+Thumbnail Alt:
+เบื้องหลังการโปรโมตเพลง White Memories ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการทำกิจกรรมโปรโมตเพลง “White Memories” ของ fromis_9 พร้อมภาพการเตรียมเวที ช่วงพัก และโมเมนต์ของสมาชิกในบรรยากาศฤดูหนาว
+
+Description:
+ติดตาม fromis_9 ตั้งแต่ช่วงเตรียมตัวและซ้อมก่อนขึ้นเวที ไปจนถึงการทำกิจกรรมโปรโมตเพลง “White Memories” และโมเมนต์ระหว่างพักของสมาชิก
+
+เบื้องหลังที่เก็บบรรยากาศฤดูหนาว ความตั้งใจบนเวที และความอบอุ่นของการได้กลับมาพบ flover อีกครั้ง ❄️☃️
+
+Tags:
+fromis_9
+프로미스나인
+WhiteMemories
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 40 ---
+
+ID:
+fm-1-24-2025-year-end-stage-behind-2026-01-12
+
+Title:
+[FM_1.24] ทุกอย่างเกิดขึ้นได้เพราะ flover 🍀 เบื้องหลังเวทีส่งท้ายปี 2025
+
+Date:
+2026-01-12
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=z4evTl0oYkA
+
+YouTube Video ID:
+z4evTl0oYkA
+
+Thumbnail Alt:
+เบื้องหลังเวทีส่งท้ายปี 2025 ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+รวมภาพเบื้องหลังการเตรียมตัวและขึ้นแสดงบนเวทีส่งท้ายปี 2025 ของ fromis_9 พร้อมคำขอบคุณถึง flover ที่คอยมอบพลังให้เสมอ
+
+Description:
+รวมภาพเบื้องหลังของ fromis_9 จากตารางเวทีส่งท้ายปี 2025 ตั้งแต่การเตรียมตัวและซ้อม ไปจนถึงโมเมนต์ก่อนและหลังการแสดง
+
+สมาชิกส่งต่อคำขอบคุณถึง flover ที่คอยมอบพลังและร่วมเดินทางมาตลอดทั้งปี พร้อมปิดท้ายความทรงจำด้วยบรรยากาศอบอุ่น 🍀✨
+
+Tags:
+fromis_9
+프로미스나인
+YearEndStage
+2025
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 41 ---
+
+ID:
+fm-1-24-nagyung-dr-g-behind-2026-01-07
+
+Title:
+[FM_1.24] ชุ่มชื้นแม้ในฤดูหนาว ✨ เบื้องหลังนากยองกับ Dr.G
+
+Date:
+2026-01-07
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=40aDkVR7OZ8
+
+YouTube Video ID:
+40aDkVR7OZ8
+
+Thumbnail Alt:
+เบื้องหลังนากยอง fromis_9 ถ่ายแคมเปญให้ Dr.G
+
+Featured:
+YES
+
+Members:
+nagyung
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแคมเปญของนากยองจาก fromis_9 กับแบรนด์ Dr.G พร้อมลุคสดใสและบรรยากาศการทำงานในคอนเซ็ปต์ฤดูหนาว
+
+Description:
+ติดตามนากยองระหว่างการถ่ายแคมเปญของแบรนด์ Dr.G ตั้งแต่การเตรียมลุค ไปจนถึงการโพสหน้ากล้องและโมเมนต์ระหว่างพัก
+
+เบื้องหลังในคอนเซ็ปต์ฤดูหนาวที่เผยเสน่ห์สดใสและความเป็นมืออาชีพของนากยอง พร้อมบรรยากาศการทำงานที่เป็นกันเอง ✨❄️
+
+Tags:
+fromis_9
+프로미스나인
+LEENAGYUNG
+DrG
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 42 ---
+
+ID:
+fm-1-24-now-tomorrow-usa-behind-2025-12-31
+
+Title:
+[FM_1.24] ปี 2025 ที่วิ่งไปสู่จุดหมายเดียวกัน เบื้องหลัง NOW TOMORROW. IN USA
+
+Date:
+2025-12-31
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=uhIB-02ODM0
+
+YouTube Video ID:
+uhIB-02ODM0
+
+Thumbnail Alt:
+เบื้องหลังทัวร์ NOW TOMORROW. IN USA ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการเดินทางและการแสดงของ fromis_9 ในทัวร์ NOW TOMORROW. IN USA พร้อมโมเมนต์ตลอดเส้นทางช่วงปลายปี 2025
+
+Description:
+ติดตามสมาชิกตั้งแต่การเดินทางและเตรียมตัวก่อนขึ้นเวที ไปจนถึงบรรยากาศหลังการแสดงในแต่ละเมืองของทัวร์ NOW TOMORROW. IN USA
+
+เบื้องหลังที่บันทึกทั้งพลังบนเวที ความทรงจำระหว่างสมาชิก และความขอบคุณถึง flover ที่ร่วมวิ่งไปสู่จุดหมายเดียวกันตลอดปี 2025 🇺🇸🍀
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+USA
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 43 ---
+
+ID:
+fm-1-24-jiheon-singles-winter-behind-2025-12-22
+
+Title:
+[FM_1.24] ฤดูหนาวนี้อยู่กับจีฮอน ❄️☃️ เบื้องหลังการถ่ายนิตยสาร Singles
+
+Date:
+2025-12-22
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=dW-GtgYLnOM
+
+YouTube Video ID:
+dW-GtgYLnOM
+
+Thumbnail Alt:
+เบื้องหลังจีฮอน fromis_9 ถ่ายแฟชั่นฤดูหนาวให้นิตยสาร Singles
+
+Featured:
+YES
+
+Members:
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแฟชั่นฤดูหนาวของจีฮอน fromis_9 ให้กับนิตยสาร Singles พร้อมลุคและบรรยากาศอบอุ่นในกองถ่าย
+
+Description:
+ติดตามจีฮอนตั้งแต่การเตรียมเสื้อผ้าและแต่งหน้า ไปจนถึงการโพสหน้ากล้องในแต่ละเซตของการถ่ายแฟชั่นให้กับนิตยสาร Singles
+
+เบื้องหลังที่เผยเสน่ห์สดใสและความเป็นมืออาชีพของจีฮอน ท่ามกลางคอนเซ็ปต์ฤดูหนาวที่ทั้งอบอุ่นและน่ารัก ❄️📸
+
+Tags:
+fromis_9
+프로미스나인
+BAEKJIHEON
+Singles
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 44 ---
+
+ID:
+fm-1-24-white-memories-mv-behind-2025-12-08
+
+Title:
+[FM_1.24] ราวกับความฝัน ✨ เบื้องหลังการถ่าย MV ‘White Memories’
+
+Date:
+2025-12-08
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=zSU-2EWLckc
+
+YouTube Video ID:
+zSU-2EWLckc
+
+Thumbnail Alt:
+เบื้องหลังการถ่ายมิวสิกวิดีโอ White Memories ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่าย MV เพลง “White Memories” ของ fromis_9 พร้อมฉากฤดูหนาวและโมเมนต์ของสมาชิกระหว่างการทำงาน
+
+Description:
+ติดตาม fromis_9 ในกองถ่าย MV “White Memories” ตั้งแต่การเตรียมตัว การถ่ายทำในฉากต่าง ๆ ไปจนถึงช่วงพักที่สมาชิกได้พูดคุยและหยอกล้อกัน
+
+อีกหนึ่งเบื้องหลังที่ช่วยเติมเต็มบรรยากาศฤดูหนาวของเพลง พร้อมเผยความตั้งใจและความทรงจำราวกับความฝันของสมาชิกทั้งห้าคน ❄️✨
+
+Tags:
+fromis_9
+프로미스나인
+WhiteMemories
+MVBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 45 ---
+
+ID:
+fromis-9-santa-gift-content-2025-12-03
+
+Title:
+fromis_9 (프로미스나인) ซานต้ามีอยู่จริงเหรอ?! | ตามหาของขวัญให้ flover 🎁
+
+Date:
+2025-12-03
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=JWiE2q8F7Y4
+
+YouTube Video ID:
+JWiE2q8F7Y4
+
+Thumbnail Alt:
+fromis_9 ตามหาของขวัญคริสต์มาสให้ flover
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ร่วมสนุกกับ fromis_9 ในภารกิจตามหาของขวัญสำหรับ flover พร้อมบรรยากาศคริสต์มาสและโมเมนต์เฮฮาของสมาชิกทั้งห้าคน
+
+Description:
+สมาชิก fromis_9 มาร่วมภารกิจธีมคริสต์มาสเพื่อค้นหาของขวัญที่จะมอบให้ flover ผ่านเกมและบทสนทนาสนุก ๆ
+
+คอนเทนต์พิเศษที่เต็มไปด้วยเสียงหัวเราะ ความอบอุ่น และเคมีของสมาชิกในช่วงเทศกาลปลายปี 🎅🎄🎁
+
+Tags:
+fromis_9
+프로미스나인
+Christmas
+Santa
+flover
+
+==============================
+
+--- PERFORMANCE 46 ---
+
+ID:
+white-memories-fanchant-2025-12-02
+
+Title:
+fromis_9 (프로미스나인) คู่มือคำเชียร์ ‘White Memories’ ❄️📣
+
+Date:
+2025-12-02
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=UlGeN6JHAJc
+
+YouTube Video ID:
+UlGeN6JHAJc
+
+Thumbnail Alt:
+คู่มือคำเชียร์เพลง White Memories ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+เรียนรู้คำเชียร์อย่างเป็นทางการของเพลง “White Memories” เพื่อให้ flover ร่วมร้องและส่งเสียงเชียร์ไปพร้อมกับ fromis_9 ได้อย่างถูกจังหวะ
+
+Description:
+มาฝึกคำเชียร์เพลง “White Memories” ไปพร้อมกับสมาชิก ตั้งแต่ช่วงเรียกชื่อไปจนถึงคำและท่อนต่าง ๆ ที่ flover จะได้ร่วมส่งเสียงบนเวที
+
+คู่มือสำหรับเตรียมตัวให้พร้อมก่อนชมการแสดง เพื่อเติมบรรยากาศฤดูหนาวของเพลงด้วยพลังจาก flover ❄️📣🍀
+
+Tags:
+fromis_9
+프로미스나인
+WhiteMemories
+Fanchant
+flover
+
+==============================
+
+--- PERFORMANCE 47 ---
+
+ID:
+white-memories-mv-2025-12-02
+
+Title:
+fromis_9 (프로미스나인) ‘White Memories’ MV ❄️
+
+Date:
+2025-12-02
+
+Category:
+MV
+
+Video URL:
+https://www.youtube.com/watch?v=5ZB9JLfIw_Q
+
+YouTube Video ID:
+5ZB9JLfIw_Q
+
+Thumbnail Alt:
+มิวสิกวิดีโอเพลง White Memories ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+มิวสิกวิดีโอเพลง “White Memories” ซิงเกิลดิจิทัลพิเศษของ fromis_9 ที่ถ่ายทอดความคิดถึงและความอบอุ่นท่ามกลางบรรยากาศฤดูหนาว
+
+Description:
+มิวสิกวิดีโอซิงเกิลดิจิทัลพิเศษ “White Memories” ถ่ายทอดเรื่องราวและความรู้สึกผ่านภาพฤดูหนาว พร้อมเสียงร้องของสมาชิกทั้งห้าคน
+
+ผลงานที่ชวนย้อนนึกถึงความทรงจำอันอบอุ่น และเติมช่วงปลายปีด้วยเสน่ห์อ่อนโยนในแบบของ fromis_9 ❄️☃️
+
+Tags:
+fromis_9
+프로미스나인
+WhiteMemories
+MV
+DigitalSingle
+
+==============================
+
+--- PERFORMANCE 48 ---
+
+ID:
+fm-1-24-2025-university-festival-behind-2025-11-20
+
+Title:
+[FM_1.24] สนุกกันเป็นแล้วนี่นา 😖💞 เบื้องหลังเทศกาลมหาวิทยาลัย 2025
+
+Date:
+2025-11-20
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=IOCcghLQGlA
+
+YouTube Video ID:
+IOCcghLQGlA
+
+Thumbnail Alt:
+เบื้องหลังการแสดงของ fromis_9 ในเทศกาลมหาวิทยาลัยปี 2025
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+รวมเบื้องหลังการเดินสายขึ้นแสดงตามเทศกาลมหาวิทยาลัยปี 2025 ของ fromis_9 พร้อมพลังจากผู้ชมและบรรยากาศสนุกสนานหลังเวที
+
+Description:
+ติดตามสมาชิกตั้งแต่การเดินทางและเตรียมตัว ไปจนถึงช่วงก่อนและหลังขึ้นแสดงตามเทศกาลมหาวิทยาลัยต่าง ๆ ในปี 2025
+
+เบื้องหลังที่เต็มไปด้วยพลังจากผู้ชม ความสนุกบนเวที และโมเมนต์เฮฮาของ fromis_9 ระหว่างตารางงาน 😖💞
+
+Tags:
+fromis_9
+프로미스나인
+UniversityFestival
+2025
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 49 ---
+
+ID:
+fm-1-24-2026-seasons-greetings-behind-2025-11-16
+
+Title:
+[FM_1.24] ฝากเนื้อฝากตัวกับ flover ในปี 2026 ❤️ เบื้องหลัง SEASON’S GREETINGS
+
+Date:
+2025-11-16
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=bsCCbluOfzg
+
+YouTube Video ID:
+bsCCbluOfzg
+
+Thumbnail Alt:
+เบื้องหลังการถ่าย SEASON’S GREETINGS 2026 ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่าย SEASON’S GREETINGS 2026 ของ fromis_9 พร้อมคอนเซ็ปต์ประจำปีและโมเมนต์เป็นกันเองของสมาชิก
+
+Description:
+ติดตามสมาชิกในกองถ่าย SEASON’S GREETINGS 2026 ตั้งแต่การเตรียมลุค การถ่ายภาพและวิดีโอ ไปจนถึงช่วงพักระหว่างเซต
+
+เบื้องหลังที่เผยบรรยากาศของคอนเซ็ปต์ประจำปี พร้อมคำทักทายอบอุ่นจาก fromis_9 ถึง flover สำหรับปี 2026 ❤️🍀
+
+Tags:
+fromis_9
+프로미스나인
+SeasonsGreetings
+2026
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 50 ---
+
+ID:
+fm-1-24-now-tomorrow-vcr-behind-2025-11-06
+
+Title:
+[FM_1.24] ความทรงจำในวันฤดูร้อน 🫧 เบื้องหลัง VCR ของ NOW TOMORROW.
+
+Date:
+2025-11-06
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=k6hBb7OJEak
+
+YouTube Video ID:
+k6hBb7OJEak
+
+Thumbnail Alt:
+เบื้องหลังการถ่าย VCR คอนเสิร์ต NOW TOMORROW. ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่าย VCR สำหรับคอนเสิร์ต NOW TOMORROW. ที่เก็บความทรงจำของ fromis_9 ในบรรยากาศวันฤดูร้อน
+
+Description:
+ติดตามสมาชิกระหว่างการถ่าย VCR สำหรับคอนเสิร์ต NOW TOMORROW. ตั้งแต่การเตรียมฉากและคอสตูม ไปจนถึงโมเมนต์ในแต่ละเซต
+
+เบื้องหลังที่เผยที่มาของภาพความทรงจำในวันฤดูร้อน พร้อมบรรยากาศสนุกสนานและเป็นธรรมชาติของสมาชิกทั้งห้าคน 🫧☀️
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+VCRBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 51 ---
+
+ID:
+fm-1-24-now-tomorrow-behind-2025-10-29
+
+Title:
+[FM_1.24] วิ่งไปสู่จุดหมายเดียวกันกับ NOW TOMORROW.
+
+Date:
+2025-10-29
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=IuCM4CT_UOo
+
+YouTube Video ID:
+IuCM4CT_UOo
+
+Thumbnail Alt:
+เบื้องหลังคอนเสิร์ต NOW TOMORROW. ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ติดตามเบื้องหลังคอนเสิร์ต NOW TOMORROW. ของ fromis_9 ตั้งแต่การเตรียมตัว ซ้อม ไปจนถึงโมเมนต์หลังเวทีตลอดการแสดง
+
+Description:
+พาไปชมขั้นตอนก่อนคอนเสิร์ต NOW TOMORROW. ทั้งการซ้อม การเตรียมคอสตูม และบรรยากาศก่อนสมาชิกขึ้นพบกับ flover
+
+บันทึกความตั้งใจและพลังของสมาชิกทั้งห้าคนที่มองไปยังจุดหมายเดียวกัน พร้อมความทรงจำจากหลังเวทีของคอนเสิร์ตครั้งสำคัญ 🍀
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+ConcertBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 52 ---
+
+ID:
+fromis-9-chuseok-message-2025-10-02
+
+Title:
+ข้อความอวยพรเทศกาลชูซอกปี 2025 จาก fromis_9 🌕
+
+Date:
+2025-10-02
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=1MkIYLPmTag
+
+YouTube Video ID:
+1MkIYLPmTag
+
+Thumbnail Alt:
+ข้อความอวยพรเทศกาลชูซอกปี 2025 จาก fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+สมาชิก fromis_9 ส่งคำอวยพรถึง flover เนื่องในเทศกาลชูซอกปี 2025 พร้อมข้อความอบอุ่นสำหรับช่วงวันหยุด
+
+Description:
+สมาชิกทั้งห้าคนมาทักทายและส่งคำอวยพรให้ flover ใช้ช่วงเทศกาลชูซอกปี 2025 อย่างมีความสุขกับครอบครัวและคนสำคัญ
+
+วิดีโอสั้นที่เต็มไปด้วยความห่วงใยและบรรยากาศอบอุ่นจาก fromis_9 ในช่วงเทศกาล 🌕🍀
+
+Tags:
+fromis_9
+프로미스나인
+Chuseok
+2025
+Greeting
+
+==============================
+
+--- PERFORMANCE 53 ---
+
+ID:
+fm-1-24-still-at-jangchung-flover-2025-10-01
+
+Title:
+[FM_1.24] flover ที่ยังอยู่ในจางชุง 🙌💚
+
+Date:
+2025-10-01
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=40lvY6SYSOE
+
+YouTube Video ID:
+40lvY6SYSOE
+
+Thumbnail Alt:
+เบื้องหลัง fromis_9 กับ flover ที่จางชุง
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+ย้อนชมบรรยากาศและโมเมนต์ของ fromis_9 กับ flover ที่จางชุง พร้อมความประทับใจจากช่วงเวลาหลังคอนเสิร์ต
+
+Description:
+พา flover ย้อนกลับไปยังบรรยากาศที่จางชุง ผ่านภาพเบื้องหลังและบทสนทนาของสมาชิกเกี่ยวกับช่วงเวลาที่ได้ใช้ร่วมกัน
+
+คอนเทนต์ที่เก็บทั้งความคิดถึง ความประทับใจ และสายสัมพันธ์ระหว่าง fromis_9 กับ flover เอาไว้อย่างอบอุ่น 🙌💚
+
+Tags:
+fromis_9
+프로미스나인
+Jangchung
+flover
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 54 ---
+
+ID:
+fm-1-24-chaeyoung-mens-noblesse-behind-2025-09-15
+
+Title:
+[FM_1.24] แชยองเจ้าแม่คอนเซ็ปต์ เบื้องหลังการถ่าย Men Noblesse
+
+Date:
+2025-09-15
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=6GENlygmsoY
+
+YouTube Video ID:
+6GENlygmsoY
+
+Thumbnail Alt:
+เบื้องหลังแชยอง fromis_9 ถ่ายแฟชั่นให้ Men Noblesse
+
+Featured:
+YES
+
+Members:
+chaeyoung
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแฟชั่นของแชยอง fromis_9 ให้กับ Men Noblesse พร้อมลุคหลากหลายและเสน่ห์หน้ากล้องของเธอ
+
+Description:
+ติดตามแชยองตั้งแต่การเตรียมเสื้อผ้าและแต่งหน้า ไปจนถึงการเปลี่ยนอารมณ์และโพสในแต่ละคอนเซ็ปต์ของ Men Noblesse
+
+เบื้องหลังที่แสดงให้เห็นความเป็นเจ้าแม่คอนเซ็ปต์และความเป็นมืออาชีพของแชยอง พร้อมโมเมนต์เป็นกันเองระหว่างการทำงาน 📸✨
+
+Tags:
+fromis_9
+프로미스나인
+LEECHAEYOUNG
+MenNoblesse
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 55 ---
+
+ID:
+fm-1-24-now-tomorrow-preparation-2025-09-04
+
+Title:
+[FM_1.24] ช่วงเวลาที่เตรียมพร้อมสำหรับวันพรุ่งนี้ NOW TOMORROW.
+
+Date:
+2025-09-04
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=_In-57QQG6Y
+
+YouTube Video ID:
+_In-57QQG6Y
+
+Thumbnail Alt:
+เบื้องหลังการเตรียมคอนเสิร์ต NOW TOMORROW. ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมช่วงเวลาการเตรียมตัวของ fromis_9 สำหรับคอนเสิร์ต NOW TOMORROW. พร้อมภาพการทำงานและโมเมนต์ก่อนขึ้นเวที
+
+Description:
+ติดตามสมาชิกในช่วงเตรียมพร้อมสำหรับ NOW TOMORROW. ตั้งแต่การซ้อม ตรวจรายละเอียด ไปจนถึงช่วงเวลาสั้น ๆ ก่อนการแสดงเริ่มต้น
+
+เบื้องหลังที่สะท้อนความตั้งใจของ fromis_9 ในการสร้างเวทีให้สมบูรณ์ และความตื่นเต้นก่อนพบกับ flover ✨
+
+Tags:
+fromis_9
+프로미스나인
+NOWTOMORROW
+ConcertPreparation
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 56 ---
+
+ID:
+fm-1-24-like-you-better-promotion-behind-2025-08-07
+
+Title:
+[FM_1.24] วันอันเปล่งประกาย ✨ เบื้องหลังการโปรโมต ‘LIKE YOU BETTER’
+
+Date:
+2025-08-07
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=p2Z_fE1toWg
+
+YouTube Video ID:
+p2Z_fE1toWg
+
+Thumbnail Alt:
+เบื้องหลังการโปรโมตเพลง LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+รวมเบื้องหลังการทำกิจกรรมโปรโมตเพลง “LIKE YOU BETTER” ของ fromis_9 พร้อมเวทีและโมเมนต์ระหว่างสมาชิกตลอดช่วงคัมแบ็ก
+
+Description:
+ติดตามสมาชิกตั้งแต่การเตรียมตัวและขึ้นเวทีตามรายการต่าง ๆ ไปจนถึงการถ่ายชาเลนจ์และช่วงพักระหว่างตารางโปรโมต
+
+อีกหนึ่งบันทึกจากยุค “LIKE YOU BETTER” ที่รวมทั้งความตั้งใจบนเวทีและโมเมนต์สดใสของ fromis_9 เอาไว้ในคลิปเดียว ✨🍀
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+FromOur20s
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 57 ---
+
+ID:
+fm-1-24-like-you-better-npop-behind-2025-08-05
+
+Title:
+[FM_1.24] ความน่ารักไม่รู้จบ 😋 เบื้องหลัง ‘LIKE YOU BETTER’ ที่ NPOP
+
+Date:
+2025-08-05
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=AAHHYaW_8Mg
+
+YouTube Video ID:
+AAHHYaW_8Mg
+
+Thumbnail Alt:
+เบื้องหลังการแสดง LIKE YOU BETTER ของ fromis_9 ที่ NPOP
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายทำและแสดงเพลง “LIKE YOU BETTER” ของ fromis_9 ที่ NPOP พร้อมโมเมนต์น่ารักของสมาชิก
+
+Description:
+ติดตามสมาชิกตั้งแต่การเตรียมตัว ซ้อม และถ่ายทำเวที “LIKE YOU BETTER” ที่ NPOP ไปจนถึงช่วงพักระหว่างเซต
+
+เบื้องหลังที่เต็มไปด้วยความน่ารัก เสียงหัวเราะ และเคมีของสมาชิกทั้งห้าคนตลอดตารางงาน 😋💞
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+NPOP
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 58 ---
+
+ID:
+rebelutional-special-video-2025-07-30
+
+Title:
+fromis_9 (프로미스나인) ‘REBELUTIONAL’ SPECIAL VIDEO
+
+Date:
+2025-07-30
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=SrW-ILDJxdM
+
+YouTube Video ID:
+SrW-ILDJxdM
+
+Thumbnail Alt:
+Special Video เพลง REBELUTIONAL ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+Special Video เพลง “REBELUTIONAL” จากมินิอัลบั้ม “From Our 20’s” ที่ถ่ายทอดพลังและเสน่ห์มั่นใจของ fromis_9
+
+Description:
+ชม Special Video ฉบับเต็มของเพลง “REBELUTIONAL” ที่สมาชิกทั้งห้าคนถ่ายทอดพลังของเพลงผ่านภาพและคอนเซ็ปต์อันโดดเด่น
+
+วิดีโอพิเศษที่ช่วยขยายบรรยากาศของมินิอัลบั้ม “From Our 20’s” และเผยอีกด้านที่เข้มแข็งของ fromis_9 🔥
+
+Tags:
+fromis_9
+프로미스나인
+REBELUTIONAL
+SpecialVideo
+FromOur20s
+
+==============================
+
+--- PERFORMANCE 59 ---
+
+ID:
+fm-1-24-like-you-better-recording-behind-2025-07-21
+
+Title:
+[FM_1.24] เบื้องหลังการบันทึกเสียง ‘LIKE YOU BETTER’ 🎙️
+
+Date:
+2025-07-21
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=qxgBE8Bj8Q8
+
+YouTube Video ID:
+qxgBE8Bj8Q8
+
+Thumbnail Alt:
+เบื้องหลังการบันทึกเสียงเพลง LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการบันทึกเสียงเพลง “LIKE YOU BETTER” พร้อมขั้นตอนการทำงานและการถ่ายทอดอารมณ์ของสมาชิก fromis_9 แต่ละคน
+
+Description:
+ติดตามสมาชิกแต่ละคนในห้องอัด ตั้งแต่การบันทึกพาร์ตของตัวเอง การปรับน้ำเสียงและรายละเอียด ไปจนถึงการรับคำแนะนำเพื่อทำให้เพลงสมบูรณ์
+
+เบื้องหลังที่เผยความตั้งใจและสมาธิระหว่างทำงาน ก่อนเสียงร้องที่ได้ยินใน “LIKE YOU BETTER” จะกลายเป็นเวอร์ชันสมบูรณ์ 🎙️✨
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+RecordingBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 60 ---
+
+ID:
+fm-1-24-jiheon-polarepo-ice-guy-behind-2025-07-11
+
+Title:
+[FM_1.24] ความฝันเป็นจริง! เบื้องหลังจีฮอนถ่ายโฆษณา Polarepo และ Ice Guy
+
+Date:
+2025-07-11
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=6o94IvPLxno
+
+YouTube Video ID:
+6o94IvPLxno
+
+Thumbnail Alt:
+เบื้องหลังจีฮอน fromis_9 ถ่ายโฆษณา Polarepo และ Ice Guy
+
+Featured:
+YES
+
+Members:
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายโฆษณาของจีฮอน fromis_9 ให้กับ Polarepo และ Ice Guy พร้อมบรรยากาศสดใสในกองถ่าย
+
+Description:
+ติดตามจีฮอนตั้งแต่การเตรียมตัวและเปลี่ยนลุค ไปจนถึงการถ่ายทำในแต่ละฉากของโฆษณา Polarepo และ Ice Guy
+
+เบื้องหลังที่เผยความตื่นเต้นและเสน่ห์สดใสของจีฮอน เมื่อความฝันในการร่วมงานกับแบรนด์กลายเป็นจริง 🍦✨
+
+Tags:
+fromis_9
+프로미스나인
+BAEKJIHEON
+Polarepo
+IceGuy
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 61 ---
+
+ID:
+fm-1-24-like-you-better-mv-behind-2025-07-03
+
+Title:
+[FM_1.24] ความหวานของ ‘LIKE YOU BETTER’ เบื้องหลังการถ่าย MV
+
+Date:
+2025-07-03
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=7moHyzUP0UE
+
+YouTube Video ID:
+7moHyzUP0UE
+
+Thumbnail Alt:
+เบื้องหลังการถ่ายมิวสิกวิดีโอ LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่าย MV เพลง “LIKE YOU BETTER” ของ fromis_9 พร้อมฉากและโมเมนต์ของสมาชิกระหว่างการทำงาน
+
+Description:
+ติดตาม fromis_9 ในกองถ่าย MV “LIKE YOU BETTER” ตั้งแต่การเตรียมตัวและถ่ายทำฉากต่าง ๆ ไปจนถึงช่วงพักที่ได้เห็นสมาชิกพูดคุยกันอย่างเป็นธรรมชาติ
+
+เบื้องหลังที่ช่วยเติมเต็มคอนเซ็ปต์ของเพลงด้วยบรรยากาศหวานสดใส ความตั้งใจ และเคมีของสมาชิกทั้งห้าคน 🍓✨
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+MVBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 62 ---
+
+ID:
+like-you-better-dance-practice-2025-06-30
+
+Title:
+fromis_9 (프로미스나인) ‘LIKE YOU BETTER’ DANCE PRACTICE
+
+Date:
+2025-06-30
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=KHFtbVgdKwQ
+
+YouTube Video ID:
+KHFtbVgdKwQ
+
+Thumbnail Alt:
+วิดีโอซ้อมเต้นเพลง LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+วิดีโอซ้อมเต้นเพลง “LIKE YOU BETTER” ที่เผยท่าเต้น การจัดแถว และพลังการแสดงของ fromis_9 แบบเต็มเพลง
+
+Description:
+ชมสมาชิกทั้งห้าคนถ่ายทอดท่าเต้น “LIKE YOU BETTER” ในห้องซ้อมแบบเต็มเพลง เห็นทั้งรายละเอียดการเคลื่อนไหวและการเปลี่ยนฟอร์เมชันอย่างชัดเจน
+
+อีกเวอร์ชันที่ช่วยให้ flover ได้ติดตามเสน่ห์ด้านเพอร์ฟอร์แมนซ์และความพร้อมเพรียงของ fromis_9 🕺✨
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+DancePractice
+FromOur20s
+
+==============================
+
+--- PERFORMANCE 63 ---
+
+ID:
+fm-1-24-from-our-20s-jacket-behind-2025-06-27
+
+Title:
+[FM_1.24] จุดเริ่มต้นของการเดินทาง เบื้องหลังการถ่ายแจ็กเก็ต ‘From Our 20’s’
+
+Date:
+2025-06-27
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=lcJK08T4xHA
+
+YouTube Video ID:
+lcJK08T4xHA
+
+Thumbnail Alt:
+เบื้องหลังการถ่ายภาพแจ็กเก็ตอัลบั้ม From Our 20’s ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายภาพแจ็กเก็ตมินิอัลบั้ม “From Our 20’s” พร้อมคอนเซ็ปต์และโมเมนต์ของสมาชิก fromis_9
+
+Description:
+ติดตามสมาชิกตั้งแต่การเตรียมเสื้อผ้าและแต่งหน้า ไปจนถึงการโพสในแต่ละคอนเซ็ปต์ของภาพแจ็กเก็ตมินิอัลบั้ม “From Our 20’s”
+
+เบื้องหลังที่เปิดให้เห็นจุดเริ่มต้นของการเดินทางครั้งใหม่ พร้อมเสน่ห์และความเป็นธรรมชาติของสมาชิกทั้งห้าคน 🧳✨
+
+Tags:
+fromis_9
+프로미스나인
+FromOur20s
+JacketBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 64 ---
+
+ID:
+like-you-better-mv-reaction-2025-06-26
+
+Title:
+fromis_9 (프로미스나인) ‘LIKE YOU BETTER’ MV REACTION
+
+Date:
+2025-06-26
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=If153tgB5ec
+
+YouTube Video ID:
+If153tgB5ec
+
+Thumbnail Alt:
+fromis_9 ชมและรีแอ็กมิวสิกวิดีโอ LIKE YOU BETTER
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+สมาชิก fromis_9 รับชม MV “LIKE YOU BETTER” ไปพร้อมกัน พร้อมเล่าเบื้องหลังและรีแอ็กต่อฉากต่าง ๆ ในมิวสิกวิดีโอ
+
+Description:
+ชมปฏิกิริยาของสมาชิกทั้งห้าคนระหว่างรับชม MV “LIKE YOU BETTER” ฉบับสมบูรณ์ พร้อมความคิดเห็นและเรื่องราวจากกองถ่าย
+
+คอนเทนต์ที่ช่วยให้ flover ได้เห็นรายละเอียดของมิวสิกวิดีโอผ่านมุมมองของ fromis_9 และสนุกกับโมเมนต์ระหว่างสมาชิก 🎬💞
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+MVReaction
+FromOur20s
+
+==============================
+
+--- PERFORMANCE 65 ---
+
+ID:
+like-you-better-fanchant-2025-06-25
+
+Title:
+fromis_9 (프로미스나인) คู่มือคำเชียร์ ‘LIKE YOU BETTER’ 📣
+
+Date:
+2025-06-25
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=kZcZ-UWL7Gw
+
+YouTube Video ID:
+kZcZ-UWL7Gw
+
+Thumbnail Alt:
+คู่มือคำเชียร์เพลง LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+เรียนรู้คำเชียร์อย่างเป็นทางการของเพลง “LIKE YOU BETTER” เพื่อให้ flover ร่วมร้องและส่งเสียงเชียร์บนเวทีได้อย่างถูกจังหวะ
+
+Description:
+มาฝึกคำเชียร์เพลง “LIKE YOU BETTER” ไปพร้อมกับ fromis_9 ตั้งแต่จังหวะเรียกชื่อสมาชิก ไปจนถึงคำและท่อนต่าง ๆ ตลอดเพลง
+
+คู่มือสำหรับเตรียมตัวให้พร้อมก่อนชมการแสดง และเติมพลังให้เวทีด้วยเสียงเชียร์จาก flover 📣🍀
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+Fanchant
+flover
+
+==============================
+
+--- PERFORMANCE 66 ---
+
+ID:
+like-you-better-mv-2025-06-25
+
+Title:
+fromis_9 (프로미스나인) ‘LIKE YOU BETTER’ MV
+
+Date:
+2025-06-25
+
+Category:
+MV
+
+Video URL:
+https://www.youtube.com/watch?v=r1QapH1SIAI
+
+YouTube Video ID:
+r1QapH1SIAI
+
+Thumbnail Alt:
+มิวสิกวิดีโอเพลง LIKE YOU BETTER ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+มิวสิกวิดีโอเพลงไตเติล “LIKE YOU BETTER” จากมินิอัลบั้มชุดที่ 6 “From Our 20’s” และการเริ่มต้นบทใหม่ของ fromis_9 ในฐานะสมาชิกห้าคน
+
+Description:
+มิวสิกวิดีโอเพลง “LIKE YOU BETTER” ถ่ายทอดเรื่องราวการเดินทาง ความสดใส และช่วงเวลาของวัยยี่สิบผ่านสมาชิกทั้งห้าคน
+
+ผลงานเพลงไตเติลจากมินิอัลบั้ม “From Our 20’s” ที่เป็นก้าวสำคัญและการเริ่มต้นบทใหม่ของ fromis_9 ภายใต้ ASND ✨
+
+Tags:
+fromis_9
+프로미스나인
+LIKEYOUBETTER
+MV
+FromOur20s
+
+==============================
+
+--- PERFORMANCE 67 ---
+
+ID:
+fm-1-24-harpers-bazaar-korea-behind-2025-06-22
+
+Title:
+[FM_1.24] เสียงหัวเราะไม่หยุด 😆 เบื้องหลังการถ่าย Harper’s BAZAAR Korea
+
+Date:
+2025-06-22
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=epBIK--rcCo
+
+YouTube Video ID:
+epBIK--rcCo
+
+Thumbnail Alt:
+เบื้องหลัง fromis_9 ถ่ายแฟชั่นให้ Harper’s BAZAAR Korea
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการถ่ายแฟชั่นของ fromis_9 ให้กับ Harper’s BAZAAR Korea พร้อมลุคและโมเมนต์เฮฮาในกองถ่าย
+
+Description:
+ติดตามสมาชิกตั้งแต่การเตรียมลุคและโพสหน้ากล้อง ไปจนถึงช่วงพักระหว่างการถ่ายแฟชั่นให้ Harper’s BAZAAR Korea
+
+เบื้องหลังที่ได้เห็นทั้งความเป็นมืออาชีพ เคมีของสมาชิก และเสียงหัวเราะที่เกิดขึ้นตลอดวันในกองถ่าย 😆📸
+
+Tags:
+fromis_9
+프로미스나인
+HarpersBAZAAR
+Photoshoot
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 68 ---
+
+ID:
+fm-1-24-sudden-attack-behind-2025-06-08
+
+Title:
+[FM_1.24] การพบกันครั้งที่ 4 💟 เบื้องหลังการถ่าย Sudden Attack
+
+Date:
+2025-06-08
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=ct0KOytb0m0
+
+YouTube Video ID:
+ct0KOytb0m0
+
+Thumbnail Alt:
+เบื้องหลัง fromis_9 ถ่ายคอนเทนต์ให้เกม Sudden Attack
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังการร่วมงานครั้งที่ 4 ระหว่าง fromis_9 กับเกม Sudden Attack พร้อมคอนเซ็ปต์และเคมีที่เข้ากันของสมาชิก
+
+Description:
+ติดตาม fromis_9 ในกองถ่ายคอนเทนต์สำหรับเกม Sudden Attack ตั้งแต่การเตรียมลุค ไปจนถึงการถ่ายทำในแต่ละฉาก
+
+การพบกันครั้งที่สี่ซึ่งยังเต็มไปด้วยเคมีที่ลงตัว ความตั้งใจ และโมเมนต์สนุก ๆ ของสมาชิกทั้งห้าคน 💟🎮
+
+Tags:
+fromis_9
+프로미스나인
+SuddenAttack
+BehindTheScenes
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 69 ---
+
+ID:
+fromis-9-official-fanclub-flover-2025-05-08
+
+Title:
+2025 fromis_9 OFFICIAL FANCLUB flover 🍀
+
+Date:
+2025-05-08
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=9gfr1Sh5jAA
+
+YouTube Video ID:
+9gfr1Sh5jAA
+
+Thumbnail Alt:
+วิดีโอแนะนำแฟนคลับทางการ flover ประจำปี 2025 ของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+fromis_9 ชวนแฟน ๆ มาร่วมเป็นสมาชิกแฟนคลับทางการ flover ประจำปี 2025 ผ่านวิดีโอแนะนำจากสมาชิกทั้งห้าคน
+
+Description:
+สมาชิก fromis_9 มาทักทายและชวนแฟน ๆ สมัครแฟนคลับทางการ flover ประจำปี 2025 พร้อมบรรยากาศสดใสและเป็นกันเอง
+
+อีกหนึ่งคำเชิญสำหรับ flover ที่อยากร่วมสร้างความทรงจำและเดินทางไปพร้อมกับสมาชิกทั้งห้าคนตลอดปี 🍀
+
+Tags:
+fromis_9
+프로미스나인
+flover
+OfficialFanclub
+2025
+
+==============================
+
+--- PERFORMANCE 70 ---
+
+ID:
+fm-1-24-jiheon-your-song-mv-behind-2025-05-08
+
+Title:
+[FM_1.24] เบื้องหลังจีฮอนถ่าย MV เพลง ‘Your Song’
+
+Date:
+2025-05-08
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=lhgT0OBasrY
+
+YouTube Video ID:
+lhgT0OBasrY
+
+Thumbnail Alt:
+เบื้องหลังจีฮอน fromis_9 ถ่ายมิวสิกวิดีโอเพลง Your Song ของพัคแจจอง
+
+Featured:
+YES
+
+Members:
+jiheon
+
+Summary:
+พาไปชมเบื้องหลังของจีฮอน fromis_9 ระหว่างถ่าย MV เพลง “Your Song” ของพัคแจจอง พร้อมการทำงานในแต่ละฉาก
+
+Description:
+ติดตามจีฮอนตั้งแต่การเตรียมตัวและซ้อม ไปจนถึงการถ่ายทำฉากต่าง ๆ ในมิวสิกวิดีโอเพลง “Your Song” ของพัคแจจอง
+
+เบื้องหลังที่เผยการถ่ายทอดอารมณ์หน้ากล้อง ความตั้งใจ และโมเมนต์สบาย ๆ ของจีฮอนระหว่างการทำงาน 🎬✨
+
+Tags:
+fromis_9
+프로미스나인
+BAEKJIHEON
+YourSong
+MVBehind
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 71 ---
+
+ID:
+fm-1-24-jiwon-chaeyoung-samsung-lions-behind-2025-04-25
+
+Title:
+[FM_1.24] นางฟ้าแห่งชัยชนะ จีวอนและแชยอง ⚾ เบื้องหลัง Samsung Lions
+
+Date:
+2025-04-25
+
+Category:
+Behind the Scenes
+
+Video URL:
+https://www.youtube.com/watch?v=fEzWf5o4-8Y
+
+YouTube Video ID:
+fEzWf5o4-8Y
+
+Thumbnail Alt:
+เบื้องหลังจีวอนและแชยอง fromis_9 ขว้างและตีลูกเปิดสนามให้ Samsung Lions
+
+Featured:
+YES
+
+Members:
+jiwon
+chaeyoung
+
+Summary:
+ติดตามเบื้องหลังจีวอนและแชยอง fromis_9 กับการขว้างและตีลูกเปิดสนามให้ Samsung Lions พร้อมบรรยากาศในสนามเบสบอล
+
+Description:
+พาไปชมจีวอนและแชยองตั้งแต่การฝึกซ้อมและเตรียมตัว ไปจนถึงช่วงเวลาจริงของการขว้างและตีลูกเปิดเกมให้ Samsung Lions
+
+เบื้องหลังที่รวมทั้งความตื่นเต้น ความมุ่งมั่น และโมเมนต์สนุกสนานของทั้งคู่ตลอดวันในสนามเบสบอล ⚾🦁
+
+Tags:
+fromis_9
+프로미스나인
+PARKJIWON
+LEECHAEYOUNG
+SamsungLions
+FM_1_24
+
+==============================
+
+--- PERFORMANCE 72 ---
+
+ID:
+fromis-9-new-profile-interview-2025-04-18
+
+Title:
+โปรไฟล์และบทสัมภาษณ์ fromis_9 สมาชิก 5 คน
+
+Date:
+2025-04-18
+
+Category:
+Other
+
+Video URL:
+https://www.youtube.com/watch?v=0uD2W5a4woc
+
+YouTube Video ID:
+0uD2W5a4woc
+
+Thumbnail Alt:
+วิดีโอเปิดตัวโปรไฟล์และบทสัมภาษณ์สมาชิกห้าคนของ fromis_9
+
+Featured:
+YES
+
+Members:
+hayoung
+nagyung
+jiwon
+chaeyoung
+jiheon
+
+Summary:
+วิดีโอแรกของช่องทางการใหม่ที่เปิดตัวโปรไฟล์และบทสัมภาษณ์ของฮายอง จีวอน แชยอง นากยอง และจีฮอน พร้อมยืนยันการเริ่มต้นบทใหม่ในชื่อ fromis_9
+
+Description:
+ทำความรู้จักสมาชิกทั้งห้าคนผ่านภาพโปรไฟล์ใหม่และบทสัมภาษณ์ที่เผยความคิด เสน่ห์ และตัวตนของแต่ละคน หลังกลับมาเริ่มกิจกรรมร่วมกันภายใต้ ASND
+
+วิดีโอแรกของช่องทางการนี้ถือเป็นการเปิดฉากบทใหม่ของ fromis_9 พร้อมคำทักทายถึง flover ที่รอคอยการกลับมาของพวกเธอ ✨🍀
+
+Tags:
+fromis_9
+프로미스나인
+ASND
+Profile
+Interview
 
 ==============================

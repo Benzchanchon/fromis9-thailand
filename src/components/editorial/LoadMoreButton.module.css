@@ -8,10 +8,31 @@
   border-radius: var(--radius-pill);
   background: var(--color-brand);
   color: var(--color-white);
+  cursor: pointer;
   padding: 11px 24px;
   font-size: 15px;
   font-weight: 700;
   line-height: 1;
+  transition:
+    transform var(--transition-interactive),
+    box-shadow var(--transition-interactive),
+    filter var(--transition-interactive);
+}
+
+.button:not(:disabled):hover {
+  box-shadow: var(--shadow-control-hover);
+  filter: brightness(1.04);
+  transform: translateY(-2px);
+}
+
+.button:not(:disabled):focus-visible {
+  box-shadow: var(--shadow-control-hover);
+  filter: brightness(1.04);
+}
+
+.button:not(:disabled):active {
+  box-shadow: 0 5px 12px rgba(255, 94, 133, 0.16);
+  transform: translateY(0) scale(0.98);
 }
 
 .button:disabled {
@@ -19,6 +40,12 @@
 }
 
 .arrow {
+  display: inline-block;
   font-size: 18px;
   line-height: 1;
+  transition: transform var(--transition-interactive);
+}
+
+.button:not(:disabled):is(:hover, :focus-visible) .arrow {
+  transform: translateX(4px);
 }

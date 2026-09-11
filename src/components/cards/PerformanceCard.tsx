@@ -21,7 +21,17 @@ export function PerformanceCard({ item }: { item: PerformanceItem }) {
             event.currentTarget.src = fallbackThumbnail;
           }}
         />
-        <span className={styles.play} aria-hidden="true">▶</span>
+        <a
+          className={styles.play}
+          href={item.videoUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Watch ${item.title} on YouTube`}
+        >
+          <span className={styles.playIcon} aria-hidden="true">
+            ▶
+          </span>
+        </a>
       </div>
       <div className={styles.content}>
         <span className={styles.date}>{item.date}</span>

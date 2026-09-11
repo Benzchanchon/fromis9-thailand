@@ -37,6 +37,10 @@
   background: var(--color-surface-soft);
 }
 
+.gridSection:last-child {
+  padding-bottom: 64px;
+}
+
 .newsGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

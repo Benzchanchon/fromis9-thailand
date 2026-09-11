@@ -35,7 +35,7 @@ export function PerformancesPage() {
         );
   const sortedPerformances = sortPerformancesByDateDesc(filteredPerformances);
   const visiblePerformances = sortedPerformances.slice(0, visibleCount);
-  const hasMorePerformances = visibleCount < sortedPerformances.length;
+  const hasMorePerformances = visibleCount < filteredPerformances.length;
 
   return (
     <>
@@ -51,6 +51,7 @@ export function PerformancesPage() {
               title={performancesPageContent.title}
               subtitle={performancesPageContent.subtitle}
               headingId="performances-page-heading"
+              decorationVariant="performances"
             />
           </ContentRail>
         </section>
@@ -68,14 +69,16 @@ export function PerformancesPage() {
           </ContentRail>
         </section>
 
-        <section
-          className={styles.featuredSection}
-          aria-label="Featured performance"
-        >
-          <ContentRail>
-            <FeaturedEditorialCard item={featuredPerformance} />
-          </ContentRail>
-        </section>
+        {activeFilter === "all" ? (
+          <section
+            className={styles.featuredSection}
+            aria-label="Featured performance"
+          >
+            <ContentRail>
+              <FeaturedEditorialCard item={featuredPerformance} />
+            </ContentRail>
+          </section>
+        ) : null}
 
         <section
           className={styles.archiveHeading}
@@ -102,20 +105,24 @@ export function PerformancesPage() {
           </ContentRail>
         </section>
 
-        <section className={styles.loadMoreSection} aria-label="More performances">
-          <LoadMoreButton
-            label={loadMoreLabel}
-            disabled={!hasMorePerformances}
-            onClick={() => {
-              setVisibleCount((currentCount) =>
-                Math.min(
-                  currentCount + loadMorePerformanceBatchSize,
-                  sortedPerformances.length,
-                ),
-              );
-            }}
-          />
-        </section>
+        {hasMorePerformances ? (
+          <section
+            className={styles.loadMoreSection}
+            aria-label="More performances"
+          >
+            <LoadMoreButton
+              label={loadMoreLabel}
+              onClick={() => {
+                setVisibleCount((currentCount) =>
+                  Math.min(
+                    currentCount + loadMorePerformanceBatchSize,
+                    filteredPerformances.length,
+                  ),
+                );
+              }}
+            />
+          </section>
+        ) : null}
       </main>
       <RainbowVitaminStrip />
       <Footer />
