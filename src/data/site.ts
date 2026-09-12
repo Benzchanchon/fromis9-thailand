@@ -2,24 +2,47 @@ export const socialLinks = [
   {
     id: "x",
     label: "X",
-    href: "https://share.google/vxeHMp1P2B0ncWZpX",
+    href: "https://x.com/realfromis_9?lang=en",
   },
   {
     id: "instagram",
     label: "Instagram",
-    href: "https://share.google/dv5PLXLQ3s5hyW1Bn",
+    href: "https://www.instagram.com/officialfromis_9/?hl=en",
   },
   {
     id: "youtube",
     label: "YouTube",
-    href: "https://share.google/Qd9UzSkDKNYik7PeW",
+    href: "https://www.youtube.com/@fromis9_official",
   },
   {
     id: "tiktok",
     label: "TikTok",
-    href: "https://share.google/72GvE5oQvAG1DVa5S",
+    href: "https://www.tiktok.com/@official_fromis9?lang=en",
   },
 ] as const;
+
+function getConfiguredSiteOrigin() {
+  const configuredUrl = import.meta.env.VITE_SITE_URL?.trim();
+
+  if (!configuredUrl) {
+    return null;
+  }
+
+  try {
+    return new URL(configuredUrl).origin;
+  } catch {
+    return null;
+  }
+}
+
+export const siteConfig = {
+  name: "fromis_9 Thailand",
+  configuredOrigin: getConfiguredSiteOrigin(),
+} as const;
+
+export function getPublicSiteOrigin() {
+  return siteConfig.configuredOrigin ?? window.location.origin;
+}
 
 interface FooterContent {
   description: string | null;

@@ -7,6 +7,7 @@ import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { MemberNavigation } from "../components/profile/MemberNavigation";
 import { ProfileInfoGrid } from "../components/profile/ProfileInfoGrid";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { Seo } from "../components/seo/Seo";
 import {
   getMemberBySlug,
   getMemberProfileFacts,
@@ -27,6 +28,12 @@ export function MemberProfilePage() {
   const featuredPerformances = getFeaturedPerformancesByMember(member.slug);
 
   return <>
+    <Seo
+      title={`${member.stageName} | fromis_9 Thailand`}
+      description={member.biography}
+      type="profile"
+      image={member.imageSrc}
+    />
     <Navbar activeRoute="members" />
     <main>
       <section className={styles.hero} aria-labelledby="member-title">
@@ -36,6 +43,8 @@ export function MemberProfilePage() {
               className={styles.portrait}
               src={member.imageSrc}
               alt={member.imageAlt}
+              fetchPriority="high"
+              decoding="async"
             />
             <span
               className={styles.fruit}

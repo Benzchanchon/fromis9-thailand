@@ -8,6 +8,7 @@ interface SectionHeadingProps {
   showRule?: boolean;
   level?: 1 | 2;
   headingId?: string;
+  className?: string;
 }
 
 export function SectionHeading({
@@ -18,11 +19,14 @@ export function SectionHeading({
   showRule = false,
   level = 2,
   headingId,
+  className = "",
 }: SectionHeadingProps) {
   const Heading = level === 1 ? "h1" : "h2";
 
   return (
-    <div className={`${styles.heading} ${styles[align]}`}>
+    <div
+      className={`${styles.heading} ${styles[align]} ${className}`.trim()}
+    >
       {showRule && !eyebrow ? (
         <span className={styles.standaloneRule} aria-hidden="true" />
       ) : null}

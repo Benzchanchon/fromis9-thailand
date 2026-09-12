@@ -5,12 +5,27 @@ import styles from "./NewsCard.module.css";
 interface NewsCardProps {
   item: NewsItem;
   href?: string;
+  presentation?: "default" | "home";
 }
 
-export function NewsCard({ item, href }: NewsCardProps) {
+export function NewsCard({
+  item,
+  href,
+  presentation = "default",
+}: NewsCardProps) {
   return (
-    <article className={styles.card}>
-      <img className={styles.image} src={item.image} alt={item.imageAlt} />
+    <article
+      className={`${styles.card} ${
+        presentation === "home" ? styles.home : ""
+      }`.trim()}
+    >
+      <img
+        className={styles.image}
+        src={item.image}
+        alt={item.imageAlt}
+        loading="lazy"
+        decoding="async"
+      />
       <div className={styles.content}>
         <div className={styles.date}>
           <time dateTime={item.date}>{item.date}</time>

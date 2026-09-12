@@ -45,21 +45,35 @@ export function LatestReleasePanel({ release }: LatestReleasePanelProps) {
         className={styles.artwork}
         src={release.artworkSrc}
         alt={release.artworkAlt}
+        loading="lazy"
+        decoding="async"
       />
       <div className={styles.content}>
         <span className={styles.eyebrow}>
           {release.releaseType} · <time dateTime={release.releaseDate}>{release.releaseDate}</time>
         </span>
+        <span className={styles.mobileEyebrow}>
+          <span className={styles.releaseType}>{release.releaseType}</span>
+          <time dateTime={release.releaseDate}>{release.releaseDate}</time>
+        </span>
         <h3>{release.title}</h3>
         <p>{release.description}</p>
         <div className={styles.actions}>
-          <PillButton href={release.spotifyUrl} variant="spotify">
+          <PillButton
+            href={release.spotifyUrl}
+            variant="spotify"
+            openInNewTab
+          >
             <span className={styles.actionLabel}>
               <SpotifyIcon />
               <span>{release.spotifyButtonText}</span>
             </span>
           </PillButton>
-          <PillButton href={release.youtubeUrl} variant="youtube">
+          <PillButton
+            href={release.youtubeUrl}
+            variant="youtube"
+            openInNewTab
+          >
             <span className={styles.actionLabel}>
               <YouTubeIcon />
               <span>{release.youtubeButtonText}</span>

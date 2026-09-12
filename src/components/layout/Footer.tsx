@@ -10,9 +10,16 @@ const sitemap = [
   { label: "Performances", href: "/performances" },
   { label: "News", href: "/news" },
 ];
-export function Footer() {
+
+interface FooterProps {
+  mobileHome?: boolean;
+}
+
+export function Footer({ mobileHome = false }: FooterProps) {
   return (
-    <footer className={styles.footer}>
+    <footer
+      className={`${styles.footer} ${mobileHome ? styles.mobileHome : ""}`.trim()}
+    >
       <ContentRail className={styles.inner}>
         <div className={styles.columns}>
           <div className={styles.brandColumn}>

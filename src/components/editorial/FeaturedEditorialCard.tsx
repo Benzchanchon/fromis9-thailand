@@ -28,6 +28,7 @@ export function FeaturedEditorialCard({ item }: FeaturedEditorialCardProps) {
           className={styles.media}
           src={item.imageSrc}
           alt={item.imageAlt}
+          decoding="async"
           onError={
             item.imageFallbackSrc
               ? (event) => {

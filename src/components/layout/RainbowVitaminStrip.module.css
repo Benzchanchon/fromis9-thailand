@@ -10,3 +10,9 @@
   );
 }
 
+@media (max-width: 640px) {
+  .mobileHome {
+    height: 20px;
+  }
+}
+

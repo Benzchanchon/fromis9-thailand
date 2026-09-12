@@ -8,6 +8,7 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { Seo } from "../components/seo/Seo";
 import {
   getNewsBySlug,
   getNewsDetailPath,
@@ -41,6 +42,12 @@ export function NewsDetailPage() {
 
   return (
     <>
+      <Seo
+        title={`${article.title} | fromis_9 Thailand`}
+        description={article.summary}
+        type="article"
+        image={article.image}
+      />
       <Navbar activeRoute="news" />
       <main>
         <section
@@ -58,6 +65,8 @@ export function NewsDetailPage() {
               className={styles.heroImage}
               src={article.image}
               alt={article.imageAlt}
+              fetchPriority="high"
+              decoding="async"
             />
           </ContentRail>
         </section>

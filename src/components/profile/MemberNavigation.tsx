@@ -15,7 +15,13 @@ export function MemberNavigation({
         to={`/members/${previous.slug}`}
         className={`${styles.item} ${styles.previous}`}
       >
-        <img className={styles.avatar} src={previous.imageSrc} alt="" />
+        <img
+          className={styles.avatar}
+          src={previous.imageSrc}
+          alt=""
+          loading="lazy"
+          decoding="async"
+        />
         <span className={styles.copy}>
           <small>PREVIOUS MEMBER</small>
           <strong>
@@ -35,7 +41,13 @@ export function MemberNavigation({
             <span className={styles.arrow} aria-hidden="true">→</span>
           </strong>
         </span>
-        <img className={styles.avatar} src={next.imageSrc} alt="" />
+        <img
+          className={styles.avatar}
+          src={next.imageSrc}
+          alt=""
+          loading="lazy"
+          decoding="async"
+        />
       </Link>
     </nav>
   );

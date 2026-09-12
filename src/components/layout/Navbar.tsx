@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { socialLinks } from "../../data/site";
 import { SocialIconLink } from "../ui/SocialIconLink";
@@ -20,20 +21,40 @@ type ActiveRoute = "home" | "members" | "performances" | "news";
 
 interface NavbarProps {
   activeRoute?: ActiveRoute;
+  mobileHome?: boolean;
 }
 
-export function Navbar({ activeRoute = "home" }: NavbarProps) {
+export function Navbar({
+  activeRoute = "home",
+  mobileHome = false,
+}: NavbarProps) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
-    <header className={styles.navbar}>
+    <header
+      className={`${styles.navbar} ${mobileHome ? styles.mobileHome : ""} ${
+        mobileMenuOpen ? styles.mobileMenuOpen : ""
+      }`.trim()}
+    >
       <ContentRail className={styles.inner}>
-        <Link className={styles.brand} to="/" aria-label="fromis_9 Thailand home">
+        <Link
+          className={styles.brand}
+          to="/"
+          aria-label="fromis_9 Thailand home"
+          onClick={() => setMobileMenuOpen(false)}
+        >
           <span className={styles.wordmark}>
             fromis_9 <strong>Thailand</strong>
           </span>
           <span className={styles.descriptor}>THAI FAN COMMUNITY</span>
+          <span className={styles.mobileDescriptor}>FAN CLUB</span>
         </Link>
 
-        <nav className={styles.navigation} aria-label="Primary navigation">
+        <nav
+          className={styles.navigation}
+          id="primary-navigation"
+          aria-label="Primary navigation"
+        >
           <ul>
             {navItems.map((item) => (
               <li key={item.label}>
@@ -42,6 +63,7 @@ export function Navbar({ activeRoute = "home" }: NavbarProps) {
                     className={item.id === activeRoute ? styles.active : undefined}
                     to={item.href}
                     aria-current={item.id === activeRoute ? "page" : undefined}
+                    onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.label}
                   </NavLink>
@@ -64,6 +86,19 @@ export function Navbar({ activeRoute = "home" }: NavbarProps) {
             />
           ))}
         </div>
+
+        <button
+          className={styles.mobileMenuButton}
+          type="button"
+          aria-label={mobileMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-controls="primary-navigation"
+          aria-expanded={mobileMenuOpen}
+          onClick={() => setMobileMenuOpen((isOpen) => !isOpen)}
+        >
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+        </button>
       </ContentRail>
     </header>
   );

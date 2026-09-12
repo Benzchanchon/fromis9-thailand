@@ -60,6 +60,10 @@
   margin-top: 28px;
 }
 
+.mobileEyebrow {
+  display: none;
+}
+
 .actionLabel {
   display: inline-flex;
   align-items: center;
@@ -79,5 +83,80 @@
 
   .artwork {
     min-height: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .panel {
+    display: flex;
+    min-height: 0;
+    flex-direction: column;
+    gap: 16px;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .artwork {
+    height: auto;
+    min-height: 0;
+    border-radius: 20px;
+  }
+
+  .content {
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .eyebrow {
+    display: none;
+  }
+
+  .mobileEyebrow {
+    display: inline-flex;
+    gap: 8px;
+    color: var(--color-text-secondary);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0;
+  }
+
+  .releaseType {
+    border-radius: 12px;
+    background: var(--color-orange);
+    color: var(--color-white);
+    padding: 4px 10px;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .mobileEyebrow time {
+    align-self: center;
+  }
+
+  .content h3 {
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .content p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .actions {
+    width: 100%;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .actions > * {
+    width: 100%;
+    font-size: 14px;
   }
 }

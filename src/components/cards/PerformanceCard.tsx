@@ -16,6 +16,8 @@ export function PerformanceCard({ item }: { item: PerformanceItem }) {
           className={styles.thumbnail}
           src={getYouTubeThumbnail(item.youtubeVideoId)}
           alt={item.thumbnailAlt}
+          loading="lazy"
+          decoding="async"
           onError={(event) => {
             event.currentTarget.onerror = null;
             event.currentTarget.src = fallbackThumbnail;

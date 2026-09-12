@@ -9,6 +9,7 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { Seo } from "../components/seo/Seo";
 import {
   featuredNews,
   getNewsDetailPath,
@@ -36,6 +37,11 @@ export function NewsPage() {
 
   return (
     <>
+      <Seo
+        title="News | fromis_9 Thailand"
+        description={newsPageContent.subtitle}
+        image={featuredNews.imageSrc}
+      />
       <Navbar activeRoute="news" />
       <main>
         <section

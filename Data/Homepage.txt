@@ -194,10 +194,10 @@ Artwork Alt:
 Vitamin ME album artwork
 
 Spotify URL:
-https://share.google/Jw446jthJ6LQniYOx
+https://open.spotify.com/track/7s2ACt7fLNltzHPAmMe5LS
 
 YouTube URL:
-https://youtu.be/sLk8zWUuYTA?si=wmYvpuCIIYATt6RF
+https://www.youtube.com/watch?v=sLk8zWUuYTA
 
 Spotify Button Text:
 Listen on Spotify
@@ -212,16 +212,16 @@ Watch on YouTube
 [SOCIAL LINKS]
 
 X:
-https://share.google/vxeHMp1P2B0ncWZpX
+https://x.com/realfromis_9?lang=en
 
 Instagram:
-https://share.google/dv5PLXLQ3s5hyW1Bn
+https://www.instagram.com/officialfromis_9/?hl=en
 
 YouTube:
-https://share.google/Qd9UzSkDKNYik7PeW
+https://www.youtube.com/@fromis9_official
 
 TikTok:
-https://share.google/72GvE5oQvAG1DVa5S
+https://www.tiktok.com/@official_fromis9?lang=en
 
 
 ==============================

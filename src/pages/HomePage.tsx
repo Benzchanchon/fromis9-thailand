@@ -5,6 +5,7 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { LatestReleasePanel } from "../components/release/LatestReleasePanel";
+import { Seo } from "../components/seo/Seo";
 import { PillButton } from "../components/ui/PillButton";
 import { SectionHeading } from "../components/ui/SectionHeading";
 import {
@@ -25,14 +26,35 @@ const homeMembers = homeMemberOrder.flatMap((slug) => {
 export function HomePage() {
   return (
     <>
-      <Navbar />
+      <Seo
+        title="fromis_9 Thailand | แฟนไซต์และข้อมูล fromis_9"
+        description={homeHero.description}
+        image={homeHero.imageSrc}
+      />
+      <Navbar mobileHome />
       <main>
         <section className={styles.hero} aria-labelledby="hero-title">
-          <img
-            className={styles.heroImage}
-            src={homeHero.imageSrc}
-            alt={homeHero.imageAlt}
-          />
+          <picture className={styles.heroPicture}>
+            <source
+              type="image/avif"
+              srcSet={homeHero.imageAvifSrcSet}
+              sizes="100vw"
+            />
+            <source
+              type="image/webp"
+              srcSet={homeHero.imageWebpSrcSet}
+              sizes="100vw"
+            />
+            <img
+              className={styles.heroImage}
+              src={homeHero.imageSrc}
+              alt={homeHero.imageAlt}
+              width={homeHero.imageWidth}
+              height={homeHero.imageHeight}
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
           <div className={styles.heroOverlay} aria-hidden="true" />
           <ContentRail className={styles.heroContent}>
             <span className={styles.heroEyebrow}>{homeHero.eyebrow}</span>
@@ -42,6 +64,14 @@ export function HomePage() {
               <PillButton href={homeHero.buttonLink} showArrow>
                 {homeHero.buttonText}
               </PillButton>
+              <div className={styles.mobileHeroAction}>
+                <PillButton
+                  href="#latest-news"
+                  variant="heroSecondary"
+                >
+                  {homeSections.newsTitle}
+                </PillButton>
+              </div>
             </div>
           </ContentRail>
         </section>
@@ -57,6 +87,7 @@ export function HomePage() {
                 title={homeSections.newsTitle}
                 align="left"
                 showRule
+                className={styles.homeSectionHeading}
               />
             </div>
             <div className={styles.newsGrid}>
@@ -64,6 +95,7 @@ export function HomePage() {
                 <NewsCard
                   item={item}
                   href={getNewsDetailPath(item.slug)}
+                  presentation="home"
                   key={item.slug}
                 />
               ))}
@@ -83,11 +115,16 @@ export function HomePage() {
                 subtitle={homeSections.membersDescription ?? undefined}
                 align="left"
                 showRule
+                className={styles.homeSectionHeading}
               />
             </div>
             <div className={styles.membersGrid}>
               {homeMembers.map((member) => (
-                <MemberCard member={member} key={member.slug} />
+                <MemberCard
+                  member={member}
+                  mobileSecondaryText={member.koreanName}
+                  key={member.slug}
+                />
               ))}
             </div>
           </ContentRail>
@@ -104,14 +141,15 @@ export function HomePage() {
                 title={homeSections.releaseTitle}
                 align="left"
                 showRule
+                className={styles.homeSectionHeading}
               />
             </div>
             <LatestReleasePanel release={latestRelease} />
           </ContentRail>
         </section>
       </main>
-      <RainbowVitaminStrip />
-      <Footer />
+      <RainbowVitaminStrip mobileHome />
+      <Footer mobileHome />
     </>
   );
 }

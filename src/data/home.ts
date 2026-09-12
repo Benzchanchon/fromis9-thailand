@@ -1,5 +1,9 @@
 import type { ReleaseSummary } from "../types/content";
+import heroImage720Avif from "../assets/images/Homepage/home-hero-720.avif";
+import heroImage720Webp from "../assets/images/Homepage/home-hero-720.webp";
+import heroImageAvif from "../assets/images/Homepage/home-hero.avif";
 import heroImage from "../assets/images/Homepage/home-hero.jpg";
+import heroImageWebp from "../assets/images/Homepage/home-hero.webp";
 import vitaminMeArtwork from "../assets/images/Homepage/vitamin-me.jpg";
 
 export const homeHero = {
@@ -10,6 +14,10 @@ export const homeHero = {
   buttonText: "Explore Members",
   buttonLink: "/members",
   imageSrc: heroImage,
+  imageAvifSrcSet: `${heroImage720Avif} 720w, ${heroImageAvif} 1018w`,
+  imageWebpSrcSet: `${heroImage720Webp} 720w, ${heroImageWebp} 1018w`,
+  imageWidth: 1018,
+  imageHeight: 690,
   imageAlt: "fromis_9 group photo",
 } as const;
 
@@ -36,8 +44,8 @@ export const latestRelease: ReleaseSummary = {
     "fromis_9 makes their highly anticipated summer return with 'Vitamin Me'! The title track is an energetic, high-tempo pop anthem blending tropical summer synths with the group's signature radiant vocals. Let their cool breeze blow away the summer heat.",
   artworkSrc: vitaminMeArtwork,
   artworkAlt: "Vitamin ME album artwork",
-  spotifyUrl: "https://share.google/Jw446jthJ6LQniYOx",
-  youtubeUrl: "https://youtu.be/sLk8zWUuYTA?si=wmYvpuCIIYATt6RF",
+  spotifyUrl: "https://open.spotify.com/track/7s2ACt7fLNltzHPAmMe5LS",
+  youtubeUrl: "https://www.youtube.com/watch?v=sLk8zWUuYTA",
   spotifyButtonText: "Listen on Spotify",
   youtubeButtonText: "Watch on YouTube",
 };

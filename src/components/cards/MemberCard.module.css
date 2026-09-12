@@ -73,3 +73,140 @@
 .profileLink {
   margin-top: 14px;
 }
+
+.inlineEmoji,
+.mobileSecondary {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .home {
+    width: 100%;
+    max-width: 160px;
+  }
+
+  .home .portraitWrap,
+  .home .portrait {
+    border-radius: 12px;
+  }
+
+  .home .fruitPlaceholder,
+  .home .desktopSecondary {
+    display: none;
+  }
+
+  .home .inlineEmoji {
+    display: inline;
+    margin-left: 2px;
+  }
+
+  .home .mobileSecondary {
+    display: block;
+  }
+
+  .home .identity {
+    padding-top: 10px;
+  }
+
+  .home .identity h3 {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .home .identity p {
+    margin-top: 2px;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .home .overlay {
+    place-items: stretch;
+    background: transparent;
+    opacity: 1;
+  }
+
+  .home .overlay > a {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+
+  .home .overlay:focus-within {
+    place-items: center;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .home .overlay:focus-within > a {
+    width: auto;
+    height: auto;
+    opacity: 1;
+  }
+
+  .members {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .members .portraitWrap,
+  .members .portrait {
+    border-radius: 12px;
+  }
+
+  .members .fruitPlaceholder {
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .members .identity {
+    padding-top: 12px;
+  }
+
+  .members .identity h3 {
+    overflow-wrap: anywhere;
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .members .identity p {
+    overflow-wrap: anywhere;
+    margin-top: 4px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .members .profileLink {
+    margin-top: 6px;
+  }
+
+  .members .profileLink > a {
+    min-height: 44px;
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .members .overlay {
+    place-items: stretch;
+    background: transparent;
+    opacity: 1;
+  }
+
+  .members .overlay > a {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+
+  .members .overlay:focus-within {
+    place-items: center;
+    background: rgba(0, 0, 0, 0.35);
+  }
+
+  .members .overlay:focus-within > a {
+    width: auto;
+    height: auto;
+    opacity: 1;
+  }
+}

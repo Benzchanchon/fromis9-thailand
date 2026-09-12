@@ -65,6 +65,11 @@
   text-decoration: none;
 }
 
+.mobileDescriptor,
+.mobileMenuButton {
+  display: none;
+}
+
 .navigation a {
   position: relative;
   transition: color var(--transition-interactive);
@@ -120,5 +125,130 @@
 
   .navigation {
     justify-self: stretch;
+  }
+}
+
+@media (max-width: 640px) {
+  .mobileHome {
+    height: 56px;
+  }
+
+  .mobileHome .inner {
+    position: static;
+    width: 100%;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    padding-inline: 20px;
+  }
+
+  .mobileHome .brand {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .mobileHome .wordmark {
+    font-size: 16px;
+  }
+
+  .mobileHome .descriptor {
+    display: none;
+  }
+
+  .mobileHome .mobileDescriptor {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    background: #ffeaf0;
+    color: var(--color-brand);
+    padding: 2px 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.2;
+  }
+
+  .mobileHome .socials {
+    display: none;
+  }
+
+  .mobileHome .navigation {
+    position: absolute;
+    z-index: 20;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: none;
+    overflow: visible;
+    border-bottom: 1px solid var(--color-border);
+    background: var(--color-white);
+    box-shadow: 0 12px 28px rgba(17, 17, 19, 0.08);
+  }
+
+  .mobileHome.mobileMenuOpen .navigation {
+    display: block;
+  }
+
+  .mobileHome .navigation ul {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 8px 20px 16px;
+  }
+
+  .mobileHome .navigation li,
+  .mobileHome .navigation a,
+  .mobileHome .navigation span {
+    width: 100%;
+  }
+
+  .mobileHome .navigation a,
+  .mobileHome .navigation span {
+    display: flex;
+    min-height: 44px;
+    align-items: center;
+  }
+
+  .mobileHome .navigation a::after {
+    right: auto;
+    bottom: 5px;
+    left: 0;
+    width: 28px;
+  }
+
+  .mobileHome .mobileMenuButton {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-right: -10px;
+    background: transparent;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+  }
+
+  .mobileHome .mobileMenuButton span {
+    width: 18px;
+    height: 2px;
+    border-radius: 1px;
+    background: currentColor;
+    transition:
+      opacity var(--transition-interactive),
+      transform var(--transition-interactive);
+  }
+
+  .mobileHome.mobileMenuOpen .mobileMenuButton span:first-child {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .mobileHome.mobileMenuOpen .mobileMenuButton span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobileHome.mobileMenuOpen .mobileMenuButton span:last-child {
+    transform: translateY(-6px) rotate(-45deg);
   }
 }

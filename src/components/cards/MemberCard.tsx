@@ -6,15 +6,17 @@ import styles from "./MemberCard.module.css";
 interface MemberCardProps {
   member: MemberSummary;
   presentation?: "home" | "members";
+  mobileSecondaryText?: string;
 }
 
 export function MemberCard({
   member,
   presentation = "home",
+  mobileSecondaryText,
 }: MemberCardProps) {
   const isMembersPage = presentation === "members";
   const profileHref = `/members/${member.slug}`;
-  const presentationClass = isMembersPage ? styles.members : "";
+  const presentationClass = isMembersPage ? styles.members : styles.home;
 
   return (
     <article className={`${styles.card} ${presentationClass}`.trim()}>
@@ -23,6 +25,8 @@ export function MemberCard({
           className={styles.portrait}
           src={member.imageSrc}
           alt={member.imageAlt}
+          loading="lazy"
+          decoding="async"
         />
         <span
           className={styles.fruitPlaceholder}
@@ -38,8 +42,16 @@ export function MemberCard({
         </div>
       </div>
       <div className={styles.identity}>
-        <h3>{member.stageName}</h3>
-        <p>{member.fullName}</p>
+        <h3>
+          {member.stageName}
+          <span className={styles.inlineEmoji} aria-hidden="true">
+            {member.representativeEmoji}
+          </span>
+        </h3>
+        <p className={styles.desktopSecondary}>{member.fullName}</p>
+        {mobileSecondaryText ? (
+          <p className={styles.mobileSecondary}>{mobileSecondaryText}</p>
+        ) : null}
         {isMembersPage ? (
           <div className={styles.profileLink}>
             <InlineArrowLink href={profileHref}>View Profile</InlineArrowLink>

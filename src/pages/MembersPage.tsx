@@ -5,13 +5,23 @@ import { Footer } from "../components/layout/Footer";
 import { Navbar } from "../components/layout/Navbar";
 import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
+import { Seo } from "../components/seo/Seo";
+import { homeHero } from "../data/home";
 import { members } from "../data/members";
 import styles from "./MembersPage.module.css";
+
+const membersPageDescription =
+  "ทำความรู้จักสมาชิกทั้ง 5 คนของ fromis_9 พร้อมประวัติและข้อมูลต่างๆ";
 
 export function MembersPage() {
   return (
     <>
-      <Navbar activeRoute="members" />
+      <Seo
+        title="Members | fromis_9 Thailand"
+        description={membersPageDescription}
+        image={homeHero.imageSrc}
+      />
+      <Navbar activeRoute="members" mobileHome />
       <main>
         <section className={styles.header} aria-labelledby="members-page-heading">
           <ContentRail className={styles.headerRail}>
@@ -19,7 +29,7 @@ export function MembersPage() {
               <PageHeaderDecoration variant="members" side="left" />
               <SectionHeading
                 title="Members"
-                subtitle="ทำความรู้จักสมาชิกทั้ง 5 คนของ fromis_9 พร้อมประวัติและข้อมูลต่างๆ"
+                subtitle={membersPageDescription}
                 align="center"
                 level={1}
                 headingId="members-page-heading"
@@ -43,8 +53,8 @@ export function MembersPage() {
           </ContentRail>
         </section>
       </main>
-      <RainbowVitaminStrip />
-      <Footer />
+      <RainbowVitaminStrip mobileHome />
+      <Footer mobileHome />
     </>
   );
 }
