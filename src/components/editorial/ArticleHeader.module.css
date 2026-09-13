@@ -33,3 +33,10 @@
   font-size: 18px;
   line-height: 1.6;
 }
+
+@media (max-width: 640px) {
+  .header { min-width: 0; overflow-wrap: anywhere; }
+  .metadata { flex-wrap: wrap; gap: 8px; font-size: 12px; }
+  .header h1 { margin-top: 16px; font-size: 28px; line-height: 1.4; }
+  .header p { margin-top: 16px; font-size: 15px; line-height: 1.7; }
+}

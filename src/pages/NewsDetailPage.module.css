@@ -49,3 +49,19 @@
   background: var(--color-white);
   padding-block: 32px;
 }
+
+@media (max-width: 900px) {
+  .relatedGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .headerSection { padding-block: 40px 24px; }
+  .heroSection { padding-bottom: 32px; }
+  .heroImage { border-radius: 12px; }
+  .bodySection { padding-bottom: 24px; }
+  .relatedSection { padding-block: 32px 48px; }
+  .relatedHeading { margin-bottom: 24px; }
+  .relatedHeading h2 { font-size: 26px; line-height: 1.2; }
+  .relatedGrid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .navigationSection { padding-block: 24px; }
+}

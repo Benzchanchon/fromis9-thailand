@@ -34,7 +34,7 @@ export function MemberProfilePage() {
       type="profile"
       image={member.imageSrc}
     />
-    <Navbar activeRoute="members" />
+    <Navbar activeRoute="members" mobileHome />
     <main>
       <section className={styles.hero} aria-labelledby="member-title">
         <ContentRail className={styles.heroGrid}>
@@ -80,6 +80,6 @@ export function MemberProfilePage() {
       </section>
       <ContentRail><MemberNavigation previous={previous} next={next} /></ContentRail>
     </main>
-    <RainbowVitaminStrip /><Footer />
+    <RainbowVitaminStrip mobileHome /><Footer mobileHome />
   </>;
 }

@@ -42,7 +42,7 @@ export function NewsPage() {
         description={newsPageContent.subtitle}
         image={featuredNews.imageSrc}
       />
-      <Navbar activeRoute="news" />
+      <Navbar activeRoute="news" mobileHome />
       <main>
         <section
           className={styles.pageHeader}
@@ -123,8 +123,8 @@ export function NewsPage() {
           </section>
         ) : null}
       </main>
-      <RainbowVitaminStrip />
-      <Footer />
+      <RainbowVitaminStrip mobileHome />
+      <Footer mobileHome />
     </>
   );
 }

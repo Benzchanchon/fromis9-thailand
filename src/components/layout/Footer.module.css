@@ -156,6 +156,17 @@
     font-size: 13px;
   }
 
+  /* Extend the hit area without changing the approved footer spacing. */
+  .mobileHome .linkList a::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: max(100%, 44px);
+    height: 24px;
+    transform: translateY(-50%);
+    content: "";
+  }
+
   .mobileHome .legal {
     gap: 16px;
     padding-top: 24px;

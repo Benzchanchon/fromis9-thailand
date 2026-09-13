@@ -48,6 +48,26 @@
   row-gap: 48px;
 }
 
+@media (max-width: 900px) {
+  .performanceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .pageHeader { min-height: 0; padding-block: 40px; }
+  .filterSection { min-height: 0; padding-block: 16px; }
+  .featuredSection { min-height: 0; padding-block: 24px; }
+  .archiveHeading { min-height: 0; padding-block: 32px; }
+  .archiveHeading h2 { font-size: 26px; line-height: 1.2; }
+  .loadMoreSection { min-height: 0; padding: 32px 20px 48px; }
+  .loadMoreSection > button { max-width: 100%; }
+  .gridSection:last-child { padding-bottom: 48px; }
+}
+
+@media (max-width: 640px) {
+  .performanceGrid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+}
+
+
 .loadMoreSection {
   display: grid;
   min-height: 142px;

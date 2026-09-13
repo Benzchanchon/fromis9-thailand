@@ -45,7 +45,7 @@ export function PerformancesPage() {
         description={performancesPageContent.subtitle}
         image={featuredPerformance.imageSrc}
       />
-      <Navbar activeRoute="performances" />
+      <Navbar activeRoute="performances" mobileHome />
       <main>
         <section
           className={styles.pageHeader}
@@ -130,8 +130,8 @@ export function PerformancesPage() {
           </section>
         ) : null}
       </main>
-      <RainbowVitaminStrip />
-      <Footer />
+      <RainbowVitaminStrip mobileHome />
+      <Footer mobileHome />
     </>
   );
 }

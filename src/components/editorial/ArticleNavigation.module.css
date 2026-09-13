@@ -46,3 +46,13 @@ a.title:hover {
   font-size: 16px;
   font-weight: 500;
 }
+
+@media (max-width: 640px) {
+  .navigation { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .item { gap: 8px; }
+  .title { min-height: 44px; max-width: 100%; font-size: 16px; line-height: 1.6; }
+  .title > span { min-width: 0; overflow-wrap: anywhere; }
+  .title > span[aria-hidden="true"] { flex: 0 0 auto; }
+  .title > span:empty { display: none; }
+  .disabled { font-size: 14px; }
+}

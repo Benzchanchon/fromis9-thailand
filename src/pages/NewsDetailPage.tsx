@@ -48,7 +48,7 @@ export function NewsDetailPage() {
         type="article"
         image={article.image}
       />
-      <Navbar activeRoute="news" />
+      <Navbar activeRoute="news" mobileHome />
       <main>
         <section
           className={styles.headerSection}
@@ -113,8 +113,8 @@ export function NewsDetailPage() {
           </ContentRail>
         </section>
       </main>
-      <RainbowVitaminStrip />
-      <Footer />
+      <RainbowVitaminStrip mobileHome />
+      <Footer mobileHome />
     </>
   );
 }

@@ -15,3 +15,29 @@
 .profileGrid { margin-top: 53px; }
 .performances { padding-block: 51px 96px; }
 .performanceGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 40px; }
+
+@media (max-width: 900px) {
+  .heroGrid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; }
+  .portrait { width: 100%; }
+  .performanceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 640px) {
+  .hero { min-height: 0; padding-block: 32px 48px; }
+  .heroGrid { grid-template-columns: minmax(0, 1fr); gap: 32px; }
+  .portraitWrap { width: min(100%, 350px); margin-inline: auto; }
+  .portrait { border-radius: 12px; }
+  .fruit { top: 16px; right: 12px; width: 48px; height: 48px; font-size: 24px; }
+  .bio { min-width: 0; max-width: 100%; overflow-wrap: anywhere; }
+  .eyebrow { font-size: 12px; }
+  .bio h1 { margin-top: 10px; font-size: 32px; line-height: 1.2; }
+  .bio > p { margin-top: 16px; font-size: 16px; line-height: 1.75; }
+  .stat { margin-top: 24px; padding-top: 20px; }
+  .stat strong { font-size: 16px; }
+  .profile { min-height: 0; padding-block: 48px 0; }
+  .profile h2,
+  .performances h2 { font-size: 26px; line-height: 1.2; }
+  .profileGrid { margin-top: 32px; }
+  .performances { padding-block: 48px; }
+  .performanceGrid { grid-template-columns: minmax(0, 1fr); gap: 24px; margin-top: 32px; }
+}

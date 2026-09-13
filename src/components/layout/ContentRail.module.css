@@ -6,3 +6,8 @@
   margin-inline: auto;
 }
 
+@media (max-width: 640px) {
+  .rail {
+    --page-gutter: 20px;
+  }
+}

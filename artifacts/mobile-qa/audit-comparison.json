@@ -1,0 +1,64 @@
+{
+  "desktop": [
+    {
+      "route": "/members/nagyung",
+      "geometryEqual": true,
+      "pixelsEqual": false
+    },
+    {
+      "route": "/members",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/members/chaeyoung",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/members/jiwon",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/members/hayoung",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/news",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/performances",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/members/jiheon",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/news/park-jiwon-musical-debut-hells-kitchen-opening",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    },
+    {
+      "route": "/news/fromis9-2026-asia-tour-tomorrow-glow-seoul",
+      "geometryEqual": true,
+      "pixelsEqual": true
+    }
+  ],
+  "matrix": 55,
+  "overflow": [],
+  "brokenImages": [],
+  "runtimeErrors": [],
+  "mobileSmallTargets": []
+}

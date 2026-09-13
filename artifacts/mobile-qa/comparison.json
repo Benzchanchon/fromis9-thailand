@@ -1,0 +1,145 @@
+[
+  {
+    "route": "/members/nagyung",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "changedPixels": 93600,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 14,
+    "beforeHeight": 2498,
+    "afterHeight": 2498
+  },
+  {
+    "route": "/members",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2116,
+    "afterHeight": 2116
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "changedPixels": 97273,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 9,
+    "beforeHeight": 3763,
+    "afterHeight": 3763
+  },
+  {
+    "route": "/members/chaeyoung",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2498,
+    "afterHeight": 2498
+  },
+  {
+    "route": "/members/jiwon",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "changedPixels": 10998,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 1,
+    "beforeHeight": 2498,
+    "afterHeight": 2498
+  },
+  {
+    "route": "/members/hayoung",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "changedPixels": 10998,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 1,
+    "beforeHeight": 2498,
+    "afterHeight": 2498
+  },
+  {
+    "route": "/news",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2649,
+    "afterHeight": 2649
+  },
+  {
+    "route": "/performances",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": false,
+    "changedPixels": 71486,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 8,
+    "beforeHeight": 2505,
+    "afterHeight": 2505
+  },
+  {
+    "route": "/members/jiheon",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2498,
+    "afterHeight": 2498
+  },
+  {
+    "route": "/news/park-jiwon-musical-debut-hells-kitchen-opening",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2790,
+    "afterHeight": 2790
+  },
+  {
+    "route": "/news/fromis9-2026-asia-tour-tomorrow-glow-seoul",
+    "width": 1440,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 2790,
+    "afterHeight": 2790
+  },
+  {
+    "route": "/members",
+    "width": 390,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 1892,
+    "afterHeight": 1892
+  },
+  {
+    "route": "/",
+    "width": 390,
+    "geometryEqual": true,
+    "pixelsEqual": true,
+    "changedPixels": 0,
+    "nonMediaChangedPixels": 0,
+    "maxChannelDifference": 0,
+    "beforeHeight": 4149,
+    "afterHeight": 4149
+  }
+]

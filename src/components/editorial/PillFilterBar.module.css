@@ -45,3 +45,8 @@
   background: var(--color-brand);
   color: var(--color-white);
 }
+
+@media (max-width: 640px) {
+  .filters { width: 100%; flex-wrap: wrap; gap: 8px; }
+  .filter { min-height: 44px; padding: 12px 16px; white-space: nowrap; }
+}
