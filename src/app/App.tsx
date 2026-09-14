@@ -1,5 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
+import { HistoryPage } from "../pages/HistoryPage";
 import { MembersPage } from "../pages/MembersPage";
 import { MemberProfilePage } from "../pages/MemberProfilePage";
 import { NewsDetailPage } from "../pages/NewsDetailPage";
@@ -11,6 +12,7 @@ export function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/members" element={<MembersPage />} />
+      <Route path="/history" element={<HistoryPage />} />
       <Route path="/members/:slug" element={<MemberProfilePage />} />
       <Route path="/performances" element={<PerformancesPage />} />
       <Route path="/news" element={<NewsPage />} />

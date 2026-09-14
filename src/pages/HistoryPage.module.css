@@ -1,0 +1,23 @@
+.pageHeader {
+  display: grid;
+  min-height: 311px;
+  place-items: center;
+  padding-block: 56px;
+  background: var(--color-white);
+}
+
+.centeredRail { display: grid; place-items: center; }
+.centeredRail > div { width: min(720px, calc(100% - 224px)); }
+.centeredRail p { max-width: 600px; line-height: 1.75; text-wrap: balance; }
+
+.timelineSection { padding-block: 24px 72px; background: var(--color-white); }
+.timelineSection > div > div > p { line-height: 1.75; text-wrap: balance; }
+
+@media (max-width: 640px) {
+  .centeredRail > div { width: 100%; }
+  .centeredRail p { font-size: 15px; line-height: 1.8; }
+  .pageHeader { min-height: 0; padding-block: 32px 40px; }
+  .timelineSection { padding-block: 16px 56px; }
+  .timelineSection > div > div > h2 { font-size: 26px; }
+  .timelineSection > div > div > p { font-size: 14px; line-height: 1.75; }
+}

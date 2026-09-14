@@ -3,7 +3,8 @@ import styles from "./PageHeaderDecoration.module.css";
 export type PageHeaderDecorationVariant =
   | "members"
   | "performances"
-  | "news";
+  | "news"
+  | "history";
 
 interface PageHeaderDecorationProps {
   variant: PageHeaderDecorationVariant;
@@ -108,6 +109,19 @@ function NewsDecoration() {
   );
 }
 
+function HistoryDecoration() {
+  return (
+    <svg viewBox="0 0 72 52" aria-hidden="true" focusable="false">
+      <path d="M35 46V30C35 19 18 30 15 16M35 34C35 17 54 28 57 12" fill="none" stroke="var(--color-brand)" strokeWidth="1.75" strokeLinecap="round" />
+      <rect x="5" y="7" width="24" height="10" rx="5" fill="var(--color-pale-yellow)" stroke="var(--color-orange)" transform="rotate(25 17 12)" />
+      <rect x="47" y="4" width="21" height="10" rx="5" fill="#eafaff" stroke="var(--color-cyan)" transform="rotate(-25 57 9)" />
+      <path d="M39 5v10M34 10h10" stroke="var(--color-brand)" strokeWidth="1.5" strokeLinecap="round" />
+      <circle cx="13" cy="36" r="2.5" fill="var(--color-cyan)" />
+      <circle cx="59" cy="37" r="2" fill="var(--color-orange)" />
+    </svg>
+  );
+}
+
 export function PageHeaderDecoration({
   variant,
   side,
@@ -117,6 +131,7 @@ export function PageHeaderDecoration({
       {variant === "members" ? <MembersDecoration /> : null}
       {variant === "performances" ? <PerformancesDecoration /> : null}
       {variant === "news" ? <NewsDecoration /> : null}
+      {variant === "history" ? <HistoryDecoration /> : null}
     </span>
   );
 }

@@ -1,0 +1,32 @@
+.card { min-width: 0; }
+.portrait { margin: 0; }
+.portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+}
+.portrait figcaption { margin-top: 8px; font-size: 10px; line-height: 1.5; color: var(--color-text-muted); }
+.portrait a { text-decoration: none; }
+.identity { padding-top: 16px; }
+.years {
+  display: inline-flex;
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  background: #ffeaf0;
+  color: var(--color-brand);
+  font-size: 11px;
+  font-weight: 700;
+}
+.identity h3 { margin-top: 12px; font-size: 22px; line-height: 1.25; }
+.koreanName { margin-top: 4px; color: var(--color-text-muted); font-size: 14px; }
+.role { margin-top: 16px; color: var(--color-ink); font-size: 12px; line-height: 1.7; }
+.biography { margin-top: 12px; color: var(--color-text-secondary); font-size: 14px; line-height: 1.8; }
+.source { display: inline-flex; align-items: center; min-height: 24px; margin-top: 12px; color: var(--color-text-muted); font-size: 11px; text-decoration: none; }
+.source:hover, .portrait a:hover { color: var(--color-brand); }
+@media (max-width: 640px) {
+  .card { width: min(300px, 100%); }
+  .portrait img { border-radius: 12px; }
+  .identity h3 { font-size: 20px; }
+  .biography { font-size: 14px; }
+}

@@ -9,6 +9,7 @@ const sitemap = [
   { label: "Members", href: "/members" },
   { label: "Performances", href: "/performances" },
   { label: "News", href: "/news" },
+  { label: "History", href: "/history" },
 ];
 
 interface FooterProps {

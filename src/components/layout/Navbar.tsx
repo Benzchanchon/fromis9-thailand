@@ -15,9 +15,10 @@ const navItems = [
     enabled: true,
   },
   { id: "news", label: "News", href: "/news", enabled: true },
+  { id: "history", label: "History", href: "/history", enabled: true },
 ] as const;
 
-type ActiveRoute = "home" | "members" | "performances" | "news";
+type ActiveRoute = "home" | "members" | "performances" | "news" | "history";
 
 interface NavbarProps {
   activeRoute?: ActiveRoute;
