@@ -1,30 +1,39 @@
 import type { MemberSummary } from "../../types/content";
+import type { FormerMemberProfile } from "../../types/formerMember";
 import { InlineArrowLink } from "../ui/InlineArrowLink";
 import { PillButton } from "../ui/PillButton";
 import styles from "./MemberCard.module.css";
 
-interface MemberCardProps {
-  member: MemberSummary;
+type MemberCardProps = {
   presentation?: "home" | "members";
   mobileSecondaryText?: string;
-}
+} & (
+  | { member: MemberSummary; variant?: "profile" }
+  | { member: FormerMemberProfile; variant: "former" }
+);
 
-export function MemberCard({
-  member,
-  presentation = "home",
-  mobileSecondaryText,
-}: MemberCardProps) {
+export function MemberCard(props: MemberCardProps) {
+  const { member, presentation = "home", mobileSecondaryText } = props;
+  const formerMember = props.variant === "former" ? props.member : null;
   const isMembersPage = presentation === "members";
   const profileHref = `/members/${member.slug}`;
   const presentationClass = isMembersPage ? styles.members : styles.home;
 
   return (
-    <article className={`${styles.card} ${presentationClass}`.trim()}>
+    <article
+      className={`${styles.card} ${presentationClass}`.trim()}
+      data-former-member={formerMember?.slug}
+    >
       <div className={styles.portraitWrap}>
         <img
           className={styles.portrait}
           src={member.imageSrc}
           alt={member.imageAlt}
+          style={
+            formerMember
+              ? { objectPosition: formerMember.imagePosition }
+              : undefined
+          }
           loading="lazy"
           decoding="async"
         />
@@ -35,11 +44,13 @@ export function MemberCard({
         >
           {member.representativeEmoji}
         </span>
-        <div className={styles.overlay}>
-          <PillButton href={profileHref} variant="overlay">
-            View Profile
-          </PillButton>
-        </div>
+        {!formerMember ? (
+          <div className={styles.overlay}>
+            <PillButton href={profileHref} variant="overlay">
+              View Profile
+            </PillButton>
+          </div>
+        ) : null}
       </div>
       <div className={styles.identity}>
         <h3>
@@ -49,10 +60,18 @@ export function MemberCard({
           </span>
         </h3>
         <p className={styles.desktopSecondary}>{member.fullName}</p>
+        {formerMember ? (
+          <>
+            <span className={styles.formerStatus}>Former Member</span>
+            <p className={styles.formerBiography} lang="th">
+              {formerMember.biographyTh}
+            </p>
+          </>
+        ) : null}
         {mobileSecondaryText ? (
           <p className={styles.mobileSecondary}>{mobileSecondaryText}</p>
         ) : null}
-        {isMembersPage ? (
+        {isMembersPage && !formerMember ? (
           <div className={styles.profileLink}>
             <InlineArrowLink href={profileHref}>View Profile</InlineArrowLink>
           </div>

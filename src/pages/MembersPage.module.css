@@ -42,6 +42,15 @@
   row-gap: 64px;
 }
 
+.sectionHeading {
+  margin-bottom: 48px;
+}
+
+.formerSection {
+  padding-bottom: 96px;
+  background: var(--color-white);
+}
+
 @media (max-width: 640px) {
   .header {
     min-height: 240px;
@@ -99,8 +108,21 @@
     padding-block: 32px 64px;
   }
 
-  .membersSection > div {
+  .membersSection > div,
+  .formerSection > div {
     width: calc(100% - 40px);
+  }
+
+  .sectionHeading {
+    margin-bottom: 32px;
+  }
+
+  .sectionHeading p {
+    font-size: 14px;
+  }
+
+  .formerSection {
+    padding-bottom: 64px;
   }
 
   .membersGrid {

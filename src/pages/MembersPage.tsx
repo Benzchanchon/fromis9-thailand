@@ -8,6 +8,7 @@ import { SectionHeading } from "../components/ui/SectionHeading";
 import { Seo } from "../components/seo/Seo";
 import { homeHero } from "../data/home";
 import { members } from "../data/members";
+import { formerMembers, formerMembersSection } from "../data/formerMembers";
 import styles from "./MembersPage.module.css";
 
 const membersPageDescription =
@@ -39,12 +40,41 @@ export function MembersPage() {
           </ContentRail>
         </section>
 
-        <section className={styles.membersSection} aria-label="Member profiles">
+        <section className={styles.membersSection} aria-labelledby="current-members-heading">
           <ContentRail>
+            <SectionHeading
+              title="Current Members"
+              align="center"
+              headingId="current-members-heading"
+              className={styles.sectionHeading}
+            />
             <div className={styles.membersGrid}>
               {members.map((member) => (
                 <MemberCard
                   member={member}
+                  presentation="members"
+                  key={member.slug}
+                />
+              ))}
+            </div>
+          </ContentRail>
+        </section>
+
+        <section className={styles.formerSection} aria-labelledby="former-members-heading">
+          <ContentRail>
+            <SectionHeading
+              title={formerMembersSection.title}
+              eyebrow={formerMembersSection.eyebrow}
+              subtitle={formerMembersSection.introduction}
+              align="center"
+              headingId="former-members-heading"
+              className={styles.sectionHeading}
+            />
+            <div className={styles.membersGrid}>
+              {formerMembers.map((member) => (
+                <MemberCard
+                  member={member}
+                  variant="former"
                   presentation="members"
                   key={member.slug}
                 />
