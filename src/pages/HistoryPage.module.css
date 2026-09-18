@@ -1,23 +1,52 @@
-.pageHeader {
-  display: grid;
-  min-height: 311px;
-  place-items: center;
-  padding-block: 56px;
-  background: var(--color-white);
+.pageHeader { position: relative; padding-block: 64px 112px; overflow: hidden; background: var(--color-white); }
+.heroRail { display: grid; grid-template-columns: 1.1fr 1fr; align-items: end; gap: 80px; }
+.eyebrow { color: var(--color-text-secondary); font-size: 12px; font-weight: 500; letter-spacing: .28em; }
+.heroRail h1 { position: relative; display: inline-block; margin-top: 12px; font-size: clamp(80px, 10.6vw, 152px); font-weight: 700; line-height: 1.06; letter-spacing: -.055em; }
+.sparkles { position: absolute; top: 18px; left: calc(100% + 10px); width: 48px; }
+.introduction { max-width: 510px; padding-bottom: 12px; color: var(--color-text-secondary); font-size: 18px; line-height: 1.9; text-wrap: pretty; }
+.flow { position: absolute; bottom: 0; width: 100%; height: 100px; fill: none; stroke: var(--color-brand); stroke-width: 1; }
+.timelineSection { padding-block: 56px 96px; }
+.timelineHeading { display: flex; align-items: center; gap: 24px; margin-bottom: 48px; }
+.timelineHeading h2 { font-size: 28px; font-weight: 700; line-height: 1.5; }
+.headingRule { height: 1px; flex: 1; background: var(--color-border-alt); }
+.dots { display: flex; gap: 12px; }
+.dots i { width: 10px; height: 10px; border-radius: 50%; background: var(--color-brand); }
+.dots i:nth-child(2) { background: #78ced9; }
+.dots i:nth-child(3) { background: #ffe17c; }
+@media (max-width: 900px) {
+  .heroRail { gap: 48px; grid-template-columns: 1fr 1fr; }
+  .heroRail h1 { font-size: clamp(64px, 10vw, 100px); }
+  .sparkles { width: 32px; top: 8px; }
+  .introduction { font-size: 16px; }
 }
-
-.centeredRail { display: grid; place-items: center; }
-.centeredRail > div { width: min(720px, calc(100% - 224px)); }
-.centeredRail p { max-width: 600px; line-height: 1.75; text-wrap: balance; }
-
-.timelineSection { padding-block: 24px 72px; background: var(--color-white); }
-.timelineSection > div > div > p { line-height: 1.75; text-wrap: balance; }
-
 @media (max-width: 640px) {
-  .centeredRail > div { width: 100%; }
-  .centeredRail p { font-size: 15px; line-height: 1.8; }
-  .pageHeader { min-height: 0; padding-block: 32px 40px; }
-  .timelineSection { padding-block: 16px 56px; }
-  .timelineSection > div > div > h2 { font-size: 26px; }
-  .timelineSection > div > div > p { font-size: 14px; line-height: 1.75; }
+  .pageHeader { padding-block: 36px 76px; }
+  .heroRail { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .eyebrow { font-size: 10px; letter-spacing: .22em; }
+  .heroRail h1 { font-size: 80px; margin-top: 12px; }
+  .sparkles { width: 36px; top: 4px; left: calc(100% + 12px); }
+  .introduction { font-size: 15px; line-height: 1.85; padding: 0; }
+  .flow { height: 56px; width: 160%; max-width: none; left: -30%; }
+  .timelineSection { padding-block: 28px 64px; }
+  .timelineHeading { gap: 16px; margin-bottom: 32px; }
+  .timelineHeading h2 { font-size: 22px; }
+  .dots { gap: 6px; }
+  .dots i { width: 6px; height: 6px; }
 }
+@font-face {
+  font-family: "History Thai";
+  src: url("../assets/fonts/history/noto-sans-thai-400.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
+@font-face {
+  font-family: "History Thai";
+  src: url("../assets/fonts/history/noto-sans-thai-700.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600 900;
+  font-display: swap;
+  unicode-range: U+0E00-0E7F;
+}
+.historyPage { font-family: "Outfit", "History Thai", system-ui, sans-serif; }

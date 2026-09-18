@@ -10,7 +10,7 @@ export interface HistoricalImage {
 export interface HistoryEntry {
   id: string;
   year: number;
-  /** Date of the milestone, or the last event in a grouped era (YYYY-MM-DD). */
+  /** ISO date of the milestone/grouped era; YYYY-MM when only the month is confirmed. */
   date: string;
   dateLabel: string;
   title: string;

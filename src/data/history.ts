@@ -1,3 +1,6 @@
+import weGoImage from "../assets/images/History/9-way-ticket-cover.jpg";
+import whiteMemoriesImage from "../assets/images/History/white-memories-cover.jpg";
+import asndImage from "../assets/images/History/asnd-profile-2025.jpg";
 import japanImage from "../assets/images/History/japanese-debut-cover.png";
 import fromImage from "../assets/images/History/from-cover.png";
 import supersonicImage from "../assets/images/History/supersonic-era.png";
@@ -18,21 +21,20 @@ import glowMeImage from "../assets/images/History/glow-me-concept.png";
 import tomorrowGlowImage from "../assets/images/History/tomorrow-glow-tour.jpg";
 import type { HistoryEntry } from "../types/history";
 
-export const historyPrimarySource = "https://kpop.fandom.com/wiki/Fromis_9";
-const worldTourSource = "https://kpop.fandom.com/wiki/2025_fromis_9_World_Tour_%27Now_Tomorrow.%27";
+export const historyPrimarySource = "https://fromis9.fandom.com/wiki/Fromis_9";
+const earlierHistorySource = "https://kpop.fandom.com/wiki/Fromis_9";
+const worldTourSource = "https://fromis9.fandom.com/wiki/2025_fromis_9_WORLD_TOUR_%27NOW_TOMORROW.%27";
 const glowMeSource = "https://kpop.fandom.com/wiki/Glow_Me";
 const asiaTourSource = "https://www.soompi.com/article/1858411wpp/fromis_9-announces-2026-asia-tour-tomorrow-glow";
 
 export const historyPageContent = {
   eyebrow: "FROMIS_9 ARCHIVE",
   title: "History",
-  introduction: "จาก Idol School สู่บทใหม่ของสมาชิก 5 คน ย้อนดูหมุดหมายสำคัญที่พา fromis_9 เติบโตมาจนถึงวันนี้",
-  timelineTitle: "Growing with fromis_9",
-  timelineIntroduction: "แต่ละช่วงเวลาคือส่วนหนึ่งของเรื่องราวที่เติบโตไปด้วยกัน",
-  sourceNote: "เรียบเรียงเป็นภาษาไทยจาก Kpop Wiki พร้อมตรวจสอบรายละเอียดเพิ่มเติมจากแหล่งอ้างอิงด้านล่าง ข้อมูลทัวร์อ้างอิงประกาศล่าสุดวันที่ 11 กันยายน 2026 และนำเสนอเป็นกำหนดการที่ประกาศ ไม่ใช่สรุปการแสดงที่ผ่านมา",
+  introduction: "จาก Idol School สู่บทใหม่ของ fromis_9 ย้อนดูผลงานและหมุดหมายสำคัญที่เติบโตไปพร้อมกับแฟน ๆ",
+  timelineTitle: "เติบโตไปด้วยกัน",
   sources: [
-    { label: "Kpop Wiki — fromis_9 (แหล่งหลัก)", url: historyPrimarySource },
-    { label: "Kpop Wiki — NOW TOMORROW.", url: worldTourSource },
+    { label: "fromis_9 Wiki — ประวัติวง (แหล่งหลัก)", url: historyPrimarySource },
+    { label: "fromis_9 Wiki — NOW TOMORROW.", url: worldTourSource },
     { label: "Kpop Wiki — Glow Me", url: glowMeSource },
     { label: "Soompi — TOMORROW GLOW.", url: asiaTourSource },
   ],
@@ -51,7 +53,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "รอบสุดท้ายวันที่ 29 กันยายนคัดเลือกสมาชิก 9 คนในชื่อ fromis_ โดย Roh Jisun ได้อันดับหนึ่ง ส่วน Pledis Entertainment รับหน้าที่ดูแลการฝึกและเตรียมวงสำหรับการเดบิวต์",
     ],
     image: { src: formationImage, alt: "ภาพโปรไฟล์ทางการ fromis_9 ยุคพรีเดบิวต์ปี 2017", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_group_profile_photo_(1).png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 65%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "glass-shoes-pre-debut",
@@ -65,7 +67,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "วงแสดงเพลงพรีเดบิวต์ Glass Shoes ในงาน 2017 Mnet Asian Music Awards ที่ญี่ปุ่นเมื่อวันที่ 29 พฤศจิกายน ก่อนปล่อยเพลงเป็นดิจิทัลซิงเกิลในวันถัดมา",
     ],
     image: { src: glassShoesImage, alt: "ปกซิงเกิลพรีเดบิวต์ Glass Shoes ของ fromis_9 ปี 2017", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Glass_Shoes_cover_art.png", credit: "Glass Shoes · ปกซิงเกิล / Kpop Wiki", kind: "artwork" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "to-heart-debut",
@@ -76,10 +78,10 @@ export const historyEntries: readonly HistoryEntry[] = [
     category: "DEBUT",
     summaryTh: [
       "fromis_9 เดบิวต์อย่างเป็นทางการเมื่อวันที่ 24 มกราคม 2018 พร้อมมินิอัลบั้มแรก To. Heart",
-      "มินิอัลบั้มและเพลงไตเติลชื่อเดียวกันเปิดเส้นทางการทำกิจกรรมอย่างเป็นทางการของวงสมาชิก 9 คน",
+      "เพลง To Heart เปิดตัวสมาชิกทั้ง 9 คนในฐานะศิลปินอย่างเต็มตัว หลังทำความรู้จักกับแฟน ๆ ผ่านรายการและเพลงพรีเดบิวต์",
     ],
     image: { src: toHeartImage, alt: "ภาพโปรโมต To. Heart ปี 2018 สมาชิก fromis_9 ทั้ง 9 คนในห้องเรียน", sourceUrl: "https://www.soompi.com/article/1106067wpp/idol-school-girl-group-fromis_9-kicks-off-debut-teasers-releasing-track-list", credit: "To. Heart · ภาพโปรโมตทางการ / Soompi", kind: "photo" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "to-day-from9-off-the-record",
@@ -90,24 +92,24 @@ export const historyEntries: readonly HistoryEntry[] = [
     category: "NEW ERA",
     summaryTh: [
       "fromis_9 ปล่อยมินิอัลบั้ม To. Day วันที่ 5 มิถุนายน และโปรโมตด้วยสมาชิก 8 คน ระหว่างที่ Jang Gyuri เข้าร่วมรายการ Produce 48",
-      "ในเดือนกันยายน วงย้ายมาอยู่ภายใต้การดูแลของ Off The Record Entertainment ก่อนกลับมาครบ 9 คนกับซิงเกิลอัลบั้มพิเศษ From.9 และเพลง Love Bomb เมื่อวันที่ 10 ตุลาคม",
+      "ในเดือนกันยายน วงย้ายมาอยู่ภายใต้การดูแลของ Off The Record Entertainment ก่อนกลับมาครบ 9 คนกับซิงเกิลอัลบั้มพิเศษ From.9 และเพลง LOVE BOMB เมื่อวันที่ 10 ตุลาคม",
     ],
     image: { src: from9Image, alt: "ภาพโปรโมต From.9 สมาชิก fromis_9 ทั้ง 9 คน", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_From.9_group_promotional_photo.png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 0%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "flover-fun-factory",
     year: 2019,
     date: "2019-06-04",
-    dateLabel: "มกราคม–มิถุนายน 2019",
-    title: "ชื่อ flover และสีสันของ Fun Factory",
+    dateLabel: "4 มิถุนายน 2019",
+    title: "สีสันครั้งใหม่กับ FUN FACTORY",
     category: "TOGETHER",
     summaryTh: [
-      "วันที่ 24 มกราคม 2019 ซึ่งเป็นวันครบรอบเดบิวต์หนึ่งปี วงประกาศชื่อแฟนคลับว่า flover ชื่อนี้ผสมคำว่า fromis กับ clover และสื่อถึงคำสัญญาที่จะมีช่วงเวลาดี ๆ ร่วมกัน",
-      "วันที่ 4 มิถุนายน fromis_9 กลับมาพร้อมซิงเกิลอัลบั้มแรก Fun Factory และเพลงไตเติล Fun!",
+      "fromis_9 กลับมาพร้อมซิงเกิลอัลบั้มแรก FUN FACTORY เมื่อวันที่ 4 มิถุนายน 2019 โดยมี FUN! เป็นเพลงไตเติล",
+      "หลังจบการโปรโมตเพลงหลัก วงยังทำกิจกรรมกับเพลง Love RumPumPum เพื่อมอบเป็นของขวัญให้แฟน ๆ",
     ],
     image: { src: funFactoryImage, alt: "ภาพคอนเซปต์ Fun Factory ปี 2019", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Fun_Factory_group_concept_photo_(Fun_ver.).png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "my-little-society",
@@ -118,10 +120,20 @@ export const historyEntries: readonly HistoryEntry[] = [
     category: "RELEASE",
     summaryTh: [
       "หลังห่างจากการคัมแบ็กไปกว่าหนึ่งปี fromis_9 ปล่อยมินิอัลบั้ม My Little Society พร้อมเพลง Feel Good (Secret Code) เมื่อวันที่ 16 กันยายน 2020",
-      "ในปีเดียวกัน แผนปล่อย Love Bomb เวอร์ชันภาษาญี่ปุ่นและกิจกรรมในญี่ปุ่นต้องเลื่อนออกไปจากสถานการณ์ COVID-19",
+      "ในปีเดียวกัน แผนปล่อย LOVE BOMB เวอร์ชันภาษาญี่ปุ่นและกิจกรรมในญี่ปุ่นต้องเลื่อนออกไปจากสถานการณ์ COVID-19",
     ],
     image: { src: societyImage, alt: "ภาพโปรโมต My Little Society ปี 2020", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_My_Little_Society_group_promo_photo_(1).png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
+  },
+  {
+    id: "9-way-ticket", year: 2021, date: "2021-05-17", dateLabel: "17 พฤษภาคม 2021",
+    title: "ออกเดินทางไปกับ WE GO", category: "ผลงาน",
+    summaryTh: [
+      "ซิงเกิลอัลบั้มชุดที่สอง 9 Way Ticket วางจำหน่ายวันที่ 17 พฤษภาคม 2021 พร้อมเพลงไตเติล WE GO",
+      "อัลบั้มถ่ายทอดบรรยากาศของการเดินทางผ่านสามเพลง ตั้งแต่ Airplane Mode และ WE GO ไปจนถึง Promise",
+    ],
+    image: { src: weGoImage, alt: "ปกดิจิทัลซิงเกิลอัลบั้ม 9 Way Ticket", sourceUrl: "https://fromis9.fandom.com/wiki/File:Fromis_9_9_Way_Ticket_digital_album_cover.jpeg", credit: "Off The Record / fromis_9 Wiki", kind: "artwork" },
+    sourceUrls: [historyPrimarySource, "https://fromis9.fandom.com/wiki/9_Way_Ticket"],
   },
   {
     id: "pledis-talk-and-talk-first-win",
@@ -135,7 +147,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "Talk & Talk พาวงคว้ารางวัลอันดับหนึ่งในรายการเพลงเป็นครั้งแรกจาก The Show เมื่อวันที่ 7 กันยายน 2021",
     ],
     image: { src: firstWinImage, alt: "fromis_9 รับถ้วยรางวัลครั้งแรกจาก Talk & Talk ใน The Show วันที่ 7 กันยายน 2021", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_first_music_show_win_(September_7,_2021).png", credit: "The Show · ภาพบันทึกหมุดหมาย / Kpop Wiki", kind: "photo" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource, "https://www.soompi.com/article/1487614wpp/fromis_9-takes-tearful-1st-ever-win-on-the-show-with-talk-performances-by-kwon-eun-bi-omega-x-and-more"],
   },
   {
     id: "midnight-guest-memento-box",
@@ -149,7 +161,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "Jiheon ที่พักกิจกรรมด้วยเหตุผลด้านสุขภาพในช่วงต้นปี กลับมาร่วมกิจกรรมอีกครั้งก่อนคัมแบ็กฤดูร้อน ทำให้วงกลับมาโปรโมตครบทีม",
     ],
     image: { src: mementoImage, alt: "ภาพคอนเซปต์ From Our Memento Box ปี 2022", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_From_Our_Memento_Box_group_concept_photo_3.png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 62%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "gyuri-lineup-change",
@@ -163,7 +175,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "วงจึงเดินหน้าต่อด้วยสมาชิก 8 คน ส่วน Gyuri ยังคงเป็นส่วนหนึ่งของเรื่องราวตั้งแต่วันก่อตั้งและผลงานในยุคสมาชิก 9 คน",
     ],
     image: { src: gyuriImage, alt: "Jang Gyuri ในภาพคอนเซปต์ From Our Memento Box ก่อนสิ้นสุดกิจกรรมกับวง", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Jang_Gyuri_From_Our_Memento_Box_concept_photo_1.png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "35% 35%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "love-from-first-concert",
@@ -177,7 +189,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "การประกาศคอนเสิร์ตครั้งนี้เป็นอีกก้าวสำคัญของวงในช่วงที่เริ่มทำกิจกรรมด้วยสมาชิก 8 คน",
     ],
     image: { src: loveFromImage, alt: "โปสเตอร์คอนเสิร์ต Love From. ที่โซล ปี 2022", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Love_From_Seoul_concert_poster.png", credit: "ภาพทางการ / Kpop Wiki", kind: "poster", objectPosition: "50% 12%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource, "https://fromis9.fandom.com/wiki/2022_fromis_9_concert_%27LOVE_FROM.%27"],
   },
   {
     id: "unlock-my-world",
@@ -191,7 +203,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "ก่อนหน้านั้นในเดือนมกราคม วงเปิดเผยดีไซน์แท่งไฟอย่างเป็นทางการสำหรับแฟน ๆ",
     ],
     image: { src: unlockMyWorldImage, alt: "ปกดิจิทัลอัลบั้มเต็มชุดแรก Unlock My World ของ fromis_9", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Unlock_My_World_digital_cover_album_art.png", credit: "Unlock My World · ปกอัลบั้ม / Kpop Wiki", kind: "artwork" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "supersonic",
@@ -205,7 +217,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "อัลบั้มนี้เป็นผลงานในช่วงท้ายของการทำกิจกรรมภายใต้ Pledis Entertainment ก่อนการเปลี่ยนผ่านในปลายปี",
     ],
     image: { src: supersonicImage, alt: "ภาพโปรโมตยุค Supersonic จาก Melon ปี 2024", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Supersonic_Melon_exclusive_photo_1.png", credit: "ภาพทางการ / Kpop Wiki", kind: "photo", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "from-pledis-contracts",
@@ -219,21 +231,21 @@ export const historyEntries: readonly HistoryEntry[] = [
       "Pledis ประกาศว่าสมาชิกตัดสินใจไม่ต่อสัญญา โดยสัญญากับค่ายสิ้นสุดลงวันที่ 31 ธันวาคม ก่อนวงเข้าสู่บทใหม่ในปีถัดมา",
     ],
     image: { src: fromImage, alt: "ปกดิจิทัลซิงเกิล From ปี 2024", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_From_digital_cover.png", credit: "ภาพทางการ / Kpop Wiki", kind: "artwork", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "asnd-five-member-chapter",
     year: 2025,
-    date: "2025-03-26",
+    date: "2025-03-27",
     dateLabel: "มกราคม–มีนาคม 2025",
     title: "บทใหม่ของสมาชิก 5 คนกับ ASND",
     category: "NEW CHAPTER",
     summaryTh: [
       "วันที่ 26 มกราคม 2025 ASND ประกาศว่า Hayoung, Jiwon, Chaeyoung, Nagyung และ Jiheon เซ็นสัญญากับค่าย เพื่อเดินหน้าร่วมกันด้วยสมาชิก 5 คน",
-      "วันที่ 26 มีนาคม ASND ยืนยันว่าได้รับสิทธิ์เครื่องหมายการค้าชื่อ fromis_9 พร้อมเผยภาพโปรไฟล์ใหม่ของสมาชิกทั้งห้า",
+      "วันที่ 27 มีนาคม ASND ยืนยันว่าได้รับสิทธิ์เครื่องหมายการค้าชื่อ fromis_9 พร้อมเผยภาพโปรไฟล์ใหม่ของสมาชิกทั้งห้า",
     ],
-    image: { src: fromOur20sImage, alt: "ปก From Our 20's ผลงานยุคสมาชิก 5 คนภายใต้ ASND", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_From_Our_20%27s_online_cover.png", credit: "ภาพทางการ / Kpop Wiki", kind: "artwork", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    image: { src: asndImage, alt: "ภาพโปรไฟล์ Hayoung, Jiwon, Chaeyoung, Nagyung และ Jiheon ที่ ASND เผยแพร่ในปี 2025", sourceUrl: "https://www.soompi.com/article/1732921wpp/fromis_9-secures-rights-to-their-group-name-drops-new-profile-pictures", credit: "ภาพโปรไฟล์ ASND / Soompi", kind: "photo" },
+    sourceUrls: [historyPrimarySource, earlierHistorySource, "https://www.soompi.com/article/1732921wpp/fromis_9-secures-rights-to-their-group-name-drops-new-profile-pictures"],
   },
   {
     id: "from-our-20s",
@@ -247,21 +259,31 @@ export const historyEntries: readonly HistoryEntry[] = [
       "อัลบั้มนี้เป็นการคัมแบ็กครั้งแรกด้วยสมาชิก 5 คนภายใต้ ASND หลังการเปลี่ยนผ่านจากค่ายเดิม",
     ],
     image: { src: fromOur20sImage, alt: "ปกดิจิทัลมินิอัลบั้ม From Our 20's ของ fromis_9", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_From_Our_20%27s_online_cover.png", credit: "From Our 20's · ปกอัลบั้ม / Kpop Wiki", kind: "artwork" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource],
   },
   {
     id: "now-tomorrow-world-tour",
     year: 2025,
-    date: "2025-08-08",
-    dateLabel: "8 สิงหาคม 2025",
+    date: "2025-08", // Month precision: sources disagree on the opening day.
+    dateLabel: "สิงหาคม 2025",
     title: "เวิลด์ทัวร์ครั้งแรก NOW TOMORROW.",
     category: "ON STAGE",
     summaryTh: [
-      "2025 fromis_9 World Tour [Now Tomorrow.] เป็นเวิลด์ทัวร์ครั้งแรกของวง โดยเปิดทัวร์ที่ Jangchung Arena ในโซลเมื่อวันที่ 8 สิงหาคม 2025",
-      "ทัวร์พาวงไปพบแฟน ๆ ในสหรัฐอเมริกา ญี่ปุ่น ไต้หวัน และฮ่องกง ก่อนปิดท้ายด้วยการแสดงที่โซลช่วงต้นปี 2026",
+      "fromis_9 เริ่มเวิลด์ทัวร์ครั้งแรก NOW TOMORROW. ที่โซลในเดือนสิงหาคม 2025 ก่อนเดินทางไปพบแฟน ๆ ในหลายประเทศ",
+      "ทัวร์ครอบคลุมสหรัฐอเมริกา ญี่ปุ่น ไต้หวัน และฮ่องกง พร้อมรอบอังกอร์ในโซลและโตเกียวช่วงต้นปี 2026",
     ],
     image: { src: nowTomorrowImage, alt: "โปสเตอร์ทางการ NOW TOMORROW. IN SEOUL ปี 2025 พร้อมสมาชิก fromis_9 ทั้ง 5 คน", sourceUrl: "https://fromis9.fanpla.jp/news/detail/48965", credit: "NOW TOMORROW. · Official flover Japan", kind: "poster", objectPosition: "50% 28%" },
-    sourceUrls: [historyPrimarySource, worldTourSource],
+    sourceUrls: [historyPrimarySource, worldTourSource, "https://fromis9.fanpla.jp/news/detail/48965"],
+  },
+  {
+    id: "white-memories", year: 2025, date: "2025-12-02", dateLabel: "2 ธันวาคม 2025",
+    title: "ส่งท้ายปีด้วย White Memories", category: "ผลงาน",
+    summaryTh: [
+      "fromis_9 ปล่อยซิงเกิลพิเศษ White Memories เมื่อวันที่ 2 ธันวาคม 2025",
+      "เพลงนี้นำผลงานฤดูหนาวของ Kim Min Jong จากปี 2001 กลับมาเรียบเรียงใหม่ในเวอร์ชันของวง",
+    ],
+    image: { src: whiteMemoriesImage, alt: "ปกดิจิทัลซิงเกิล White Memories", sourceUrl: "https://fromis9.fandom.com/wiki/File:White_Memories_Digital_Album_Cover.jpeg", credit: "ASND / fromis_9 Wiki", kind: "artwork" },
+    sourceUrls: [historyPrimarySource, "https://fromis9.fandom.com/wiki/White_Memories"],
   },
   {
     id: "japanese-debut",
@@ -275,7 +297,7 @@ export const historyEntries: readonly HistoryEntry[] = [
       "การเดบิวต์ครั้งนี้เกิดขึ้นหลังแผนกิจกรรมญี่ปุ่นในปี 2020 ต้องเลื่อนออกไปจากสถานการณ์ COVID-19",
     ],
     image: { src: japanImage, alt: "ปก Like You Better (Japanese Ver.) รุ่น Regular Edition", sourceUrl: "https://kpop.fandom.com/wiki/File:Fromis_9_Like_You_Better_(Japanese_Ver.)_album_cover_(Regular_Edition).png", credit: "ภาพทางการ / Kpop Wiki", kind: "artwork", objectPosition: "50% 50%" },
-    sourceUrls: [historyPrimarySource],
+    sourceUrls: [historyPrimarySource, earlierHistorySource, "https://fromis9.fandom.com/wiki/LIKE_YOU_BETTER_(Japanese_ver.)"],
   },
   {
     id: "glow-me",
