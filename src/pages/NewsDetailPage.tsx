@@ -1,4 +1,8 @@
 import { Navigate, useParams } from "react-router-dom";
+import { useCallback } from "react";
+import { useNewsRequest } from "../hooks/useNewsRequest";
+import { getNewsDetail } from "../services/newsApi";
+import { NewsRequestState } from "../components/editorial/NewsRequestState";
 import { NewsCard } from "../components/cards/NewsCard";
 import { ArticleBody } from "../components/editorial/ArticleBody";
 import { ArticleHeader } from "../components/editorial/ArticleHeader";
@@ -10,23 +14,40 @@ import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
 import { Seo } from "../components/seo/Seo";
 import {
-  getNewsBySlug,
   getNewsDetailPath,
   getNewsNavigation,
   getRelatedNews,
-} from "../data/news";
+} from "../utils/news";
 import styles from "./NewsDetailPage.module.css";
 
 export function NewsDetailPage() {
   const { slug } = useParams();
-  const article = getNewsBySlug(slug);
+  return slug ? (
+    <RequestedNewsDetail key={slug} slug={slug} />
+  ) : (
+    <Navigate to="/news" replace />
+  );
+}
+
+function RequestedNewsDetail({ slug }: { slug: string }) {
+  const load = useCallback(
+    (signal: AbortSignal) => getNewsDetail(slug, signal),
+    [slug],
+  );
+  const request = useNewsRequest(load);
+
+  if (request.status !== "success") {
+    return <NewsRequestState error={request.status === "error"} retry={request.retry} />;
+  }
+
+  const { article, items } = request.data;
 
   if (!article) {
     return <Navigate to="/news" replace />;
   }
 
-  const relatedNews = getRelatedNews(article);
-  const navigation = getNewsNavigation(article.slug);
+  const relatedNews = getRelatedNews(items, article);
+  const navigation = getNewsNavigation(items, article.slug);
   const previous = navigation.previous
     ? {
         title: navigation.previous.title,

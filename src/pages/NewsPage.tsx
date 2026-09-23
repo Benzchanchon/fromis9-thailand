@@ -11,20 +11,30 @@ import { RainbowVitaminStrip } from "../components/layout/RainbowVitaminStrip";
 import { SectionHeading } from "../components/ui/SectionHeading";
 import { Seo } from "../components/seo/Seo";
 import {
-  featuredNews,
-  getNewsDetailPath,
   loadMoreNewsLabel,
   newsFilters,
-  newsItems,
   newsPageContent,
-  sortNewsByDateDesc,
-} from "../data/news";
+} from "../data/newsPresentation";
+import { getFeaturedNews, getNewsDetailPath, sortNewsByDateDesc } from "../utils/news";
+import { getNews } from "../services/newsApi";
+import { useNewsRequest } from "../hooks/useNewsRequest";
+import { NewsRequestState } from "../components/editorial/NewsRequestState";
+import type { NewsItem } from "../types/content";
 import styles from "./NewsPage.module.css";
 
 const initialVisibleNewsCount = 6;
 const loadMoreNewsBatchSize = 6;
 
 export function NewsPage() {
+  const request = useNewsRequest(getNews);
+  if (request.status !== "success") {
+    return <NewsRequestState error={request.status === "error"} retry={request.retry} />;
+  }
+  return <LoadedNewsPage newsItems={request.data} />;
+}
+
+function LoadedNewsPage({ newsItems }: { newsItems: readonly NewsItem[] }) {
+  const featuredNews = getFeaturedNews(newsItems);
   const [activeFilter, setActiveFilter] = useState("all");
   const [visibleCount, setVisibleCount] = useState(initialVisibleNewsCount);
   const filteredNews =
@@ -40,7 +50,7 @@ export function NewsPage() {
       <Seo
         title="News | fromis_9 Thailand"
         description={newsPageContent.subtitle}
-        image={featuredNews.imageSrc}
+        image={featuredNews?.imageSrc}
       />
       <Navbar activeRoute="news" mobileHome />
       <main>
@@ -72,11 +82,13 @@ export function NewsPage() {
           </ContentRail>
         </section>
 
-        <section className={styles.featuredSection} aria-label="Featured news">
-          <ContentRail>
-            <FeaturedEditorialCard item={featuredNews} />
-          </ContentRail>
-        </section>
+        {featuredNews ? (
+          <section className={styles.featuredSection} aria-label="Featured news">
+            <ContentRail>
+              <FeaturedEditorialCard item={featuredNews} />
+            </ContentRail>
+          </section>
+        ) : null}
 
         <section
           className={styles.archiveHeading}
@@ -96,6 +108,9 @@ export function NewsPage() {
         <section className={styles.gridSection} aria-label="Latest news archive">
           <ContentRail>
             <div className={styles.newsGrid}>
+              {visibleNews.length === 0 ? (
+                <p role="status">ยังไม่มีข่าวในหมวดหมู่นี้</p>
+              ) : null}
               {visibleNews.map((item) => (
                 <NewsCard
                   item={item}

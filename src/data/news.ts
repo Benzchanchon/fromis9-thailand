@@ -1,21 +1,15 @@
-import type { NewsCategory, NewsItem } from "../types/content";
+import type { NewsItem } from "../types/content";
+import {
+  getFeaturedNews,
+  getNewsNavigation as selectNewsNavigation,
+  getRelatedNews as selectRelatedNews,
+  sortNewsByDateDesc,
+} from "../utils/news";
 
-export const newsCategories: readonly NewsCategory[] = [
-  "Releases",
-  "Updates",
-  "Tour",
-  "Events",
-  "Other",
-];
+export { newsCategories, newsFilters, newsPageContent, loadMoreNewsLabel } from "./newsPresentation";
+export { getNewsDetailPath, sortNewsByDateDesc } from "../utils/news";
 
-export const newsFilters = [
-  { id: "all", label: "All" },
-  ...newsCategories.map((category) => ({
-    id: category,
-    label: category,
-  })),
-];
-
+// Phase 1: Home still uses this static snapshot. News routes use the API.
 export const newsItems: readonly NewsItem[] = [
   {
     slug: "fromis9-2026-asia-tour-tomorrow-glow-seoul",
@@ -349,79 +343,22 @@ export const newsItems: readonly NewsItem[] = [
   },
 ];
 
-export function sortNewsByDateDesc(items: readonly NewsItem[]) {
-  return [...items].sort((left, right) =>
-    right.date.localeCompare(left.date),
-  );
-}
-
 export const homeLatestNewsItems = sortNewsByDateDesc(newsItems).slice(0, 3);
-
-export const newsPageContent = {
-  eyebrow: "NEWS",
-  title: "News",
-  subtitle: "ติดตามข่าวสาร กิจกรรมและความเคลื่อนไหวล่าสุดของ fromis_9",
-  archiveEyebrow: "NEWS ARCHIVE",
-  archiveTitle: "Latest News",
-} as const;
 
 export function getNewsBySlug(slug?: string) {
   return newsItems.find((item) => item.slug === slug);
 }
 
-export function getNewsDetailPath(slug: string) {
-  return `/news/${slug}`;
-}
-
 export function getRelatedNews(currentItem: NewsItem, limit = 3) {
-  const sortedCandidates = sortNewsByDateDesc(
-    newsItems.filter((item) => item.slug !== currentItem.slug),
-  );
-  const sameCategory = sortedCandidates.filter(
-    (item) => item.category === currentItem.category,
-  );
-  const otherCategories = sortedCandidates.filter(
-    (item) => item.category !== currentItem.category,
-  );
-
-  return [...sameCategory, ...otherCategories].slice(0, limit);
+  return selectRelatedNews(newsItems, currentItem, limit);
 }
 
 export function getNewsNavigation(slug: string) {
-  const sortedNews = sortNewsByDateDesc(newsItems);
-  const currentIndex = sortedNews.findIndex((item) => item.slug === slug);
-
-  if (currentIndex < 0) {
-    return { previous: undefined, next: undefined };
-  }
-
-  return {
-    previous: currentIndex > 0 ? sortedNews[currentIndex - 1] : undefined,
-    next:
-      currentIndex < sortedNews.length - 1
-        ? sortedNews[currentIndex + 1]
-        : undefined,
-  };
+  return selectNewsNavigation(newsItems, slug);
 }
 
-const newestFeaturedNews = sortNewsByDateDesc(
-  newsItems.filter((item) => item.featured),
-)[0];
-
-if (!newestFeaturedNews) {
+const staticFeaturedNews = getFeaturedNews(newsItems);
+if (!staticFeaturedNews) {
   throw new Error("At least one featured news item is required.");
 }
-
-export const featuredNews = {
-  eyebrow: newestFeaturedNews.category,
-  date: newestFeaturedNews.date,
-  title: newestFeaturedNews.title,
-  summary: newestFeaturedNews.summary,
-  imageLabel: newestFeaturedNews.imageAlt,
-  imageSrc: newestFeaturedNews.image,
-  imageAlt: newestFeaturedNews.imageAlt,
-  actionText: "Read More",
-  actionHref: getNewsDetailPath(newestFeaturedNews.slug),
-} as const;
-
-export const loadMoreNewsLabel = "Load More News";
+export const featuredNews = staticFeaturedNews;
